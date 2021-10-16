@@ -1,0 +1,17 @@
+$color-accent: hsl(241, 99%, 70%);
+$color-primary: $color-accent;
+$color-secondary: hsl(186, 84%, 74%);
+$color-text: hsl(211, 19%, 70%);
+$color-dark: hsl(216, 14%, 14%);
+$color-gray: lighten($color-dark, 5);
+$color-page-bg: darken($color-dark, 5);
+$color-configurator: $color-dark;
+
+$layout-header-height: 6rem;
+$layout-sider-width: 20rem;
+$layout-footer-height: 4rem;
+
+$screen-sm: 480px;
+$screen-md: 768px;
+$screen-lg: 976px;
+$screen-xl: 1440px;
