@@ -51,7 +51,7 @@ const { t } = useI18n()
   overflow: hidden;
   background-color: rgba($color-dark, 0.4);
   transform: translate(-50%, 0);
-  // backdrop-filter: blur(1rem);
+  backdrop-filter: blur(0.3rem);
 }
 
 .download-modal {
@@ -60,6 +60,7 @@ const { t } = useI18n()
   min-width: 310px;
   max-width: 500px;
   background-color: darken($color-dark, 1);
+  border: 0.15rem solid rgba($color-accent, 0.8);
   border-radius: 1rem;
 
   .modal-body {
