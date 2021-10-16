@@ -7,7 +7,9 @@
 
 </div>
 
-![preview](./images/social-preview.png)
+![preview](./images/social-preview-1.png)
+
+![preview](./images/social-preview-2.png)
 
 ## Preview
 
