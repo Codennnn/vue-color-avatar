@@ -6,3 +6,8 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+interface Window {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  gtag: any
+}

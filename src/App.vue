@@ -91,6 +91,7 @@ import {
   NOT_COMPATIBLE_AGENTS,
   TRIGGER_PROBABILITY,
 } from '@/utils/constant'
+import { recordClick } from '@/utils/ga'
 
 import Confetti from './components/Confetti.vue'
 
@@ -175,6 +176,10 @@ function handleAction(actionType: ActionType) {
 
     case ActionType.Code:
       codeVisible.value = !codeVisible.value
+      recordClick({
+        event_category: 'code',
+        event_label: 'view code',
+      })
       break
   }
 }
