@@ -18,8 +18,8 @@
 
 "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.15.8":
   version "7.15.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/code-frame/-/code-frame-7.15.8.tgz#45990c47adadb00c03677baa89221f7cc23d2503"
-  integrity sha512-2IAnmn8zbvC/jKYhq5Ki9I+DwjlrtMPUCH/CpHvqI4dNnlwHwsxoIhlc8WcYY5LSYknXQtAlFYuHfqAFCvQ4Wg==
+  resolved "https://registry.npmmirror.com/@babel/code-frame/download/@babel/code-frame-7.15.8.tgz?cache=0&sync_timestamp=1633553739126&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fcode-frame%2Fdownload%2F%40babel%2Fcode-frame-7.15.8.tgz#45990c47adadb00c03677baa89221f7cc23d2503"
+  integrity sha1-RZkMR62tsAwDZ3uqiSIffMI9JQM=
   dependencies:
     "@babel/highlight" "^7.14.5"
 
@@ -51,8 +51,8 @@
 
 "@babel/core@^7.1.0", "@babel/core@^7.12.3", "@babel/core@^7.15.8", "@babel/core@^7.7.2", "@babel/core@^7.7.5":
   version "7.15.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/core/-/core-7.15.8.tgz#195b9f2bffe995d2c6c159e72fe525b4114e8c10"
-  integrity sha512-3UG9dsxvYBMYwRv+gS41WKHno4K60/9GPy1CJaH6xy3Elq8CTtvtjT5R5jmNhXfCYLX2mTw+7/aq5ak/gOE0og==
+  resolved "https://registry.npmmirror.com/@babel/core/download/@babel/core-7.15.8.tgz?cache=0&sync_timestamp=1633553719287&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fcore%2Fdownload%2F%40babel%2Fcore-7.15.8.tgz#195b9f2bffe995d2c6c159e72fe525b4114e8c10"
+  integrity sha1-GVufK//pldLGwVnnL+UltBFOjBA=
   dependencies:
     "@babel/code-frame" "^7.15.8"
     "@babel/generator" "^7.15.8"
@@ -81,8 +81,8 @@
 
 "@babel/generator@^7.15.8", "@babel/generator@^7.7.2":
   version "7.15.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/generator/-/generator-7.15.8.tgz#fa56be6b596952ceb231048cf84ee499a19c0cd1"
-  integrity sha512-ECmAKstXbp1cvpTTZciZCgfOt6iN64lR0d+euv3UZisU5awfRawOvg07Utn/qBGuH4bRIEZKrA/4LzZyXhZr8g==
+  resolved "https://registry.npmmirror.com/@babel/generator/download/@babel/generator-7.15.8.tgz?cache=0&sync_timestamp=1633553714543&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fgenerator%2Fdownload%2F%40babel%2Fgenerator-7.15.8.tgz#fa56be6b596952ceb231048cf84ee499a19c0cd1"
+  integrity sha1-+la+a1lpUs6yMQSM+E7kmaGcDNE=
   dependencies:
     "@babel/types" "^7.15.6"
     jsesc "^2.5.1"
@@ -90,15 +90,15 @@
 
 "@babel/helper-annotate-as-pure@^7.14.5", "@babel/helper-annotate-as-pure@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.15.4.tgz#3d0e43b00c5e49fdb6c57e421601a7a658d5f835"
-  integrity sha512-QwrtdNvUNsPCj2lfNQacsGSQvGX8ee1ttrBrcozUP2Sv/jylewBP/8QFe6ZkBsC8T/GYWonNAWJV4aRR9AL2DA==
+  resolved "https://registry.nlark.com/@babel/helper-annotate-as-pure/download/@babel/helper-annotate-as-pure-7.15.4.tgz?cache=0&sync_timestamp=1630618920081&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-annotate-as-pure%2Fdownload%2F%40babel%2Fhelper-annotate-as-pure-7.15.4.tgz#3d0e43b00c5e49fdb6c57e421601a7a658d5f835"
+  integrity sha1-PQ5DsAxeSf22xX5CFgGnpljV+DU=
   dependencies:
     "@babel/types" "^7.15.4"
 
 "@babel/helper-builder-binary-assignment-operator-visitor@^7.14.5":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.15.4.tgz#21ad815f609b84ee0e3058676c33cf6d1670525f"
-  integrity sha512-P8o7JP2Mzi0SdC6eWr1zF+AEYvrsZa7GSY1lTayjF5XJhVH0kjLYUZPvTMflP7tBgZoe9gIhTa60QwFpqh/E0Q==
+  resolved "https://registry.nlark.com/@babel/helper-builder-binary-assignment-operator-visitor/download/@babel/helper-builder-binary-assignment-operator-visitor-7.15.4.tgz?cache=0&sync_timestamp=1630619287194&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-builder-binary-assignment-operator-visitor%2Fdownload%2F%40babel%2Fhelper-builder-binary-assignment-operator-visitor-7.15.4.tgz#21ad815f609b84ee0e3058676c33cf6d1670525f"
+  integrity sha1-Ia2BX2CbhO4OMFhnbDPPbRZwUl8=
   dependencies:
     "@babel/helper-explode-assignable-expression" "^7.15.4"
     "@babel/types" "^7.15.4"
@@ -115,8 +115,8 @@
 
 "@babel/helper-create-class-features-plugin@^7.14.5", "@babel/helper-create-class-features-plugin@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.15.4.tgz#7f977c17bd12a5fba363cb19bea090394bf37d2e"
-  integrity sha512-7ZmzFi+DwJx6A7mHRwbuucEYpyBwmh2Ca0RvI6z2+WLZYCqV0JOaLb+u0zbtmDicebgKBZgqbYfLaKNqSgv5Pw==
+  resolved "https://registry.nlark.com/@babel/helper-create-class-features-plugin/download/@babel/helper-create-class-features-plugin-7.15.4.tgz?cache=0&sync_timestamp=1630618927387&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-create-class-features-plugin%2Fdownload%2F%40babel%2Fhelper-create-class-features-plugin-7.15.4.tgz#7f977c17bd12a5fba363cb19bea090394bf37d2e"
+  integrity sha1-f5d8F70SpfujY8sZvqCQOUvzfS4=
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.15.4"
     "@babel/helper-function-name" "^7.15.4"
@@ -127,16 +127,16 @@
 
 "@babel/helper-create-regexp-features-plugin@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.14.5.tgz#c7d5ac5e9cf621c26057722fb7a8a4c5889358c4"
-  integrity sha512-TLawwqpOErY2HhWbGJ2nZT5wSkR192QpN+nBg1THfBfftrlvOh+WbhrxXCH4q4xJ9Gl16BGPR/48JA+Ryiho/A==
+  resolved "https://registry.nlark.com/@babel/helper-create-regexp-features-plugin/download/@babel/helper-create-regexp-features-plugin-7.14.5.tgz?cache=0&sync_timestamp=1623280375996&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-create-regexp-features-plugin%2Fdownload%2F%40babel%2Fhelper-create-regexp-features-plugin-7.14.5.tgz#c7d5ac5e9cf621c26057722fb7a8a4c5889358c4"
+  integrity sha1-x9WsXpz2IcJgV3Ivt6ikxYiTWMQ=
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.14.5"
     regexpu-core "^4.7.1"
 
 "@babel/helper-define-polyfill-provider@^0.2.2":
   version "0.2.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.2.3.tgz#0525edec5094653a282688d34d846e4c75e9c0b6"
-  integrity sha512-RH3QDAfRMzj7+0Nqu5oqgO5q9mFtQEVvCRsi8qCEfzLR9p2BHfn5FzhSB2oj1fF7I2+DcTORkYaQ6aTR9Cofew==
+  resolved "https://registry.nlark.com/@babel/helper-define-polyfill-provider/download/@babel/helper-define-polyfill-provider-0.2.3.tgz?cache=0&sync_timestamp=1622025470416&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-define-polyfill-provider%2Fdownload%2F%40babel%2Fhelper-define-polyfill-provider-0.2.3.tgz#0525edec5094653a282688d34d846e4c75e9c0b6"
+  integrity sha1-BSXt7FCUZTooJojTTYRuTHXpwLY=
   dependencies:
     "@babel/helper-compilation-targets" "^7.13.0"
     "@babel/helper-module-imports" "^7.12.13"
@@ -149,8 +149,8 @@
 
 "@babel/helper-explode-assignable-expression@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-explode-assignable-expression/-/helper-explode-assignable-expression-7.15.4.tgz#f9aec9d219f271eaf92b9f561598ca6b2682600c"
-  integrity sha512-J14f/vq8+hdC2KoWLIQSsGrC9EFBKE4NFts8pfMpymfApds+fPqR30AOUWc4tyr56h9l/GA1Sxv2q3dLZWbQ/g==
+  resolved "https://registry.nlark.com/@babel/helper-explode-assignable-expression/download/@babel/helper-explode-assignable-expression-7.15.4.tgz?cache=0&sync_timestamp=1630619284047&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-explode-assignable-expression%2Fdownload%2F%40babel%2Fhelper-explode-assignable-expression-7.15.4.tgz#f9aec9d219f271eaf92b9f561598ca6b2682600c"
+  integrity sha1-+a7J0hnycer5K59WFZjKayaCYAw=
   dependencies:
     "@babel/types" "^7.15.4"
 
@@ -193,8 +193,8 @@
 
 "@babel/helper-module-transforms@^7.14.5", "@babel/helper-module-transforms@^7.15.8":
   version "7.15.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-module-transforms/-/helper-module-transforms-7.15.8.tgz#d8c0e75a87a52e374a8f25f855174786a09498b2"
-  integrity sha512-DfAfA6PfpG8t4S6npwzLvTUpp0sS7JrcuaMiy1Y5645laRJIp/LiLGIBbQKaXSInK8tiGNI7FL7L8UvB8gdUZg==
+  resolved "https://registry.npmmirror.com/@babel/helper-module-transforms/download/@babel/helper-module-transforms-7.15.8.tgz?cache=0&sync_timestamp=1633553715375&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fhelper-module-transforms%2Fdownload%2F%40babel%2Fhelper-module-transforms-7.15.8.tgz#d8c0e75a87a52e374a8f25f855174786a09498b2"
+  integrity sha1-2MDnWoelLjdKjyX4VRdHhqCUmLI=
   dependencies:
     "@babel/helper-module-imports" "^7.15.4"
     "@babel/helper-replace-supers" "^7.15.4"
@@ -228,13 +228,13 @@
 
 "@babel/helper-plugin-utils@^7.0.0", "@babel/helper-plugin-utils@^7.10.4", "@babel/helper-plugin-utils@^7.12.13", "@babel/helper-plugin-utils@^7.13.0", "@babel/helper-plugin-utils@^7.14.5", "@babel/helper-plugin-utils@^7.8.0", "@babel/helper-plugin-utils@^7.8.3":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-plugin-utils/-/helper-plugin-utils-7.14.5.tgz#5ac822ce97eec46741ab70a517971e443a70c5a9"
-  integrity sha512-/37qQCE3K0vvZKwoK4XU/irIJQdIfCJuhU5eKnNxpFDsOkgFaUAwbv+RYw6eYgsC0E4hS7r5KqGULUogqui0fQ==
+  resolved "https://registry.nlark.com/@babel/helper-plugin-utils/download/@babel/helper-plugin-utils-7.14.5.tgz#5ac822ce97eec46741ab70a517971e443a70c5a9"
+  integrity sha1-WsgizpfuxGdBq3ClF5ceRDpwxak=
 
 "@babel/helper-remap-async-to-generator@^7.14.5", "@babel/helper-remap-async-to-generator@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-remap-async-to-generator/-/helper-remap-async-to-generator-7.15.4.tgz#2637c0731e4c90fbf58ac58b50b2b5a192fc970f"
-  integrity sha512-v53MxgvMK/HCwckJ1bZrq6dNKlmwlyRNYM6ypaRTdXWGOE2c1/SCa6dL/HimhPulGhZKw9W0QhREM583F/t0vQ==
+  resolved "https://registry.nlark.com/@babel/helper-remap-async-to-generator/download/@babel/helper-remap-async-to-generator-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-remap-async-to-generator%2Fdownload%2F%40babel%2Fhelper-remap-async-to-generator-7.15.4.tgz#2637c0731e4c90fbf58ac58b50b2b5a192fc970f"
+  integrity sha1-JjfAcx5MkPv1isWLULK1oZL8lw8=
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.15.4"
     "@babel/helper-wrap-function" "^7.15.4"
@@ -259,8 +259,8 @@
 
 "@babel/helper-skip-transparent-expression-wrappers@^7.14.5", "@babel/helper-skip-transparent-expression-wrappers@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-skip-transparent-expression-wrappers/-/helper-skip-transparent-expression-wrappers-7.15.4.tgz#707dbdba1f4ad0fa34f9114fc8197aec7d5da2eb"
-  integrity sha512-BMRLsdh+D1/aap19TycS4eD1qELGrCBJwzaY9IE8LrpJtJb+H7rQkPIdsfgnMtLBA6DJls7X9z93Z4U8h7xw0A==
+  resolved "https://registry.nlark.com/@babel/helper-skip-transparent-expression-wrappers/download/@babel/helper-skip-transparent-expression-wrappers-7.15.4.tgz?cache=0&sync_timestamp=1630619286160&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-skip-transparent-expression-wrappers%2Fdownload%2F%40babel%2Fhelper-skip-transparent-expression-wrappers-7.15.4.tgz#707dbdba1f4ad0fa34f9114fc8197aec7d5da2eb"
+  integrity sha1-cH29uh9K0Po0+RFPyBl67H1dous=
   dependencies:
     "@babel/types" "^7.15.4"
 
@@ -278,8 +278,8 @@
 
 "@babel/helper-validator-identifier@^7.15.7":
   version "7.15.7"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-validator-identifier/-/helper-validator-identifier-7.15.7.tgz#220df993bfe904a4a6b02ab4f3385a5ebf6e2389"
-  integrity sha512-K4JvCtQqad9OY2+yTU8w+E82ywk/fe+ELNlt1G8z3bVGlZfn/hOcQQsUhGhW/N+tb3fxK800wLtKOE/aM0m72w==
+  resolved "https://registry.nlark.com/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.15.7.tgz?cache=0&sync_timestamp=1631920110587&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-validator-identifier%2Fdownload%2F%40babel%2Fhelper-validator-identifier-7.15.7.tgz#220df993bfe904a4a6b02ab4f3385a5ebf6e2389"
+  integrity sha1-Ig35k7/pBKSmsCq08zhaXr9uI4k=
 
 "@babel/helper-validator-option@^7.14.5":
   version "7.14.5"
@@ -288,8 +288,8 @@
 
 "@babel/helper-wrap-function@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/helper-wrap-function/-/helper-wrap-function-7.15.4.tgz#6f754b2446cfaf3d612523e6ab8d79c27c3a3de7"
-  integrity sha512-Y2o+H/hRV5W8QhIfTpRIBwl57y8PrZt6JM3V8FOo5qarjshHItyH5lXlpMfBfmBefOqSCpKZs/6Dxqp0E/U+uw==
+  resolved "https://registry.nlark.com/@babel/helper-wrap-function/download/@babel/helper-wrap-function-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-wrap-function%2Fdownload%2F%40babel%2Fhelper-wrap-function-7.15.4.tgz#6f754b2446cfaf3d612523e6ab8d79c27c3a3de7"
+  integrity sha1-b3VLJEbPrz1hJSPmq415wnw6Pec=
   dependencies:
     "@babel/helper-function-name" "^7.15.4"
     "@babel/template" "^7.15.4"
@@ -316,8 +316,8 @@
 
 "@babel/parser@^7.1.0", "@babel/parser@^7.14.7", "@babel/parser@^7.15.8", "@babel/parser@^7.7.2":
   version "7.15.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/parser/-/parser-7.15.8.tgz#7bacdcbe71bdc3ff936d510c15dcea7cf0b99016"
-  integrity sha512-BRYa3wcQnjS/nqI8Ac94pYYpJfojHVvVXJ97+IDCImX4Jc8W8Xv1+47enbruk+q1etOpsQNwnfFcNGw+gtPGxA==
+  resolved "https://registry.npmmirror.com/@babel/parser/download/@babel/parser-7.15.8.tgz?cache=0&sync_timestamp=1633553767489&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fparser%2Fdownload%2F%40babel%2Fparser-7.15.8.tgz#7bacdcbe71bdc3ff936d510c15dcea7cf0b99016"
+  integrity sha1-e6zcvnG9w/+TbVEMFdzqfPC5kBY=
 
 "@babel/parser@^7.15.0", "@babel/parser@^7.15.4", "@babel/parser@^7.15.5", "@babel/parser@^7.6.0", "@babel/parser@^7.9.6":
   version "7.15.5"
@@ -326,8 +326,8 @@
 
 "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/-/plugin-bugfix-v8-spread-parameters-in-optional-chaining-7.15.4.tgz#dbdeabb1e80f622d9f0b583efb2999605e0a567e"
-  integrity sha512-eBnpsl9tlhPhpI10kU06JHnrYXwg3+V6CaP2idsCXNef0aeslpqyITXQ74Vfk5uHgY7IG7XP0yIH8b42KSzHog==
+  resolved "https://registry.nlark.com/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/download/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-bugfix-v8-spread-parameters-in-optional-chaining%2Fdownload%2F%40babel%2Fplugin-bugfix-v8-spread-parameters-in-optional-chaining-7.15.4.tgz#dbdeabb1e80f622d9f0b583efb2999605e0a567e"
+  integrity sha1-296rsegPYi2fC1g++ymZYF4KVn4=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/helper-skip-transparent-expression-wrappers" "^7.15.4"
@@ -335,8 +335,8 @@
 
 "@babel/plugin-proposal-async-generator-functions@^7.15.8":
   version "7.15.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-async-generator-functions/-/plugin-proposal-async-generator-functions-7.15.8.tgz#a3100f785fab4357987c4223ab1b02b599048403"
-  integrity sha512-2Z5F2R2ibINTc63mY7FLqGfEbmofrHU9FitJW1Q7aPaKFhiPvSq6QEt/BoWN5oME3GVyjcRuNNSRbb9LC0CSWA==
+  resolved "https://registry.npmmirror.com/@babel/plugin-proposal-async-generator-functions/download/@babel/plugin-proposal-async-generator-functions-7.15.8.tgz?cache=0&sync_timestamp=1633553714195&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fplugin-proposal-async-generator-functions%2Fdownload%2F%40babel%2Fplugin-proposal-async-generator-functions-7.15.8.tgz#a3100f785fab4357987c4223ab1b02b599048403"
+  integrity sha1-oxAPeF+rQ1eYfEIjqxsCtZkEhAM=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/helper-remap-async-to-generator" "^7.15.4"
@@ -344,16 +344,16 @@
 
 "@babel/plugin-proposal-class-properties@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.14.5.tgz#40d1ee140c5b1e31a350f4f5eed945096559b42e"
-  integrity sha512-q/PLpv5Ko4dVc1LYMpCY7RVAAO4uk55qPwrIuJ5QJ8c6cVuAmhu7I/49JOppXL6gXf7ZHzpRVEUZdYoPLM04Gg==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-class-properties/download/@babel/plugin-proposal-class-properties-7.14.5.tgz?cache=0&sync_timestamp=1623280683880&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-class-properties%2Fdownload%2F%40babel%2Fplugin-proposal-class-properties-7.14.5.tgz#40d1ee140c5b1e31a350f4f5eed945096559b42e"
+  integrity sha1-QNHuFAxbHjGjUPT17tlFCWVZtC4=
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-proposal-class-static-block@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-class-static-block/-/plugin-proposal-class-static-block-7.15.4.tgz#3e7ca6128453c089e8b477a99f970c63fc1cb8d7"
-  integrity sha512-M682XWrrLNk3chXCjoPUQWOyYsB93B9z3mRyjtqqYJWDf2mfCdIYgDrA11cgNVhAQieaq6F2fn2f3wI0U4aTjA==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-class-static-block/download/@babel/plugin-proposal-class-static-block-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-class-static-block%2Fdownload%2F%40babel%2Fplugin-proposal-class-static-block-7.15.4.tgz#3e7ca6128453c089e8b477a99f970c63fc1cb8d7"
+  integrity sha1-PnymEoRTwInotHepn5cMY/wcuNc=
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.15.4"
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -361,56 +361,56 @@
 
 "@babel/plugin-proposal-dynamic-import@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-dynamic-import/-/plugin-proposal-dynamic-import-7.14.5.tgz#0c6617df461c0c1f8fff3b47cd59772360101d2c"
-  integrity sha512-ExjiNYc3HDN5PXJx+bwC50GIx/KKanX2HiggnIUAYedbARdImiCU4RhhHfdf0Kd7JNXGpsBBBCOm+bBVy3Gb0g==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-dynamic-import/download/@babel/plugin-proposal-dynamic-import-7.14.5.tgz?cache=0&sync_timestamp=1623280457211&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-dynamic-import%2Fdownload%2F%40babel%2Fplugin-proposal-dynamic-import-7.14.5.tgz#0c6617df461c0c1f8fff3b47cd59772360101d2c"
+  integrity sha1-DGYX30YcDB+P/ztHzVl3I2AQHSw=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
 
 "@babel/plugin-proposal-export-namespace-from@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.14.5.tgz#dbad244310ce6ccd083072167d8cea83a52faf76"
-  integrity sha512-g5POA32bXPMmSBu5Dx/iZGLGnKmKPc5AiY7qfZgurzrCYgIztDlHFbznSNCoQuv57YQLnQfaDi7dxCtLDIdXdA==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-export-namespace-from/download/@babel/plugin-proposal-export-namespace-from-7.14.5.tgz#dbad244310ce6ccd083072167d8cea83a52faf76"
+  integrity sha1-260kQxDObM0IMHIWfYzqg6Uvr3Y=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-export-namespace-from" "^7.8.3"
 
 "@babel/plugin-proposal-json-strings@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.14.5.tgz#38de60db362e83a3d8c944ac858ddf9f0c2239eb"
-  integrity sha512-NSq2fczJYKVRIsUJyNxrVUMhB27zb7N7pOFGQOhBKJrChbGcgEAqyZrmZswkPk18VMurEeJAaICbfm57vUeTbQ==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-json-strings/download/@babel/plugin-proposal-json-strings-7.14.5.tgz?cache=0&sync_timestamp=1623280316882&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-json-strings%2Fdownload%2F%40babel%2Fplugin-proposal-json-strings-7.14.5.tgz#38de60db362e83a3d8c944ac858ddf9f0c2239eb"
+  integrity sha1-ON5g2zYug6PYyUSshY3fnwwiOes=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-json-strings" "^7.8.3"
 
 "@babel/plugin-proposal-logical-assignment-operators@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-logical-assignment-operators/-/plugin-proposal-logical-assignment-operators-7.14.5.tgz#6e6229c2a99b02ab2915f82571e0cc646a40c738"
-  integrity sha512-YGn2AvZAo9TwyhlLvCCWxD90Xq8xJ4aSgaX3G5D/8DW94L8aaT+dS5cSP+Z06+rCJERGSr9GxMBZ601xoc2taw==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-logical-assignment-operators/download/@babel/plugin-proposal-logical-assignment-operators-7.14.5.tgz?cache=0&sync_timestamp=1623280460897&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-logical-assignment-operators%2Fdownload%2F%40babel%2Fplugin-proposal-logical-assignment-operators-7.14.5.tgz#6e6229c2a99b02ab2915f82571e0cc646a40c738"
+  integrity sha1-bmIpwqmbAqspFfglceDMZGpAxzg=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-logical-assignment-operators" "^7.10.4"
 
 "@babel/plugin-proposal-nullish-coalescing-operator@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-nullish-coalescing-operator/-/plugin-proposal-nullish-coalescing-operator-7.14.5.tgz#ee38589ce00e2cc59b299ec3ea406fcd3a0fdaf6"
-  integrity sha512-gun/SOnMqjSb98Nkaq2rTKMwervfdAoz6NphdY0vTfuzMfryj+tDGb2n6UkDKwez+Y8PZDhE3D143v6Gepp4Hg==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-nullish-coalescing-operator/download/@babel/plugin-proposal-nullish-coalescing-operator-7.14.5.tgz?cache=0&sync_timestamp=1623280605042&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-nullish-coalescing-operator%2Fdownload%2F%40babel%2Fplugin-proposal-nullish-coalescing-operator-7.14.5.tgz#ee38589ce00e2cc59b299ec3ea406fcd3a0fdaf6"
+  integrity sha1-7jhYnOAOLMWbKZ7D6kBvzToP2vY=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
 
 "@babel/plugin-proposal-numeric-separator@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-numeric-separator/-/plugin-proposal-numeric-separator-7.14.5.tgz#83631bf33d9a51df184c2102a069ac0c58c05f18"
-  integrity sha512-yiclALKe0vyZRZE0pS6RXgjUOt87GWv6FYa5zqj15PvhOGFO69R5DusPlgK/1K5dVnCtegTiWu9UaBSrLLJJBg==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-numeric-separator/download/@babel/plugin-proposal-numeric-separator-7.14.5.tgz?cache=0&sync_timestamp=1623280460632&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-numeric-separator%2Fdownload%2F%40babel%2Fplugin-proposal-numeric-separator-7.14.5.tgz#83631bf33d9a51df184c2102a069ac0c58c05f18"
+  integrity sha1-g2Mb8z2aUd8YTCECoGmsDFjAXxg=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-numeric-separator" "^7.10.4"
 
 "@babel/plugin-proposal-object-rest-spread@^7.15.6":
   version "7.15.6"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.15.6.tgz#ef68050c8703d07b25af402cb96cf7f34a68ed11"
-  integrity sha512-qtOHo7A1Vt+O23qEAX+GdBpqaIuD3i9VRrWgCJeq7WO6H2d14EK3q11urj5Te2MAeK97nMiIdRpwd/ST4JFbNg==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-object-rest-spread/download/@babel/plugin-proposal-object-rest-spread-7.15.6.tgz?cache=0&sync_timestamp=1631216659207&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-object-rest-spread%2Fdownload%2F%40babel%2Fplugin-proposal-object-rest-spread-7.15.6.tgz#ef68050c8703d07b25af402cb96cf7f34a68ed11"
+  integrity sha1-72gFDIcD0Hslr0AsuWz380po7RE=
   dependencies:
     "@babel/compat-data" "^7.15.0"
     "@babel/helper-compilation-targets" "^7.15.4"
@@ -420,16 +420,16 @@
 
 "@babel/plugin-proposal-optional-catch-binding@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-optional-catch-binding/-/plugin-proposal-optional-catch-binding-7.14.5.tgz#939dd6eddeff3a67fdf7b3f044b5347262598c3c"
-  integrity sha512-3Oyiixm0ur7bzO5ybNcZFlmVsygSIQgdOa7cTfOYCMY+wEPAYhZAJxi3mixKFCTCKUhQXuCTtQ1MzrpL3WT8ZQ==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-optional-catch-binding/download/@babel/plugin-proposal-optional-catch-binding-7.14.5.tgz#939dd6eddeff3a67fdf7b3f044b5347262598c3c"
+  integrity sha1-k53W7d7/Omf997PwRLU0cmJZjDw=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
 
 "@babel/plugin-proposal-optional-chaining@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-optional-chaining/-/plugin-proposal-optional-chaining-7.14.5.tgz#fa83651e60a360e3f13797eef00b8d519695b603"
-  integrity sha512-ycz+VOzo2UbWNI1rQXxIuMOzrDdHGrI23fRiz/Si2R4kv2XZQ1BK8ccdHwehMKBlcH/joGW/tzrUmo67gbJHlQ==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-optional-chaining/download/@babel/plugin-proposal-optional-chaining-7.14.5.tgz#fa83651e60a360e3f13797eef00b8d519695b603"
+  integrity sha1-+oNlHmCjYOPxN5fu8AuNUZaVtgM=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/helper-skip-transparent-expression-wrappers" "^7.14.5"
@@ -437,16 +437,16 @@
 
 "@babel/plugin-proposal-private-methods@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.14.5.tgz#37446495996b2945f30f5be5b60d5e2aa4f5792d"
-  integrity sha512-838DkdUA1u+QTCplatfq4B7+1lnDa/+QMI89x5WZHBcnNv+47N8QEj2k9I2MUU9xIv8XJ4XvPCviM/Dj7Uwt9g==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-private-methods/download/@babel/plugin-proposal-private-methods-7.14.5.tgz#37446495996b2945f30f5be5b60d5e2aa4f5792d"
+  integrity sha1-N0RklZlrKUXzD1vltg1eKqT1eS0=
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-proposal-private-property-in-object@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-private-property-in-object/-/plugin-proposal-private-property-in-object-7.15.4.tgz#55c5e3b4d0261fd44fe637e3f624cfb0f484e3e5"
-  integrity sha512-X0UTixkLf0PCCffxgu5/1RQyGGbgZuKoI+vXP4iSbJSYwPb7hu06omsFGBvQ9lJEvwgrxHdS8B5nbfcd8GyUNA==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-private-property-in-object/download/@babel/plugin-proposal-private-property-in-object-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-private-property-in-object%2Fdownload%2F%40babel%2Fplugin-proposal-private-property-in-object-7.15.4.tgz#55c5e3b4d0261fd44fe637e3f624cfb0f484e3e5"
+  integrity sha1-VcXjtNAmH9RP5jfj9iTPsPSE4+U=
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.15.4"
     "@babel/helper-create-class-features-plugin" "^7.15.4"
@@ -455,142 +455,142 @@
 
 "@babel/plugin-proposal-unicode-property-regex@^7.14.5", "@babel/plugin-proposal-unicode-property-regex@^7.4.4":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.14.5.tgz#0f95ee0e757a5d647f378daa0eca7e93faa8bbe8"
-  integrity sha512-6axIeOU5LnY471KenAB9vI8I5j7NQ2d652hIYwVyRfgaZT5UpiqFKCuVXCDMSrU+3VFafnu2c5m3lrWIlr6A5Q==
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-unicode-property-regex/download/@babel/plugin-proposal-unicode-property-regex-7.14.5.tgz?cache=0&sync_timestamp=1623280385924&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-unicode-property-regex%2Fdownload%2F%40babel%2Fplugin-proposal-unicode-property-regex-7.14.5.tgz#0f95ee0e757a5d647f378daa0eca7e93faa8bbe8"
+  integrity sha1-D5XuDnV6XWR/N42qDsp+k/qou+g=
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-syntax-async-generators@^7.8.4":
   version "7.8.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.8.4.tgz#a983fb1aeb2ec3f6ed042a210f640e90e786fe0d"
-  integrity sha512-tycmZxkGfZaxhMRbXlPXuVFpdWlXpir2W4AMhSJgRKzk/eDlIXOhb2LHWoLpDF7TEHylV5zNhykX6KAgHJmTNw==
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-async-generators/download/@babel/plugin-syntax-async-generators-7.8.4.tgz#a983fb1aeb2ec3f6ed042a210f640e90e786fe0d"
+  integrity sha1-qYP7Gusuw/btBCohD2QOkOeG/g0=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-bigint@^7.8.3":
   version "7.8.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-bigint/-/plugin-syntax-bigint-7.8.3.tgz#4c9a6f669f5d0cdf1b90a1671e9a146be5300cea"
-  integrity sha512-wnTnFlG+YxQm3vDxpGE57Pj0srRU4sHE/mDkt1qv2YJJSeUAec2ma4WLUnUPeKjyrfntVwe/N6dCXpU+zL3Npg==
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-bigint/download/@babel/plugin-syntax-bigint-7.8.3.tgz#4c9a6f669f5d0cdf1b90a1671e9a146be5300cea"
+  integrity sha1-TJpvZp9dDN8bkKFnHpoUa+UwDOo=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-class-properties@^7.12.13", "@babel/plugin-syntax-class-properties@^7.8.3":
   version "7.12.13"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.12.13.tgz#b5c987274c4a3a82b89714796931a6b53544ae10"
-  integrity sha512-fm4idjKla0YahUNgFNLCB0qySdsoPiZP3iQE3rky0mBUtMZ23yDJ9SJdg6dXTSDnulOVqiF3Hgr9nbXvXTQZYA==
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-class-properties/download/@babel/plugin-syntax-class-properties-7.12.13.tgz#b5c987274c4a3a82b89714796931a6b53544ae10"
+  integrity sha1-tcmHJ0xKOoK4lxR5aTGmtTVErhA=
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
 
 "@babel/plugin-syntax-class-static-block@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-class-static-block/-/plugin-syntax-class-static-block-7.14.5.tgz#195df89b146b4b78b3bf897fd7a257c84659d406"
-  integrity sha512-b+YyPmr6ldyNnM6sqYeMWE+bgJcJpO6yS4QD7ymxgH34GBPNDM/THBh8iunyvKIZztiwLH4CJZ0RxTk9emgpjw==
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-class-static-block/download/@babel/plugin-syntax-class-static-block-7.14.5.tgz?cache=0&sync_timestamp=1623281106862&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-class-static-block%2Fdownload%2F%40babel%2Fplugin-syntax-class-static-block-7.14.5.tgz#195df89b146b4b78b3bf897fd7a257c84659d406"
+  integrity sha1-GV34mxRrS3izv4l/16JXyEZZ1AY=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-syntax-dynamic-import@^7.8.3":
   version "7.8.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.8.3.tgz#62bf98b2da3cd21d626154fc96ee5b3cb68eacb3"
-  integrity sha512-5gdGbFon+PszYzqs83S3E5mpi7/y/8M9eC90MRTZfduQOYW76ig6SOSPNe41IG5LoP3FGBn2N0RjVDSQiS94kQ==
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-dynamic-import/download/@babel/plugin-syntax-dynamic-import-7.8.3.tgz#62bf98b2da3cd21d626154fc96ee5b3cb68eacb3"
+  integrity sha1-Yr+Ysto80h1iYVT8lu5bPLaOrLM=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-export-namespace-from@^7.8.3":
   version "7.8.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.8.3.tgz#028964a9ba80dbc094c915c487ad7c4e7a66465a"
-  integrity sha512-MXf5laXo6c1IbEbegDmzGPwGNTsHZmEy6QGznu5Sh2UCWvueywb2ee+CCE4zQiZstxU9BMoQO9i6zUFSY0Kj0Q==
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-export-namespace-from/download/@babel/plugin-syntax-export-namespace-from-7.8.3.tgz#028964a9ba80dbc094c915c487ad7c4e7a66465a"
+  integrity sha1-AolkqbqA28CUyRXEh618TnpmRlo=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.3"
 
 "@babel/plugin-syntax-import-meta@^7.8.3":
   version "7.10.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-import-meta/-/plugin-syntax-import-meta-7.10.4.tgz#ee601348c370fa334d2207be158777496521fd51"
-  integrity sha512-Yqfm+XDx0+Prh3VSeEQCPU81yC+JWZ2pDPFSS4ZdpfZhp4MkFMaDC1UqseovEKwSUpnIL7+vK+Clp7bfh0iD7g==
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-import-meta/download/@babel/plugin-syntax-import-meta-7.10.4.tgz#ee601348c370fa334d2207be158777496521fd51"
+  integrity sha1-7mATSMNw+jNNIge+FYd3SWUh/VE=
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
 "@babel/plugin-syntax-json-strings@^7.8.3":
   version "7.8.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.8.3.tgz#01ca21b668cd8218c9e640cb6dd88c5412b2c96a"
-  integrity sha512-lY6kdGpWHvjoe2vk4WrAapEuBR69EMxZl+RoGRhrFGNYVK8mOPAW8VfbT/ZgrFbXlDNiiaxQnAtgVCZ6jv30EA==
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-json-strings/download/@babel/plugin-syntax-json-strings-7.8.3.tgz#01ca21b668cd8218c9e640cb6dd88c5412b2c96a"
+  integrity sha1-AcohtmjNghjJ5kDLbdiMVBKyyWo=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-logical-assignment-operators@^7.10.4", "@babel/plugin-syntax-logical-assignment-operators@^7.8.3":
   version "7.10.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-logical-assignment-operators/-/plugin-syntax-logical-assignment-operators-7.10.4.tgz#ca91ef46303530448b906652bac2e9fe9941f699"
-  integrity sha512-d8waShlpFDinQ5MtvGU9xDAOzKH47+FFoney2baFIoMr952hKOLp1HR7VszoZvOsV/4+RRszNY7D17ba0te0ig==
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-logical-assignment-operators/download/@babel/plugin-syntax-logical-assignment-operators-7.10.4.tgz#ca91ef46303530448b906652bac2e9fe9941f699"
+  integrity sha1-ypHvRjA1MESLkGZSusLp/plB9pk=
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
 "@babel/plugin-syntax-nullish-coalescing-operator@^7.8.3":
   version "7.8.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz#167ed70368886081f74b5c36c65a88c03b66d1a9"
-  integrity sha512-aSff4zPII1u2QD7y+F8oDsz19ew4IGEJg9SVW+bqwpwtfFleiQDMdzA/R+UlWDzfnHFCxxleFT0PMIrR36XLNQ==
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-nullish-coalescing-operator/download/@babel/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz#167ed70368886081f74b5c36c65a88c03b66d1a9"
+  integrity sha1-Fn7XA2iIYIH3S1w2xlqIwDtm0ak=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-numeric-separator@^7.10.4", "@babel/plugin-syntax-numeric-separator@^7.8.3":
   version "7.10.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.10.4.tgz#b9b070b3e33570cd9fd07ba7fa91c0dd37b9af97"
-  integrity sha512-9H6YdfkcK/uOnY/K7/aA2xpzaAgkQn37yzWUMRK7OaPOqOpGS1+n0H5hxT9AUw9EsSjPW8SVyMJwYRtWs3X3ug==
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-numeric-separator/download/@babel/plugin-syntax-numeric-separator-7.10.4.tgz#b9b070b3e33570cd9fd07ba7fa91c0dd37b9af97"
+  integrity sha1-ubBws+M1cM2f0Hun+pHA3Te5r5c=
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
 "@babel/plugin-syntax-object-rest-spread@^7.8.3":
   version "7.8.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.8.3.tgz#60e225edcbd98a640332a2e72dd3e66f1af55871"
-  integrity sha512-XoqMijGZb9y3y2XskN+P1wUGiVwWZ5JmoDRwx5+3GmEplNyVM2s2Dg8ILFQm8rWM48orGy5YpI5Bl8U1y7ydlA==
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-object-rest-spread/download/@babel/plugin-syntax-object-rest-spread-7.8.3.tgz#60e225edcbd98a640332a2e72dd3e66f1af55871"
+  integrity sha1-YOIl7cvZimQDMqLnLdPmbxr1WHE=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-optional-catch-binding@^7.8.3":
   version "7.8.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.8.3.tgz#6111a265bcfb020eb9efd0fdfd7d26402b9ed6c1"
-  integrity sha512-6VPD0Pc1lpTqw0aKoeRTMiB+kWhAoT24PA+ksWSBrFtl5SIRVpZlwN3NNPQjehA2E/91FV3RjLWoVTglWcSV3Q==
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-optional-catch-binding/download/@babel/plugin-syntax-optional-catch-binding-7.8.3.tgz#6111a265bcfb020eb9efd0fdfd7d26402b9ed6c1"
+  integrity sha1-YRGiZbz7Ag6579D9/X0mQCue1sE=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-optional-chaining@^7.8.3":
   version "7.8.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.8.3.tgz#4f69c2ab95167e0180cd5336613f8c5788f7d48a"
-  integrity sha512-KoK9ErH1MBlCPxV0VANkXW2/dw4vlbGDrFgz8bmUsBGYkFRcbRwMh6cIJubdPrkxRwuGdtCk0v/wPTKbQgBjkg==
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-optional-chaining/download/@babel/plugin-syntax-optional-chaining-7.8.3.tgz#4f69c2ab95167e0180cd5336613f8c5788f7d48a"
+  integrity sha1-T2nCq5UWfgGAzVM2YT+MV4j31Io=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-private-property-in-object@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-private-property-in-object/-/plugin-syntax-private-property-in-object-7.14.5.tgz#0dc6671ec0ea22b6e94a1114f857970cd39de1ad"
-  integrity sha512-0wVnp9dxJ72ZUJDV27ZfbSj6iHLoytYZmh3rFcxNnvsJF3ktkzLDZPy/mA17HGsaQT3/DQsWYX1f1QGWkCoVUg==
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-private-property-in-object/download/@babel/plugin-syntax-private-property-in-object-7.14.5.tgz?cache=0&sync_timestamp=1623280462994&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-private-property-in-object%2Fdownload%2F%40babel%2Fplugin-syntax-private-property-in-object-7.14.5.tgz#0dc6671ec0ea22b6e94a1114f857970cd39de1ad"
+  integrity sha1-DcZnHsDqIrbpShEU+FeXDNOd4a0=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-syntax-top-level-await@^7.14.5", "@babel/plugin-syntax-top-level-await@^7.8.3":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.14.5.tgz#c1cfdadc35a646240001f06138247b741c34d94c"
-  integrity sha512-hx++upLv5U1rgYfwe1xBQUhRmU41NEvpUvrp8jkrSCdvGSnM5/qdRMtylJ6PG5OFkBaHkbTAKTnd3/YyESRHFw==
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-top-level-await/download/@babel/plugin-syntax-top-level-await-7.14.5.tgz?cache=0&sync_timestamp=1623280464882&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-top-level-await%2Fdownload%2F%40babel%2Fplugin-syntax-top-level-await-7.14.5.tgz#c1cfdadc35a646240001f06138247b741c34d94c"
+  integrity sha1-wc/a3DWmRiQAAfBhOCR7dBw02Uw=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-syntax-typescript@^7.14.5", "@babel/plugin-syntax-typescript@^7.7.2":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-syntax-typescript/-/plugin-syntax-typescript-7.14.5.tgz#b82c6ce471b165b5ce420cf92914d6fb46225716"
-  integrity sha512-u6OXzDaIXjEstBRRoBCQ/uKQKlbuaeE5in0RvWdA4pN6AhqxTIwUsnHPU1CFZA/amYObMsuWhYfRl3Ch90HD0Q==
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-typescript/download/@babel/plugin-syntax-typescript-7.14.5.tgz#b82c6ce471b165b5ce420cf92914d6fb46225716"
+  integrity sha1-uCxs5HGxZbXOQgz5KRTW+0YiVxY=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-arrow-functions@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-arrow-functions/-/plugin-transform-arrow-functions-7.14.5.tgz#f7187d9588a768dd080bf4c9ffe117ea62f7862a"
-  integrity sha512-KOnO0l4+tD5IfOdi4x8C1XmEIRWUjNRV8wc6K2vz/3e8yAOoZZvsRXRRIF/yo/MAOFb4QjtAw9xSxMXbSMRy8A==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-arrow-functions/download/@babel/plugin-transform-arrow-functions-7.14.5.tgz#f7187d9588a768dd080bf4c9ffe117ea62f7862a"
+  integrity sha1-9xh9lYinaN0IC/TJ/+EX6mL3hio=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-async-to-generator@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-async-to-generator/-/plugin-transform-async-to-generator-7.14.5.tgz#72c789084d8f2094acb945633943ef8443d39e67"
-  integrity sha512-szkbzQ0mNk0rpu76fzDdqSyPu0MuvpXgC+6rz5rpMb5OIRxdmHfQxrktL8CYolL2d8luMCZTR0DpIMIdL27IjA==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-async-to-generator/download/@babel/plugin-transform-async-to-generator-7.14.5.tgz?cache=0&sync_timestamp=1623280684756&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-async-to-generator%2Fdownload%2F%40babel%2Fplugin-transform-async-to-generator-7.14.5.tgz#72c789084d8f2094acb945633943ef8443d39e67"
+  integrity sha1-cseJCE2PIJSsuUVjOUPvhEPTnmc=
   dependencies:
     "@babel/helper-module-imports" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -598,22 +598,22 @@
 
 "@babel/plugin-transform-block-scoped-functions@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-block-scoped-functions/-/plugin-transform-block-scoped-functions-7.14.5.tgz#e48641d999d4bc157a67ef336aeb54bc44fd3ad4"
-  integrity sha512-dtqWqdWZ5NqBX3KzsVCWfQI3A53Ft5pWFCT2eCVUftWZgjc5DpDponbIF1+c+7cSGk2wN0YK7HGL/ezfRbpKBQ==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-block-scoped-functions/download/@babel/plugin-transform-block-scoped-functions-7.14.5.tgz#e48641d999d4bc157a67ef336aeb54bc44fd3ad4"
+  integrity sha1-5IZB2ZnUvBV6Z+8zautUvET9OtQ=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-block-scoping@^7.15.3":
   version "7.15.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.15.3.tgz#94c81a6e2fc230bcce6ef537ac96a1e4d2b3afaf"
-  integrity sha512-nBAzfZwZb4DkaGtOes1Up1nOAp9TDRRFw4XBzBBSG9QK7KVFmYzgj9o9sbPv7TX5ofL4Auq4wZnxCoPnI/lz2Q==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-block-scoping/download/@babel/plugin-transform-block-scoping-7.15.3.tgz#94c81a6e2fc230bcce6ef537ac96a1e4d2b3afaf"
+  integrity sha1-lMgabi/CMLzObvU3rJah5NKzr68=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-classes@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-classes/-/plugin-transform-classes-7.15.4.tgz#50aee17aaf7f332ae44e3bce4c2e10534d5d3bf1"
-  integrity sha512-Yjvhex8GzBmmPQUvpXRPWQ9WnxXgAFuZSrqOK/eJlOGIXwvv8H3UEdUigl1gb/bnjTrln+e8bkZUYCBt/xYlBg==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-classes/download/@babel/plugin-transform-classes-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-classes%2Fdownload%2F%40babel%2Fplugin-transform-classes-7.15.4.tgz#50aee17aaf7f332ae44e3bce4c2e10534d5d3bf1"
+  integrity sha1-UK7heq9/MyrkTjvOTC4QU01dO/E=
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.15.4"
     "@babel/helper-function-name" "^7.15.4"
@@ -625,74 +625,74 @@
 
 "@babel/plugin-transform-computed-properties@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-computed-properties/-/plugin-transform-computed-properties-7.14.5.tgz#1b9d78987420d11223d41195461cc43b974b204f"
-  integrity sha512-pWM+E4283UxaVzLb8UBXv4EIxMovU4zxT1OPnpHJcmnvyY9QbPPTKZfEj31EUvG3/EQRbYAGaYEUZ4yWOBC2xg==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-computed-properties/download/@babel/plugin-transform-computed-properties-7.14.5.tgz#1b9d78987420d11223d41195461cc43b974b204f"
+  integrity sha1-G514mHQg0RIj1BGVRhzEO5dLIE8=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-destructuring@^7.14.7":
   version "7.14.7"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.14.7.tgz#0ad58ed37e23e22084d109f185260835e5557576"
-  integrity sha512-0mDE99nK+kVh3xlc5vKwB6wnP9ecuSj+zQCa/n0voENtP/zymdT4HH6QEb65wjjcbqr1Jb/7z9Qp7TF5FtwYGw==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-destructuring/download/@babel/plugin-transform-destructuring-7.14.7.tgz#0ad58ed37e23e22084d109f185260835e5557576"
+  integrity sha1-CtWO034j4iCE0QnxhSYINeVVdXY=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-dotall-regex@^7.14.5", "@babel/plugin-transform-dotall-regex@^7.4.4":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-dotall-regex/-/plugin-transform-dotall-regex-7.14.5.tgz#2f6bf76e46bdf8043b4e7e16cf24532629ba0c7a"
-  integrity sha512-loGlnBdj02MDsFaHhAIJzh7euK89lBrGIdM9EAtHFo6xKygCUGuuWe07o1oZVk287amtW1n0808sQM99aZt3gw==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-dotall-regex/download/@babel/plugin-transform-dotall-regex-7.14.5.tgz?cache=0&sync_timestamp=1623280386290&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-dotall-regex%2Fdownload%2F%40babel%2Fplugin-transform-dotall-regex-7.14.5.tgz#2f6bf76e46bdf8043b4e7e16cf24532629ba0c7a"
+  integrity sha1-L2v3bka9+AQ7Tn4WzyRTJim6DHo=
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-duplicate-keys@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-duplicate-keys/-/plugin-transform-duplicate-keys-7.14.5.tgz#365a4844881bdf1501e3a9f0270e7f0f91177954"
-  integrity sha512-iJjbI53huKbPDAsJ8EmVmvCKeeq21bAze4fu9GBQtSLqfvzj2oRuHVx4ZkDwEhg1htQ+5OBZh/Ab0XDf5iBZ7A==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-duplicate-keys/download/@babel/plugin-transform-duplicate-keys-7.14.5.tgz#365a4844881bdf1501e3a9f0270e7f0f91177954"
+  integrity sha1-NlpIRIgb3xUB46nwJw5/D5EXeVQ=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-exponentiation-operator@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-exponentiation-operator/-/plugin-transform-exponentiation-operator-7.14.5.tgz#5154b8dd6a3dfe6d90923d61724bd3deeb90b493"
-  integrity sha512-jFazJhMBc9D27o9jDnIE5ZErI0R0m7PbKXVq77FFvqFbzvTMuv8jaAwLZ5PviOLSFttqKIW0/wxNSDbjLk0tYA==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-exponentiation-operator/download/@babel/plugin-transform-exponentiation-operator-7.14.5.tgz?cache=0&sync_timestamp=1623280390976&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-exponentiation-operator%2Fdownload%2F%40babel%2Fplugin-transform-exponentiation-operator-7.14.5.tgz#5154b8dd6a3dfe6d90923d61724bd3deeb90b493"
+  integrity sha1-UVS43Wo9/m2Qkj1hckvT3uuQtJM=
   dependencies:
     "@babel/helper-builder-binary-assignment-operator-visitor" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-for-of@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.15.4.tgz#25c62cce2718cfb29715f416e75d5263fb36a8c2"
-  integrity sha512-DRTY9fA751AFBDh2oxydvVm4SYevs5ILTWLs6xKXps4Re/KG5nfUkr+TdHCrRWB8C69TlzVgA9b3RmGWmgN9LA==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-for-of/download/@babel/plugin-transform-for-of-7.15.4.tgz#25c62cce2718cfb29715f416e75d5263fb36a8c2"
+  integrity sha1-JcYszicYz7KXFfQW511SY/s2qMI=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-function-name@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-function-name/-/plugin-transform-function-name-7.14.5.tgz#e81c65ecb900746d7f31802f6bed1f52d915d6f2"
-  integrity sha512-vbO6kv0fIzZ1GpmGQuvbwwm+O4Cbm2NrPzwlup9+/3fdkuzo1YqOZcXw26+YUJB84Ja7j9yURWposEHLYwxUfQ==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-function-name/download/@babel/plugin-transform-function-name-7.14.5.tgz#e81c65ecb900746d7f31802f6bed1f52d915d6f2"
+  integrity sha1-6Bxl7LkAdG1/MYAva+0fUtkV1vI=
   dependencies:
     "@babel/helper-function-name" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-literals@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-literals/-/plugin-transform-literals-7.14.5.tgz#41d06c7ff5d4d09e3cf4587bd3ecf3930c730f78"
-  integrity sha512-ql33+epql2F49bi8aHXxvLURHkxJbSmMKl9J5yHqg4PLtdE6Uc48CH1GS6TQvZ86eoB/ApZXwm7jlA+B3kra7A==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-literals/download/@babel/plugin-transform-literals-7.14.5.tgz#41d06c7ff5d4d09e3cf4587bd3ecf3930c730f78"
+  integrity sha1-QdBsf/XU0J489Fh70+zzkwxzD3g=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-member-expression-literals@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-member-expression-literals/-/plugin-transform-member-expression-literals-7.14.5.tgz#b39cd5212a2bf235a617d320ec2b48bcc091b8a7"
-  integrity sha512-WkNXxH1VXVTKarWFqmso83xl+2V3Eo28YY5utIkbsmXoItO8Q3aZxN4BTS2k0hz9dGUloHK26mJMyQEYfkn/+Q==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-member-expression-literals/download/@babel/plugin-transform-member-expression-literals-7.14.5.tgz#b39cd5212a2bf235a617d320ec2b48bcc091b8a7"
+  integrity sha1-s5zVISor8jWmF9Mg7CtIvMCRuKc=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-modules-amd@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-modules-amd/-/plugin-transform-modules-amd-7.14.5.tgz#4fd9ce7e3411cb8b83848480b7041d83004858f7"
-  integrity sha512-3lpOU8Vxmp3roC4vzFpSdEpGUWSMsHFreTWOMMLzel2gNGfHE5UWIh/LN6ghHs2xurUp4jRFYMUIZhuFbody1g==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-modules-amd/download/@babel/plugin-transform-modules-amd-7.14.5.tgz?cache=0&sync_timestamp=1623280684461&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-modules-amd%2Fdownload%2F%40babel%2Fplugin-transform-modules-amd-7.14.5.tgz#4fd9ce7e3411cb8b83848480b7041d83004858f7"
+  integrity sha1-T9nOfjQRy4uDhISAtwQdgwBIWPc=
   dependencies:
     "@babel/helper-module-transforms" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -700,8 +700,8 @@
 
 "@babel/plugin-transform-modules-commonjs@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.15.4.tgz#8201101240eabb5a76c08ef61b2954f767b6b4c1"
-  integrity sha512-qg4DPhwG8hKp4BbVDvX1s8cohM8a6Bvptu4l6Iingq5rW+yRUAhe/YRup/YcW2zCOlrysEWVhftIcKzrEZv3sA==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-modules-commonjs/download/@babel/plugin-transform-modules-commonjs-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-modules-commonjs%2Fdownload%2F%40babel%2Fplugin-transform-modules-commonjs-7.15.4.tgz#8201101240eabb5a76c08ef61b2954f767b6b4c1"
+  integrity sha1-ggEQEkDqu1p2wI72GylU92e2tME=
   dependencies:
     "@babel/helper-module-transforms" "^7.15.4"
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -710,8 +710,8 @@
 
 "@babel/plugin-transform-modules-systemjs@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-modules-systemjs/-/plugin-transform-modules-systemjs-7.15.4.tgz#b42890c7349a78c827719f1d2d0cd38c7d268132"
-  integrity sha512-fJUnlQrl/mezMneR72CKCgtOoahqGJNVKpompKwzv3BrEXdlPspTcyxrZ1XmDTIr9PpULrgEQo3qNKp6dW7ssw==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-modules-systemjs/download/@babel/plugin-transform-modules-systemjs-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-modules-systemjs%2Fdownload%2F%40babel%2Fplugin-transform-modules-systemjs-7.15.4.tgz#b42890c7349a78c827719f1d2d0cd38c7d268132"
+  integrity sha1-tCiQxzSaeMgncZ8dLQzTjH0mgTI=
   dependencies:
     "@babel/helper-hoist-variables" "^7.15.4"
     "@babel/helper-module-transforms" "^7.15.4"
@@ -721,102 +721,102 @@
 
 "@babel/plugin-transform-modules-umd@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-modules-umd/-/plugin-transform-modules-umd-7.14.5.tgz#fb662dfee697cce274a7cda525190a79096aa6e0"
-  integrity sha512-RfPGoagSngC06LsGUYyM9QWSXZ8MysEjDJTAea1lqRjNECE3y0qIJF/qbvJxc4oA4s99HumIMdXOrd+TdKaAAA==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-modules-umd/download/@babel/plugin-transform-modules-umd-7.14.5.tgz?cache=0&sync_timestamp=1623280687270&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-modules-umd%2Fdownload%2F%40babel%2Fplugin-transform-modules-umd-7.14.5.tgz#fb662dfee697cce274a7cda525190a79096aa6e0"
+  integrity sha1-+2Yt/uaXzOJ0p82lJRkKeQlqpuA=
   dependencies:
     "@babel/helper-module-transforms" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-named-capturing-groups-regex@^7.14.9":
   version "7.14.9"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-named-capturing-groups-regex/-/plugin-transform-named-capturing-groups-regex-7.14.9.tgz#c68f5c5d12d2ebaba3762e57c2c4f6347a46e7b2"
-  integrity sha512-l666wCVYO75mlAtGFfyFwnWmIXQm3kSH0C3IRnJqWcZbWkoihyAdDhFm2ZWaxWTqvBvhVFfJjMRQ0ez4oN1yYA==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-named-capturing-groups-regex/download/@babel/plugin-transform-named-capturing-groups-regex-7.14.9.tgz#c68f5c5d12d2ebaba3762e57c2c4f6347a46e7b2"
+  integrity sha1-xo9cXRLS66ujdi5XwsT2NHpG57I=
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
 
 "@babel/plugin-transform-new-target@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-new-target/-/plugin-transform-new-target-7.14.5.tgz#31bdae8b925dc84076ebfcd2a9940143aed7dbf8"
-  integrity sha512-Nx054zovz6IIRWEB49RDRuXGI4Gy0GMgqG0cII9L3MxqgXz/+rgII+RU58qpo4g7tNEx1jG7rRVH4ihZoP4esQ==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-new-target/download/@babel/plugin-transform-new-target-7.14.5.tgz#31bdae8b925dc84076ebfcd2a9940143aed7dbf8"
+  integrity sha1-Mb2ui5JdyEB26/zSqZQBQ67X2/g=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-object-super@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-object-super/-/plugin-transform-object-super-7.14.5.tgz#d0b5faeac9e98597a161a9cf78c527ed934cdc45"
-  integrity sha512-MKfOBWzK0pZIrav9z/hkRqIk/2bTv9qvxHzPQc12RcVkMOzpIKnFCNYJip00ssKWYkd8Sf5g0Wr7pqJ+cmtuFg==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-object-super/download/@babel/plugin-transform-object-super-7.14.5.tgz?cache=0&sync_timestamp=1623280681813&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-object-super%2Fdownload%2F%40babel%2Fplugin-transform-object-super-7.14.5.tgz#d0b5faeac9e98597a161a9cf78c527ed934cdc45"
+  integrity sha1-0LX66snphZehYanPeMUn7ZNM3EU=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/helper-replace-supers" "^7.14.5"
 
 "@babel/plugin-transform-parameters@^7.15.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-parameters/-/plugin-transform-parameters-7.15.4.tgz#5f2285cc3160bf48c8502432716b48504d29ed62"
-  integrity sha512-9WB/GUTO6lvJU3XQsSr6J/WKvBC2hcs4Pew8YxZagi6GkTdniyqp8On5kqdK8MN0LMeu0mGbhPN+O049NV/9FQ==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-parameters/download/@babel/plugin-transform-parameters-7.15.4.tgz#5f2285cc3160bf48c8502432716b48504d29ed62"
+  integrity sha1-XyKFzDFgv0jIUCQycWtIUE0p7WI=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-property-literals@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-property-literals/-/plugin-transform-property-literals-7.14.5.tgz#0ddbaa1f83db3606f1cdf4846fa1dfb473458b34"
-  integrity sha512-r1uilDthkgXW8Z1vJz2dKYLV1tuw2xsbrp3MrZmD99Wh9vsfKoob+JTgri5VUb/JqyKRXotlOtwgu4stIYCmnw==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-property-literals/download/@babel/plugin-transform-property-literals-7.14.5.tgz#0ddbaa1f83db3606f1cdf4846fa1dfb473458b34"
+  integrity sha1-DduqH4PbNgbxzfSEb6HftHNFizQ=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-regenerator@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.14.5.tgz#9676fd5707ed28f522727c5b3c0aa8544440b04f"
-  integrity sha512-NVIY1W3ITDP5xQl50NgTKlZ0GrotKtLna08/uGY6ErQt6VEQZXla86x/CTddm5gZdcr+5GSsvMeTmWA5Ii6pkg==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-regenerator/download/@babel/plugin-transform-regenerator-7.14.5.tgz?cache=0&sync_timestamp=1623280395479&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-regenerator%2Fdownload%2F%40babel%2Fplugin-transform-regenerator-7.14.5.tgz#9676fd5707ed28f522727c5b3c0aa8544440b04f"
+  integrity sha1-lnb9VwftKPUicnxbPAqoVERAsE8=
   dependencies:
     regenerator-transform "^0.14.2"
 
 "@babel/plugin-transform-reserved-words@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-reserved-words/-/plugin-transform-reserved-words-7.14.5.tgz#c44589b661cfdbef8d4300dcc7469dffa92f8304"
-  integrity sha512-cv4F2rv1nD4qdexOGsRQXJrOcyb5CrgjUH9PKrrtyhSDBNWGxd0UIitjyJiWagS+EbUGjG++22mGH1Pub8D6Vg==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-reserved-words/download/@babel/plugin-transform-reserved-words-7.14.5.tgz?cache=0&sync_timestamp=1623280468592&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-reserved-words%2Fdownload%2F%40babel%2Fplugin-transform-reserved-words-7.14.5.tgz#c44589b661cfdbef8d4300dcc7469dffa92f8304"
+  integrity sha1-xEWJtmHP2++NQwDcx0ad/6kvgwQ=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-shorthand-properties@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-shorthand-properties/-/plugin-transform-shorthand-properties-7.14.5.tgz#97f13855f1409338d8cadcbaca670ad79e091a58"
-  integrity sha512-xLucks6T1VmGsTB+GWK5Pl9Jl5+nRXD1uoFdA5TSO6xtiNjtXTjKkmPdFXVLGlK5A2/or/wQMKfmQ2Y0XJfn5g==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-shorthand-properties/download/@babel/plugin-transform-shorthand-properties-7.14.5.tgz?cache=0&sync_timestamp=1623280351390&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-shorthand-properties%2Fdownload%2F%40babel%2Fplugin-transform-shorthand-properties-7.14.5.tgz#97f13855f1409338d8cadcbaca670ad79e091a58"
+  integrity sha1-l/E4VfFAkzjYyty6ymcK154JGlg=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-spread@^7.15.8":
   version "7.15.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-spread/-/plugin-transform-spread-7.15.8.tgz#79d5aa27f68d700449b2da07691dfa32d2f6d468"
-  integrity sha512-/daZ8s2tNaRekl9YJa9X4bzjpeRZLt122cpgFnQPLGUe61PH8zMEBmYqKkW5xF5JUEh5buEGXJoQpqBmIbpmEQ==
+  resolved "https://registry.npmmirror.com/@babel/plugin-transform-spread/download/@babel/plugin-transform-spread-7.15.8.tgz?cache=0&sync_timestamp=1633553714261&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fplugin-transform-spread%2Fdownload%2F%40babel%2Fplugin-transform-spread-7.15.8.tgz#79d5aa27f68d700449b2da07691dfa32d2f6d468"
+  integrity sha1-edWqJ/aNcARJstoHaR36MtL21Gg=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/helper-skip-transparent-expression-wrappers" "^7.15.4"
 
 "@babel/plugin-transform-sticky-regex@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-sticky-regex/-/plugin-transform-sticky-regex-7.14.5.tgz#5b617542675e8b7761294381f3c28c633f40aeb9"
-  integrity sha512-Z7F7GyvEMzIIbwnziAZmnSNpdijdr4dWt+FJNBnBLz5mwDFkqIXU9wmBcWWad3QeJF5hMTkRe4dAq2sUZiG+8A==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-sticky-regex/download/@babel/plugin-transform-sticky-regex-7.14.5.tgz#5b617542675e8b7761294381f3c28c633f40aeb9"
+  integrity sha1-W2F1Qmdei3dhKUOB88KMYz9Arrk=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-template-literals@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-template-literals/-/plugin-transform-template-literals-7.14.5.tgz#a5f2bc233937d8453885dc736bdd8d9ffabf3d93"
-  integrity sha512-22btZeURqiepOfuy/VkFr+zStqlujWaarpMErvay7goJS6BWwdd6BY9zQyDLDa4x2S3VugxFb162IZ4m/S/+Gg==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-template-literals/download/@babel/plugin-transform-template-literals-7.14.5.tgz?cache=0&sync_timestamp=1623280350943&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-template-literals%2Fdownload%2F%40babel%2Fplugin-transform-template-literals-7.14.5.tgz#a5f2bc233937d8453885dc736bdd8d9ffabf3d93"
+  integrity sha1-pfK8Izk32EU4hdxza92Nn/q/PZM=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-typeof-symbol@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-typeof-symbol/-/plugin-transform-typeof-symbol-7.14.5.tgz#39af2739e989a2bd291bf6b53f16981423d457d4"
-  integrity sha512-lXzLD30ffCWseTbMQzrvDWqljvZlHkXU+CnseMhkMNqU1sASnCsz3tSzAaH3vCUXb9PHeUb90ZT1BdFTm1xxJw==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-typeof-symbol/download/@babel/plugin-transform-typeof-symbol-7.14.5.tgz?cache=0&sync_timestamp=1623280352113&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-typeof-symbol%2Fdownload%2F%40babel%2Fplugin-transform-typeof-symbol-7.14.5.tgz#39af2739e989a2bd291bf6b53f16981423d457d4"
+  integrity sha1-Oa8nOemJor0pG/a1PxaYFCPUV9Q=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-typescript@^7.15.0":
   version "7.15.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-typescript/-/plugin-transform-typescript-7.15.8.tgz#ff0e6a47de9b2d58652123ab5a879b2ff20665d8"
-  integrity sha512-ZXIkJpbaf6/EsmjeTbiJN/yMxWPFWvlr7sEG1P95Xb4S4IBcrf2n7s/fItIhsAmOf8oSh3VJPDppO6ExfAfKRQ==
+  resolved "https://registry.npmmirror.com/@babel/plugin-transform-typescript/download/@babel/plugin-transform-typescript-7.15.8.tgz#ff0e6a47de9b2d58652123ab5a879b2ff20665d8"
+  integrity sha1-/w5qR96bLVhlISOrWoebL/IGZdg=
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.15.4"
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -824,23 +824,23 @@
 
 "@babel/plugin-transform-unicode-escapes@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-unicode-escapes/-/plugin-transform-unicode-escapes-7.14.5.tgz#9d4bd2a681e3c5d7acf4f57fa9e51175d91d0c6b"
-  integrity sha512-crTo4jATEOjxj7bt9lbYXcBAM3LZaUrbP2uUdxb6WIorLmjNKSpHfIybgY4B8SRpbf8tEVIWH3Vtm7ayCrKocA==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-unicode-escapes/download/@babel/plugin-transform-unicode-escapes-7.14.5.tgz?cache=0&sync_timestamp=1623280468339&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-unicode-escapes%2Fdownload%2F%40babel%2Fplugin-transform-unicode-escapes-7.14.5.tgz#9d4bd2a681e3c5d7acf4f57fa9e51175d91d0c6b"
+  integrity sha1-nUvSpoHjxdes9PV/qeURddkdDGs=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-unicode-regex@^7.14.5":
   version "7.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/plugin-transform-unicode-regex/-/plugin-transform-unicode-regex-7.14.5.tgz#4cd09b6c8425dd81255c7ceb3fb1836e7414382e"
-  integrity sha512-UygduJpC5kHeCiRw/xDVzC+wj8VaYSoKl5JNVmbP7MadpNinAm3SvZCxZ42H37KZBKztz46YC73i9yV34d0Tzw==
+  resolved "https://registry.nlark.com/@babel/plugin-transform-unicode-regex/download/@babel/plugin-transform-unicode-regex-7.14.5.tgz#4cd09b6c8425dd81255c7ceb3fb1836e7414382e"
+  integrity sha1-TNCbbIQl3YElXHzrP7GDbnQUOC4=
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/preset-env@^7.15.8":
   version "7.15.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/preset-env/-/preset-env-7.15.8.tgz#f527ce5bcb121cd199f6b502bf23e420b3ff8dba"
-  integrity sha512-rCC0wH8husJgY4FPbHsiYyiLxSY8oMDJH7Rl6RQMknbN9oDDHhM9RDFvnGM2MgkbUJzSQB4gtuwygY5mCqGSsA==
+  resolved "https://registry.npmmirror.com/@babel/preset-env/download/@babel/preset-env-7.15.8.tgz#f527ce5bcb121cd199f6b502bf23e420b3ff8dba"
+  integrity sha1-9SfOW8sSHNGZ9rUCvyPkILP/jbo=
   dependencies:
     "@babel/compat-data" "^7.15.0"
     "@babel/helper-compilation-targets" "^7.15.4"
@@ -918,8 +918,8 @@
 
 "@babel/preset-modules@^0.1.4":
   version "0.1.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/preset-modules/-/preset-modules-0.1.4.tgz#362f2b68c662842970fdb5e254ffc8fc1c2e415e"
-  integrity sha512-J36NhwnfdzpmH41M1DrnkkgAqhZaqr/NBdPfQ677mLzlaXo+oDiv1deyCDtgAhz8p328otdob0Du7+xgHGZbKg==
+  resolved "https://registry.npm.taobao.org/@babel/preset-modules/download/@babel/preset-modules-0.1.4.tgz#362f2b68c662842970fdb5e254ffc8fc1c2e415e"
+  integrity sha1-Ni8raMZihClw/bXiVP/I/BwuQV4=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-proposal-unicode-property-regex" "^7.4.4"
@@ -929,8 +929,8 @@
 
 "@babel/preset-typescript@^7.15.0":
   version "7.15.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/preset-typescript/-/preset-typescript-7.15.0.tgz#e8fca638a1a0f64f14e1119f7fe4500277840945"
-  integrity sha512-lt0Y/8V3y06Wq/8H/u0WakrqciZ7Fz7mwPDHWUJAXlABL5hiUG42BNlRXiELNjeWjO5rWmnNKlx+yzJvxezHow==
+  resolved "https://registry.nlark.com/@babel/preset-typescript/download/@babel/preset-typescript-7.15.0.tgz#e8fca638a1a0f64f14e1119f7fe4500277840945"
+  integrity sha1-6PymOKGg9k8U4RGff+RQAneECUU=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/helper-validator-option" "^7.14.5"
@@ -938,8 +938,8 @@
 
 "@babel/runtime@^7.8.4":
   version "7.15.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
-  integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
+  resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.15.4.tgz?cache=0&sync_timestamp=1630618785994&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
+  integrity sha1-/RfRa/34eObdAtGXU6OfqKjZyEo=
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -969,8 +969,8 @@
 
 "@babel/types@^7.0.0", "@babel/types@^7.15.6", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4":
   version "7.15.6"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@babel/types/-/types-7.15.6.tgz#99abdc48218b2881c058dd0a7ab05b99c9be758f"
-  integrity sha512-BPU+7QhqNjmWyDO0/vitH/CuhpV8ZmK1wpKva8nuyNF5MJfuRNWMc+hc14+u9xT93kvykMdncrJT19h74uB1Ig==
+  resolved "https://registry.nlark.com/@babel/types/download/@babel/types-7.15.6.tgz?cache=0&sync_timestamp=1631216657849&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Ftypes%2Fdownload%2F%40babel%2Ftypes-7.15.6.tgz#99abdc48218b2881c058dd0a7ab05b99c9be758f"
+  integrity sha1-mavcSCGLKIHAWN0KerBbmcm+dY8=
   dependencies:
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
@@ -985,8 +985,8 @@
 
 "@bcoe/v8-coverage@^0.2.3":
   version "0.2.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
-  integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
+  resolved "https://registry.npm.taobao.org/@bcoe/v8-coverage/download/@bcoe/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
+  integrity sha1-daLotRy3WKdVPWgEpZMteqznXDk=
 
 "@emmetio/abbreviation@^2.2.2":
   version "2.2.2"
@@ -1076,8 +1076,8 @@
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
-  integrity sha512-VjeHSlIzpv/NyD3N0YuHfXOPDIixcA1q2ZV98wsMqcYlPmv2n3Yb2lYP9XMElnaFVXg5A7YLTeLu6V84uQDjmQ==
+  resolved "https://registry.nlark.com/@istanbuljs/load-nyc-config/download/@istanbuljs/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
+  integrity sha1-/T2x1Z7PfPEh6AZQu4ZxL5tV7O0=
   dependencies:
     camelcase "^5.3.1"
     find-up "^4.1.0"
@@ -1087,13 +1087,13 @@
 
 "@istanbuljs/schema@^0.1.2":
   version "0.1.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
-  integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
+  resolved "https://registry.nlark.com/@istanbuljs/schema/download/@istanbuljs/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
+  integrity sha1-5F44TkuOwWvOL9kDr3hFD2v37Jg=
 
 "@jest/console@^27.2.5":
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@jest/console/-/console-27.2.5.tgz#bddbf8d41c191f17b52bf0c9e6c0d18605e35d6e"
-  integrity sha512-smtlRF9vNKorRMCUtJ+yllIoiY8oFmfFG7xlzsAE76nKEwXNhjPOJIsc7Dv+AUitVt76t+KjIpUP9m98Crn2LQ==
+  resolved "https://registry.npmmirror.com/@jest/console/download/@jest/console-27.2.5.tgz?cache=0&sync_timestamp=1633701038723&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Fconsole%2Fdownload%2F%40jest%2Fconsole-27.2.5.tgz#bddbf8d41c191f17b52bf0c9e6c0d18605e35d6e"
+  integrity sha1-vdv41BwZHxe1K/DJ5sDRhgXjXW4=
   dependencies:
     "@jest/types" "^27.2.5"
     "@types/node" "*"
@@ -1104,8 +1104,8 @@
 
 "@jest/core@^27.2.5":
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@jest/core/-/core-27.2.5.tgz#854c314708cee0d892ac4f531b9129f00a21ee69"
-  integrity sha512-VR7mQ+jykHN4WO3OvusRJMk4xCa2MFLipMS+43fpcRGaYrN1KwMATfVEXif7ccgFKYGy5D1TVXTNE4mGq/KMMA==
+  resolved "https://registry.npmmirror.com/@jest/core/download/@jest/core-27.2.5.tgz#854c314708cee0d892ac4f531b9129f00a21ee69"
+  integrity sha1-hUwxRwjO4NiSrE9TG5Ep8Aoh7mk=
   dependencies:
     "@jest/console" "^27.2.5"
     "@jest/reporters" "^27.2.5"
@@ -1138,8 +1138,8 @@
 
 "@jest/environment@^27.2.5":
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@jest/environment/-/environment-27.2.5.tgz#b85517ccfcec55690c82c56f5a01a3b30c5e3c84"
-  integrity sha512-XvUW3q6OUF+54SYFCgbbfCd/BKTwm5b2MGLoc2jINXQLKQDTCS2P2IrpPOtQ08WWZDGzbhAzVhOYta3J2arubg==
+  resolved "https://registry.npmmirror.com/@jest/environment/download/@jest/environment-27.2.5.tgz?cache=0&sync_timestamp=1633701047975&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Fenvironment%2Fdownload%2F%40jest%2Fenvironment-27.2.5.tgz#b85517ccfcec55690c82c56f5a01a3b30c5e3c84"
+  integrity sha1-uFUXzPzsVWkMgsVvWgGjswxePIQ=
   dependencies:
     "@jest/fake-timers" "^27.2.5"
     "@jest/types" "^27.2.5"
@@ -1148,8 +1148,8 @@
 
 "@jest/fake-timers@^27.2.5":
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@jest/fake-timers/-/fake-timers-27.2.5.tgz#0c7e5762d7bfe6e269e7b49279b097a52a42f0a0"
-  integrity sha512-ZGUb6jg7BgwY+nmO0TW10bc7z7Hl2G/UTAvmxEyZ/GgNFoa31tY9/cgXmqcxnnZ7o5Xs7RAOz3G1SKIj8IVDlg==
+  resolved "https://registry.npmmirror.com/@jest/fake-timers/download/@jest/fake-timers-27.2.5.tgz?cache=0&sync_timestamp=1633701048283&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Ffake-timers%2Fdownload%2F%40jest%2Ffake-timers-27.2.5.tgz#0c7e5762d7bfe6e269e7b49279b097a52a42f0a0"
+  integrity sha1-DH5XYte/5uJp57SSebCXpSpC8KA=
   dependencies:
     "@jest/types" "^27.2.5"
     "@sinonjs/fake-timers" "^8.0.1"
@@ -1160,8 +1160,8 @@
 
 "@jest/globals@^27.2.5":
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@jest/globals/-/globals-27.2.5.tgz#4115538f98ed6cee4051a90fdbd0854062902099"
-  integrity sha512-naRI537GM+enFVJQs6DcwGYPn/0vgJNb06zGVbzXfDfe/epDPV73hP1vqO37PqSKDeOXM2KInr6ymYbL1HTP7g==
+  resolved "https://registry.npmmirror.com/@jest/globals/download/@jest/globals-27.2.5.tgz?cache=0&sync_timestamp=1633701043623&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Fglobals%2Fdownload%2F%40jest%2Fglobals-27.2.5.tgz#4115538f98ed6cee4051a90fdbd0854062902099"
+  integrity sha1-QRVTj5jtbO5AUakP29CFQGKQIJk=
   dependencies:
     "@jest/environment" "^27.2.5"
     "@jest/types" "^27.2.5"
@@ -1169,8 +1169,8 @@
 
 "@jest/reporters@^27.2.5":
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@jest/reporters/-/reporters-27.2.5.tgz#65198ed1f3f4449e3f656129764dc6c5bb27ebe3"
-  integrity sha512-zYuR9fap3Q3mxQ454VWF8I6jYHErh368NwcKHWO2uy2fwByqBzRHkf9j2ekMDM7PaSTWcLBSZyd7NNxR1iHxzQ==
+  resolved "https://registry.npmmirror.com/@jest/reporters/download/@jest/reporters-27.2.5.tgz?cache=0&sync_timestamp=1633701043652&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Freporters%2Fdownload%2F%40jest%2Freporters-27.2.5.tgz#65198ed1f3f4449e3f656129764dc6c5bb27ebe3"
+  integrity sha1-ZRmO0fP0RJ4/ZWEpdk3Gxbsn6+M=
   dependencies:
     "@bcoe/v8-coverage" "^0.2.3"
     "@jest/console" "^27.2.5"
@@ -1200,8 +1200,8 @@
 
 "@jest/source-map@^27.0.6":
   version "27.0.6"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@jest/source-map/-/source-map-27.0.6.tgz#be9e9b93565d49b0548b86e232092491fb60551f"
-  integrity sha512-Fek4mi5KQrqmlY07T23JRi0e7Z9bXTOOD86V/uS0EIW4PClvPDqZOyFlLpNJheS6QI0FNX1CgmPjtJ4EA/2M+g==
+  resolved "https://registry.nlark.com/@jest/source-map/download/@jest/source-map-27.0.6.tgz?cache=0&sync_timestamp=1624900091449&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40jest%2Fsource-map%2Fdownload%2F%40jest%2Fsource-map-27.0.6.tgz#be9e9b93565d49b0548b86e232092491fb60551f"
+  integrity sha1-vp6bk1ZdSbBUi4biMgkkkftgVR8=
   dependencies:
     callsites "^3.0.0"
     graceful-fs "^4.2.4"
@@ -1209,8 +1209,8 @@
 
 "@jest/test-result@^27.2.5":
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@jest/test-result/-/test-result-27.2.5.tgz#e9f73cf6cd5e2cc6eb3105339248dea211f9320e"
-  integrity sha512-ub7j3BrddxZ0BdSnM5JCF6cRZJ/7j3wgdX0+Dtwhw2Po+HKsELCiXUTvh+mgS4/89mpnU1CPhZxe2mTvuLPJJg==
+  resolved "https://registry.npmmirror.com/@jest/test-result/download/@jest/test-result-27.2.5.tgz?cache=0&sync_timestamp=1633701038663&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Ftest-result%2Fdownload%2F%40jest%2Ftest-result-27.2.5.tgz#e9f73cf6cd5e2cc6eb3105339248dea211f9320e"
+  integrity sha1-6fc89s1eLMbrMQUzkkjeohH5Mg4=
   dependencies:
     "@jest/console" "^27.2.5"
     "@jest/types" "^27.2.5"
@@ -1219,8 +1219,8 @@
 
 "@jest/test-sequencer@^27.2.5":
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@jest/test-sequencer/-/test-sequencer-27.2.5.tgz#ed5ae91c00e623fb719111d58e380395e16cefbb"
-  integrity sha512-8j8fHZRfnjbbdMitMAGFKaBZ6YqvFRFJlMJzcy3v75edTOqc7RY65S9JpMY6wT260zAcL2sTQRga/P4PglCu3Q==
+  resolved "https://registry.npmmirror.com/@jest/test-sequencer/download/@jest/test-sequencer-27.2.5.tgz?cache=0&sync_timestamp=1633701044730&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Ftest-sequencer%2Fdownload%2F%40jest%2Ftest-sequencer-27.2.5.tgz#ed5ae91c00e623fb719111d58e380395e16cefbb"
+  integrity sha1-7VrpHADmI/txkRHVjjgDleFs77s=
   dependencies:
     "@jest/test-result" "^27.2.5"
     graceful-fs "^4.2.4"
@@ -1229,8 +1229,8 @@
 
 "@jest/transform@^27.2.5":
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@jest/transform/-/transform-27.2.5.tgz#02b08862a56dbedddf0ba3c2eae41e049a250e29"
-  integrity sha512-29lRtAHHYGALbZOx343v0zKmdOg4Sb0rsA1uSv0818bvwRhs3TyElOmTVXlrw0v1ZTqXJCAH/cmoDXimBhQOJQ==
+  resolved "https://registry.npmmirror.com/@jest/transform/download/@jest/transform-27.2.5.tgz?cache=0&sync_timestamp=1633701045510&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Ftransform%2Fdownload%2F%40jest%2Ftransform-27.2.5.tgz#02b08862a56dbedddf0ba3c2eae41e049a250e29"
+  integrity sha1-ArCIYqVtvt3fC6PC6uQeBJolDik=
   dependencies:
     "@babel/core" "^7.1.0"
     "@jest/types" "^27.2.5"
@@ -1250,8 +1250,8 @@
 
 "@jest/types@^27.2.5":
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@jest/types/-/types-27.2.5.tgz#420765c052605e75686982d24b061b4cbba22132"
-  integrity sha512-nmuM4VuDtCZcY+eTpw+0nvstwReMsjPoj7ZR80/BbixulhLaiX+fbv8oeLW8WZlJMcsGQsTmMKT/iTZu1Uy/lQ==
+  resolved "https://registry.npmmirror.com/@jest/types/download/@jest/types-27.2.5.tgz#420765c052605e75686982d24b061b4cbba22132"
+  integrity sha1-QgdlwFJgXnVoaYLSSwYbTLuiITI=
   dependencies:
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/istanbul-reports" "^3.0.0"
@@ -1295,15 +1295,15 @@
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@sinonjs/commons/-/commons-1.8.3.tgz#3802ddd21a50a949b6721ddd72da36e67e7f1b2d"
-  integrity sha512-xkNcLAn/wZaX14RPlwizcKicDk9G3F8m2nU3L7Ukm5zBgTwiT0wsoFAHx9Jq56fJA1z/7uKGtCRu16sOUCLIHQ==
+  resolved "https://registry.npm.taobao.org/@sinonjs/commons/download/@sinonjs/commons-1.8.3.tgz?cache=0&sync_timestamp=1617868404624&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sinonjs%2Fcommons%2Fdownload%2F%40sinonjs%2Fcommons-1.8.3.tgz#3802ddd21a50a949b6721ddd72da36e67e7f1b2d"
+  integrity sha1-OALd0hpQqUm2ch3dcto25n5/Gy0=
   dependencies:
     type-detect "4.0.8"
 
 "@sinonjs/fake-timers@^8.0.1":
   version "8.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@sinonjs/fake-timers/-/fake-timers-8.0.1.tgz#1c1c9a91419f804e59ae8df316a07dd1c3a76b94"
-  integrity sha512-AU7kwFxreVd6OAXcAFlKSmZquiRUU0FvYm44k1Y1QbK7Co4m0aqfGMhjykIeQp/H6rcl+nFmj0zfdUcGVs9Dew==
+  resolved "https://registry.npmmirror.com/@sinonjs/fake-timers/download/@sinonjs/fake-timers-8.0.1.tgz?cache=0&sync_timestamp=1632752443985&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40sinonjs%2Ffake-timers%2Fdownload%2F%40sinonjs%2Ffake-timers-8.0.1.tgz#1c1c9a91419f804e59ae8df316a07dd1c3a76b94"
+  integrity sha1-HByakUGfgE5Zro3zFqB90cOna5Q=
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
@@ -1324,13 +1324,13 @@
 
 "@tootallnate/once@1":
   version "1.1.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
-  integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
+  resolved "https://registry.npmmirror.com/@tootallnate/once/download/@tootallnate/once-1.1.2.tgz?cache=0&sync_timestamp=1632734105305&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40tootallnate%2Fonce%2Fdownload%2F%40tootallnate%2Fonce-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
+  integrity sha1-zLkURTYBeaBOf+av94wA/8Hur4I=
 
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.14":
   version "7.1.16"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/babel__core/-/babel__core-7.1.16.tgz#bc12c74b7d65e82d29876b5d0baf5c625ac58702"
-  integrity sha512-EAEHtisTMM+KaKwfWdC3oyllIqswlznXCIVCt7/oRNrh+DhgT4UEBNC/jlADNjvw7UnfbcdkGQcPVZ1xYiLcrQ==
+  resolved "https://registry.nlark.com/@types/babel__core/download/@types/babel__core-7.1.16.tgz#bc12c74b7d65e82d29876b5d0baf5c625ac58702"
+  integrity sha1-vBLHS31l6C0ph2tdC69cYlrFhwI=
   dependencies:
     "@babel/parser" "^7.1.0"
     "@babel/types" "^7.0.0"
@@ -1340,23 +1340,23 @@
 
 "@types/babel__generator@*":
   version "7.6.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/babel__generator/-/babel__generator-7.6.3.tgz#f456b4b2ce79137f768aa130d2423d2f0ccfaba5"
-  integrity sha512-/GWCmzJWqV7diQW54smJZzWbSFf4QYtF71WCKhcx6Ru/tFyQIY2eiiITcCAeuPbNSvT9YCGkVMqqvSk2Z0mXiA==
+  resolved "https://registry.nlark.com/@types/babel__generator/download/@types/babel__generator-7.6.3.tgz#f456b4b2ce79137f768aa130d2423d2f0ccfaba5"
+  integrity sha1-9Fa0ss55E392iqEw0kI9LwzPq6U=
   dependencies:
     "@babel/types" "^7.0.0"
 
 "@types/babel__template@*":
   version "7.4.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/babel__template/-/babel__template-7.4.1.tgz#3d1a48fd9d6c0edfd56f2ff578daed48f36c8969"
-  integrity sha512-azBFKemX6kMg5Io+/rdGT0dkGreboUVR0Cdm3fz9QJWpaQGJRQXl7C+6hOTCZcMll7KFyEQpgbYI2lHdsS4U7g==
+  resolved "https://registry.nlark.com/@types/babel__template/download/@types/babel__template-7.4.1.tgz#3d1a48fd9d6c0edfd56f2ff578daed48f36c8969"
+  integrity sha1-PRpI/Z1sDt/Vby/1eNrtSPNsiWk=
   dependencies:
     "@babel/parser" "^7.1.0"
     "@babel/types" "^7.0.0"
 
 "@types/babel__traverse@*", "@types/babel__traverse@^7.0.4", "@types/babel__traverse@^7.0.6":
   version "7.14.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/babel__traverse/-/babel__traverse-7.14.2.tgz#ffcd470bbb3f8bf30481678fb5502278ca833a43"
-  integrity sha512-K2waXdXBi2302XUdcHcR1jCeU0LL4TD9HRs/gk0N2Xvrht+G/BfJa4QObBQZfhMdxiCpV3COl5Nfq4uKTeTnJA==
+  resolved "https://registry.nlark.com/@types/babel__traverse/download/@types/babel__traverse-7.14.2.tgz#ffcd470bbb3f8bf30481678fb5502278ca833a43"
+  integrity sha1-/81HC7s/i/MEgWePtVAieMqDOkM=
   dependencies:
     "@babel/types" "^7.3.0"
 
@@ -1375,34 +1375,34 @@
 
 "@types/graceful-fs@^4.1.2":
   version "4.1.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/graceful-fs/-/graceful-fs-4.1.5.tgz#21ffba0d98da4350db64891f92a9e5db3cdb4e15"
-  integrity sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7Cw==
+  resolved "https://registry.nlark.com/@types/graceful-fs/download/@types/graceful-fs-4.1.5.tgz?cache=0&sync_timestamp=1629708058812&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fgraceful-fs%2Fdownload%2F%40types%2Fgraceful-fs-4.1.5.tgz#21ffba0d98da4350db64891f92a9e5db3cdb4e15"
+  integrity sha1-If+6DZjaQ1DbZIkfkqnl2zzbThU=
   dependencies:
     "@types/node" "*"
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.3.tgz#4ba8ddb720221f432e443bd5f9117fd22cfd4762"
-  integrity sha512-sz7iLqvVUg1gIedBOvlkxPlc8/uVzyS5OwGz1cKjXzkl3FpL3al0crU8YGU1WoHkxn0Wxbw5tyi6hvzJKNzFsw==
+  resolved "https://registry.nlark.com/@types/istanbul-lib-coverage/download/@types/istanbul-lib-coverage-2.0.3.tgz#4ba8ddb720221f432e443bd5f9117fd22cfd4762"
+  integrity sha1-S6jdtyAiH0MuRDvV+RF/0iz9R2I=
 
 "@types/istanbul-lib-report@*":
   version "3.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/istanbul-lib-report/-/istanbul-lib-report-3.0.0.tgz#c14c24f18ea8190c118ee7562b7ff99a36552686"
-  integrity sha512-plGgXAPfVKFoYfa9NpYDAkseG+g6Jr294RqeqcqDixSbU34MZVJRi/P+7Y8GDpzkEwLaGZZOpKIEmeVZNtKsrg==
+  resolved "https://registry.nlark.com/@types/istanbul-lib-report/download/@types/istanbul-lib-report-3.0.0.tgz?cache=0&sync_timestamp=1629708072640&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fistanbul-lib-report%2Fdownload%2F%40types%2Fistanbul-lib-report-3.0.0.tgz#c14c24f18ea8190c118ee7562b7ff99a36552686"
+  integrity sha1-wUwk8Y6oGQwRjudWK3/5mjZVJoY=
   dependencies:
     "@types/istanbul-lib-coverage" "*"
 
 "@types/istanbul-reports@^3.0.0":
   version "3.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/istanbul-reports/-/istanbul-reports-3.0.1.tgz#9153fe98bba2bd565a63add9436d6f0d7f8468ff"
-  integrity sha512-c3mAZEuK0lvBp8tmuL74XRKn1+y2dcwOUpH7x4WrF6gk1GIgiluDRgMYQtw2OFcBvAJWlt6ASU3tSqxp0Uu0Aw==
+  resolved "https://registry.nlark.com/@types/istanbul-reports/download/@types/istanbul-reports-3.0.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fistanbul-reports%2Fdownload%2F%40types%2Fistanbul-reports-3.0.1.tgz#9153fe98bba2bd565a63add9436d6f0d7f8468ff"
+  integrity sha1-kVP+mLuivVZaY63ZQ21vDX+EaP8=
   dependencies:
     "@types/istanbul-lib-report" "*"
 
 "@types/jest@^27.0.2":
   version "27.0.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/jest/-/jest-27.0.2.tgz#ac383c4d4aaddd29bbf2b916d8d105c304a5fcd7"
-  integrity sha512-4dRxkS/AFX0c5XW6IPMNOydLn2tEhNhJV7DnYK+0bjoJZ+QTmfucBlihX7aoEsh/ocYtkLC73UbnBXBXIxsULA==
+  resolved "https://registry.nlark.com/@types/jest/download/@types/jest-27.0.2.tgz#ac383c4d4aaddd29bbf2b916d8d105c304a5fcd7"
+  integrity sha1-rDg8TUqt3Sm78rkW2NEFwwSl/Nc=
   dependencies:
     jest-diff "^27.0.0"
     pretty-format "^27.0.0"
@@ -1451,13 +1451,13 @@
 
 "@types/prettier@^2.1.5":
   version "2.4.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/prettier/-/prettier-2.4.1.tgz#e1303048d5389563e130f5bdd89d37a99acb75eb"
-  integrity sha512-Fo79ojj3vdEZOHg3wR9ksAMRz4P3S5fDB5e/YWZiFnyFQI1WY2Vftu9XoXVVtJfxB7Bpce/QTqWSSntkz2Znrw==
+  resolved "https://registry.npmmirror.com/@types/prettier/download/@types/prettier-2.4.1.tgz#e1303048d5389563e130f5bdd89d37a99acb75eb"
+  integrity sha1-4TAwSNU4lWPhMPW92J03qZrLdes=
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
-  integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
+  resolved "https://registry.nlark.com/@types/stack-utils/download/@types/stack-utils-2.0.1.tgz?cache=0&sync_timestamp=1629709282362&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fstack-utils%2Fdownload%2F%40types%2Fstack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
+  integrity sha1-IPGClPeX8iCbX2XI47XI6CYdEnw=
 
 "@types/unist@*", "@types/unist@^2.0.0", "@types/unist@^2.0.2":
   version "2.0.6"
@@ -1482,13 +1482,13 @@
 
 "@types/yargs-parser@*":
   version "20.2.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/yargs-parser/-/yargs-parser-20.2.1.tgz#3b9ce2489919d9e4fea439b76916abc34b2df129"
-  integrity sha512-7tFImggNeNBVMsn0vLrpn1H1uPrUBdnARPTpZoitY37ZrdJREzf7I16tMrlK3hen349gr1NYh8CmZQa7CTG6Aw==
+  resolved "https://registry.nlark.com/@types/yargs-parser/download/@types/yargs-parser-20.2.1.tgz?cache=0&sync_timestamp=1629709781719&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fyargs-parser%2Fdownload%2F%40types%2Fyargs-parser-20.2.1.tgz#3b9ce2489919d9e4fea439b76916abc34b2df129"
+  integrity sha1-O5ziSJkZ2eT+pDm3aRarw0st8Sk=
 
 "@types/yargs@^16.0.0":
   version "16.0.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/@types/yargs/-/yargs-16.0.4.tgz#26aad98dd2c2a38e421086ea9ad42b9e51642977"
-  integrity sha512-T8Yc9wt/5LbJyCaLiHPReJa0kApcIgJ7Bn735GjItUfh08Z1pJvu8QZqb9s+mMvKV6WUQRV7K2R46YbjMXTTJw==
+  resolved "https://registry.npmmirror.com/@types/yargs/download/@types/yargs-16.0.4.tgz#26aad98dd2c2a38e421086ea9ad42b9e51642977"
+  integrity sha1-JqrZjdLCo45CEIbqmtQrnlFkKXc=
   dependencies:
     "@types/yargs-parser" "*"
 
@@ -1739,13 +1739,13 @@
 
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
-  integrity sha512-9IK9EadsbHo6jLWIpxpR6pL0sazTXV6+SQv25ZB+F7Bj9mJNaOc4nCRabwd5M/JwmUa8idz6Eci6eKfJryPs6Q==
+  resolved "https://registry.nlark.com/abab/download/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
+  integrity sha1-wLZ4+zLWD8EhnHhNaoJv44Wut5o=
 
 acorn-globals@^6.0.0:
   version "6.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/acorn-globals/-/acorn-globals-6.0.0.tgz#46cdd39f0f8ff08a876619b55f5ac8a6dc770b45"
-  integrity sha512-ZQl7LOWaF5ePqqcX4hLuv/bLXYQNfNWw2c0/yX/TsPRKamzHcTGQnlCjHT3TsmkOUVEPS3crCxiPfdzE/Trlhg==
+  resolved "https://registry.nlark.com/acorn-globals/download/acorn-globals-6.0.0.tgz#46cdd39f0f8ff08a876619b55f5ac8a6dc770b45"
+  integrity sha1-Rs3Tnw+P8IqHZhm1X1rIptx3C0U=
   dependencies:
     acorn "^7.1.1"
     acorn-walk "^7.1.1"
@@ -1776,13 +1776,13 @@ acorn@^7.0.0, acorn@^7.1.1, acorn@^7.4.0:
 
 acorn@^8.2.4:
   version "8.5.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/acorn/-/acorn-8.5.0.tgz#4512ccb99b3698c752591e9bb4472e38ad43cee2"
-  integrity sha512-yXbYeFy+jUuYd3/CDcg2NkIYE991XYX/bje7LmjJigUciaeO1JR4XxXgCIV1/Zc/dRuFEyw1L0pbA+qynJkW5Q==
+  resolved "https://registry.nlark.com/acorn/download/acorn-8.5.0.tgz#4512ccb99b3698c752591e9bb4472e38ad43cee2"
+  integrity sha1-RRLMuZs2mMdSWR6btEcuOK1DzuI=
 
 agent-base@6:
   version "6.0.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
-  integrity sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==
+  resolved "https://registry.nlark.com/agent-base/download/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
+  integrity sha1-Sf/1hXfP7j83F2/qtMIuAPhtf3c=
   dependencies:
     debug "4"
 
@@ -1838,8 +1838,8 @@ ansi-regex@^5.0.0:
 
 ansi-regex@^5.0.1:
   version "5.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
-  integrity sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==
+  resolved "https://registry.nlark.com/ansi-regex/download/ansi-regex-5.0.1.tgz?cache=0&sync_timestamp=1631634988487&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fansi-regex%2Fdownload%2Fansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
+  integrity sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ=
 
 ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   version "3.2.1"
@@ -1857,8 +1857,8 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
 
 ansi-styles@^5.0.0:
   version "5.2.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/ansi-styles/-/ansi-styles-5.2.0.tgz#07449690ad45777d1924ac2abb2fc8895dba836b"
-  integrity sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA==
+  resolved "https://registry.nlark.com/ansi-styles/download/ansi-styles-5.2.0.tgz#07449690ad45777d1924ac2abb2fc8895dba836b"
+  integrity sha1-B0SWkK1Fd30ZJKwquy/IiV26g2s=
 
 anymatch@^3.0.3, anymatch@~3.1.2:
   version "3.1.2"
@@ -1974,7 +1974,7 @@ astral-regex@^2.0.0:
 
 asynckit@^0.4.0:
   version "0.4.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
+  resolved "https://registry.npm.taobao.org/asynckit/download/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
 atob@^2.1.2:
@@ -1997,8 +1997,8 @@ autoprefixer@^9.0.0, autoprefixer@^9.8.6:
 
 babel-jest@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/babel-jest/-/babel-jest-27.2.5.tgz#6bbbc1bb4200fe0bfd1b1fbcbe02fc62ebed16aa"
-  integrity sha512-GC9pWCcitBhSuF7H3zl0mftoKizlswaF0E3qi+rPL417wKkCB0d+Sjjb0OfXvxj7gWiBf497ldgRMii68Xz+2g==
+  resolved "https://registry.npmmirror.com/babel-jest/download/babel-jest-27.2.5.tgz?cache=0&sync_timestamp=1633701039240&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fbabel-jest%2Fdownload%2Fbabel-jest-27.2.5.tgz#6bbbc1bb4200fe0bfd1b1fbcbe02fc62ebed16aa"
+  integrity sha1-a7vBu0IA/gv9Gx+8vgL8YuvtFqo=
   dependencies:
     "@jest/transform" "^27.2.5"
     "@jest/types" "^27.2.5"
@@ -2011,15 +2011,15 @@ babel-jest@^27.2.5:
 
 babel-plugin-dynamic-import-node@^2.3.3:
   version "2.3.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.3.3.tgz#84fda19c976ec5c6defef57f9427b3def66e17a3"
-  integrity sha512-jZVI+s9Zg3IqA/kdi0i6UDCybUI3aSBLnglhYbSSjKlV7yF1F/5LWv8MakQmvYpnbJDS6fcBL2KzHSxNCMtWSQ==
+  resolved "https://registry.npm.taobao.org/babel-plugin-dynamic-import-node/download/babel-plugin-dynamic-import-node-2.3.3.tgz#84fda19c976ec5c6defef57f9427b3def66e17a3"
+  integrity sha1-hP2hnJduxcbe/vV/lCez3vZuF6M=
   dependencies:
     object.assign "^4.1.0"
 
 babel-plugin-istanbul@^6.0.0:
   version "6.1.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/babel-plugin-istanbul/-/babel-plugin-istanbul-6.1.1.tgz#fa88ec59232fd9b4e36dbbc540a8ec9a9b47da73"
-  integrity sha512-Y1IQok9821cC9onCx5otgFfRm7Lm+I+wwxOx738M/WLPZ9Q42m4IG5W0FNX8WLL2gYMZo3JkuXIH2DOpWM+qwA==
+  resolved "https://registry.npmmirror.com/babel-plugin-istanbul/download/babel-plugin-istanbul-6.1.1.tgz#fa88ec59232fd9b4e36dbbc540a8ec9a9b47da73"
+  integrity sha1-+ojsWSMv2bTjbbvFQKjsmptH2nM=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
     "@istanbuljs/load-nyc-config" "^1.0.0"
@@ -2029,8 +2029,8 @@ babel-plugin-istanbul@^6.0.0:
 
 babel-plugin-jest-hoist@^27.2.0:
   version "27.2.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-27.2.0.tgz#79f37d43f7e5c4fdc4b2ca3e10cc6cf545626277"
-  integrity sha512-TOux9khNKdi64mW+0OIhcmbAn75tTlzKhxmiNXevQaPbrBYK7YKjP1jl6NHTJ6XR5UgUrJbCnWlKVnJn29dfjw==
+  resolved "https://registry.nlark.com/babel-plugin-jest-hoist/download/babel-plugin-jest-hoist-27.2.0.tgz?cache=0&sync_timestamp=1631520502500&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-plugin-jest-hoist%2Fdownload%2Fbabel-plugin-jest-hoist-27.2.0.tgz#79f37d43f7e5c4fdc4b2ca3e10cc6cf545626277"
+  integrity sha1-efN9Q/flxP3Esso+EMxs9UViYnc=
   dependencies:
     "@babel/template" "^7.3.3"
     "@babel/types" "^7.3.3"
@@ -2039,8 +2039,8 @@ babel-plugin-jest-hoist@^27.2.0:
 
 babel-plugin-polyfill-corejs2@^0.2.2:
   version "0.2.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.2.2.tgz#e9124785e6fd94f94b618a7954e5693053bf5327"
-  integrity sha512-kISrENsJ0z5dNPq5eRvcctITNHYXWOA4DUZRFYCz3jYCcvTb/A546LIddmoGNMVYg2U38OyFeNosQwI9ENTqIQ==
+  resolved "https://registry.nlark.com/babel-plugin-polyfill-corejs2/download/babel-plugin-polyfill-corejs2-0.2.2.tgz?cache=0&sync_timestamp=1622023904181&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-plugin-polyfill-corejs2%2Fdownload%2Fbabel-plugin-polyfill-corejs2-0.2.2.tgz#e9124785e6fd94f94b618a7954e5693053bf5327"
+  integrity sha1-6RJHheb9lPlLYYp5VOVpMFO/Uyc=
   dependencies:
     "@babel/compat-data" "^7.13.11"
     "@babel/helper-define-polyfill-provider" "^0.2.2"
@@ -2048,23 +2048,23 @@ babel-plugin-polyfill-corejs2@^0.2.2:
 
 babel-plugin-polyfill-corejs3@^0.2.5:
   version "0.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.2.5.tgz#2779846a16a1652244ae268b1e906ada107faf92"
-  integrity sha512-ninF5MQNwAX9Z7c9ED+H2pGt1mXdP4TqzlHKyPIYmJIYz0N+++uwdM7RnJukklhzJ54Q84vA4ZJkgs7lu5vqcw==
+  resolved "https://registry.npmmirror.com/babel-plugin-polyfill-corejs3/download/babel-plugin-polyfill-corejs3-0.2.5.tgz#2779846a16a1652244ae268b1e906ada107faf92"
+  integrity sha1-J3mEahahZSJEriaLHpBq2hB/r5I=
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.2.2"
     core-js-compat "^3.16.2"
 
 babel-plugin-polyfill-regenerator@^0.2.2:
   version "0.2.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.2.2.tgz#b310c8d642acada348c1fa3b3e6ce0e851bee077"
-  integrity sha512-Goy5ghsc21HgPDFtzRkSirpZVW35meGoTmTOb2bxqdl60ghub4xOidgNTHaZfQ2FaxQsKmwvXtOAkcIS4SMBWg==
+  resolved "https://registry.nlark.com/babel-plugin-polyfill-regenerator/download/babel-plugin-polyfill-regenerator-0.2.2.tgz?cache=0&sync_timestamp=1622023907940&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-plugin-polyfill-regenerator%2Fdownload%2Fbabel-plugin-polyfill-regenerator-0.2.2.tgz#b310c8d642acada348c1fa3b3e6ce0e851bee077"
+  integrity sha1-sxDI1kKsraNIwfo7Pmzg6FG+4Hc=
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.2.2"
 
 babel-preset-current-node-syntax@^1.0.0:
   version "1.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/babel-preset-current-node-syntax/-/babel-preset-current-node-syntax-1.0.1.tgz#b4399239b89b2a011f9ddbe3e4f401fc40cff73b"
-  integrity sha512-M7LQ0bxarkxQoN+vz5aJPsLBn77n8QgTFmo8WK0/44auK2xlCXrYcUxHFxgU7qW5Yzw/CjmLRK2uJzaCd7LvqQ==
+  resolved "https://registry.npm.taobao.org/babel-preset-current-node-syntax/download/babel-preset-current-node-syntax-1.0.1.tgz?cache=0&sync_timestamp=1608036139015&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbabel-preset-current-node-syntax%2Fdownload%2Fbabel-preset-current-node-syntax-1.0.1.tgz#b4399239b89b2a011f9ddbe3e4f401fc40cff73b"
+  integrity sha1-tDmSObibKgEfndvj5PQB/EDP9zs=
   dependencies:
     "@babel/plugin-syntax-async-generators" "^7.8.4"
     "@babel/plugin-syntax-bigint" "^7.8.3"
@@ -2081,8 +2081,8 @@ babel-preset-current-node-syntax@^1.0.0:
 
 babel-preset-jest@^27.2.0:
   version "27.2.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/babel-preset-jest/-/babel-preset-jest-27.2.0.tgz#556bbbf340608fed5670ab0ea0c8ef2449fba885"
-  integrity sha512-z7MgQ3peBwN5L5aCqBKnF6iqdlvZvFUQynEhu0J+X9nHLU72jO3iY331lcYrg+AssJ8q7xsv5/3AICzVmJ/wvg==
+  resolved "https://registry.nlark.com/babel-preset-jest/download/babel-preset-jest-27.2.0.tgz#556bbbf340608fed5670ab0ea0c8ef2449fba885"
+  integrity sha1-VWu780Bgj+1WcKsOoMjvJEn7qIU=
   dependencies:
     babel-plugin-jest-hoist "^27.2.0"
     babel-preset-current-node-syntax "^1.0.0"
@@ -2170,8 +2170,8 @@ braces@^3.0.1, braces@~3.0.2:
 
 browser-process-hrtime@^1.0.0:
   version "1.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz#3c9b4b7d782c8121e56f10106d84c0d0ffc94626"
-  integrity sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
+  resolved "https://registry.nlark.com/browser-process-hrtime/download/browser-process-hrtime-1.0.0.tgz?cache=0&sync_timestamp=1618847049949&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbrowser-process-hrtime%2Fdownload%2Fbrowser-process-hrtime-1.0.0.tgz#3c9b4b7d782c8121e56f10106d84c0d0ffc94626"
+  integrity sha1-PJtLfXgsgSHlbxAQbYTA0P/JRiY=
 
 browserslist@^4.12.0, browserslist@^4.16.6:
   version "4.17.0"
@@ -2186,8 +2186,8 @@ browserslist@^4.12.0, browserslist@^4.16.6:
 
 browserslist@^4.17.3:
   version "4.17.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/browserslist/-/browserslist-4.17.4.tgz#72e2508af2a403aec0a49847ef31bd823c57ead4"
-  integrity sha512-Zg7RpbZpIJRW3am9Lyckue7PLytvVxxhJj1CaJVlCWENsGEAOlnlt8X0ZxGRPp7Bt9o8tIRM5SEXy4BCPMJjLQ==
+  resolved "https://registry.npmmirror.com/browserslist/download/browserslist-4.17.4.tgz?cache=0&sync_timestamp=1634137819437&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fbrowserslist%2Fdownload%2Fbrowserslist-4.17.4.tgz#72e2508af2a403aec0a49847ef31bd823c57ead4"
+  integrity sha1-cuJQivKkA67ApJhH7zG9gjxX6tQ=
   dependencies:
     caniuse-lite "^1.0.30001265"
     electron-to-chromium "^1.3.867"
@@ -2197,15 +2197,15 @@ browserslist@^4.17.3:
 
 bser@2.1.1:
   version "2.1.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/bser/-/bser-2.1.1.tgz#e6787da20ece9d07998533cfd9de6f5c38f4bc05"
-  integrity sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==
+  resolved "https://registry.nlark.com/bser/download/bser-2.1.1.tgz#e6787da20ece9d07998533cfd9de6f5c38f4bc05"
+  integrity sha1-5nh9og7OnQeZhTPP2d5vXDj0vAU=
   dependencies:
     node-int64 "^0.4.0"
 
 buffer-from@^1.0.0:
   version "1.1.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
-  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
+  resolved "https://registry.nlark.com/buffer-from/download/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha1-KxRqb9cugLT1XSVfNe1Zo6mkG9U=
 
 bytes@^3.0.0:
   version "3.1.0"
@@ -2299,8 +2299,8 @@ camelcase@^5.3.1:
 
 camelcase@^6.2.0:
   version "6.2.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
-  integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
+  resolved "https://registry.npm.taobao.org/camelcase/download/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
+  integrity sha1-kkr4gcnVJaydh/QNlk5c6pgqGAk=
 
 caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001254:
   version "1.0.30001255"
@@ -2309,8 +2309,8 @@ caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001254:
 
 caniuse-lite@^1.0.30001265:
   version "1.0.30001269"
-  resolved "http://packages.bbkedu.com/repository/npm-group/caniuse-lite/-/caniuse-lite-1.0.30001269.tgz#3a71bee03df627364418f9fd31adfc7aa1cc2d56"
-  integrity sha512-UOy8okEVs48MyHYgV+RdW1Oiudl1H6KolybD6ZquD0VcrPSgj25omXO1S7rDydjpqaISCwA8Pyx+jUQKZwWO5w==
+  resolved "https://registry.npmmirror.com/caniuse-lite/download/caniuse-lite-1.0.30001269.tgz#3a71bee03df627364418f9fd31adfc7aa1cc2d56"
+  integrity sha1-OnG+4D32JzZEGPn9Ma38eqHMLVY=
 
 canvas-confetti@^1.4.0:
   version "1.4.0"
@@ -2341,8 +2341,8 @@ chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
 
 char-regex@^1.0.2:
   version "1.0.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
-  integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
+  resolved "https://registry.nlark.com/char-regex/download/char-regex-1.0.2.tgz?cache=0&sync_timestamp=1622809071355&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchar-regex%2Fdownload%2Fchar-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
+  integrity sha1-10Q1giYhf5ge1Y9Hmx1rzClUXc8=
 
 character-entities-html4@^1.0.0:
   version "1.1.4"
@@ -2388,13 +2388,13 @@ character-reference-invalid@^1.0.0:
 
 ci-info@^3.1.1:
   version "3.2.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/ci-info/-/ci-info-3.2.0.tgz#2876cb948a498797b5236f0095bc057d0dca38b6"
-  integrity sha512-dVqRX7fLUm8J6FgHJ418XuIgDLZDkYcDFTeL6TA2gt5WlIZUQrrH6EZrNClwT/H0FateUsZkGIOPRrLbP+PR9A==
+  resolved "https://registry.nlark.com/ci-info/download/ci-info-3.2.0.tgz#2876cb948a498797b5236f0095bc057d0dca38b6"
+  integrity sha1-KHbLlIpJh5e1I28AlbwFfQ3KOLY=
 
 cjs-module-lexer@^1.0.0:
   version "1.2.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz#9f84ba3244a512f3a54e5277e8eef4c489864e40"
-  integrity sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==
+  resolved "https://registry.nlark.com/cjs-module-lexer/download/cjs-module-lexer-1.2.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcjs-module-lexer%2Fdownload%2Fcjs-module-lexer-1.2.2.tgz#9f84ba3244a512f3a54e5277e8eef4c489864e40"
+  integrity sha1-n4S6MkSlEvOlTlJ36O70xImGTkA=
 
 class-utils@^0.3.5:
   version "0.3.6"
@@ -2461,7 +2461,7 @@ clone-regexp@^2.1.0:
 
 co@^4.6.0:
   version "4.6.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
+  resolved "https://registry.npm.taobao.org/co/download/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
   integrity sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ=
 
 collapse-white-space@^1.0.2:
@@ -2471,8 +2471,8 @@ collapse-white-space@^1.0.2:
 
 collect-v8-coverage@^1.0.0:
   version "1.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/collect-v8-coverage/-/collect-v8-coverage-1.0.1.tgz#cc2c8e94fc18bbdffe64d6534570c8a673b27f59"
-  integrity sha512-iBPtljfCNcTKNAto0KEtDfZ3qzjJvqE3aTGZsbhjSBlorqpXJlaWWtPO35D+ZImoC3KWejX64o+yPGxhWSTzfg==
+  resolved "https://registry.npm.taobao.org/collect-v8-coverage/download/collect-v8-coverage-1.0.1.tgz#cc2c8e94fc18bbdffe64d6534570c8a673b27f59"
+  integrity sha1-zCyOlPwYu9/+ZNZTRXDIpnOyf1k=
 
 collection-visit@^1.0.0:
   version "1.0.0"
@@ -2529,8 +2529,8 @@ colorette@^1.2.1, colorette@^1.2.2, colorette@^1.3.0:
 
 combined-stream@^1.0.8:
   version "1.0.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
-  integrity sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
+  resolved "https://registry.nlark.com/combined-stream/download/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  integrity sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=
   dependencies:
     delayed-stream "~1.0.0"
 
@@ -2576,8 +2576,8 @@ copy-descriptor@^0.1.0:
 
 core-js-compat@^3.16.0, core-js-compat@^3.16.2:
   version "3.18.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/core-js-compat/-/core-js-compat-3.18.3.tgz#e0e7e87abc55efb547e7fa19169e45fa9df27a67"
-  integrity sha512-4zP6/y0a2RTHN5bRGT7PTq9lVt3WzvffTNjqnTKsXhkAYNDTkdCLOIfAdOLcQ/7TDdyRj3c+NeHe1NmF1eDScw==
+  resolved "https://registry.npmmirror.com/core-js-compat/download/core-js-compat-3.18.3.tgz#e0e7e87abc55efb547e7fa19169e45fa9df27a67"
+  integrity sha1-4OfoerxV77VH5/oZFp5F+p3yemc=
   dependencies:
     browserslist "^4.17.3"
     semver "7.0.0"
@@ -2636,18 +2636,18 @@ cssesc@^3.0.0:
 
 cssom@^0.4.4:
   version "0.4.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/cssom/-/cssom-0.4.4.tgz#5a66cf93d2d0b661d80bf6a44fb65f5c2e4e0a10"
-  integrity sha512-p3pvU7r1MyyqbTk+WbNJIgJjG2VmTIaB10rI93LzVPrmDJKkzKYMtxxyAvQXR/NS6otuzveI7+7BBq3SjBS2mw==
+  resolved "https://registry.nlark.com/cssom/download/cssom-0.4.4.tgz#5a66cf93d2d0b661d80bf6a44fb65f5c2e4e0a10"
+  integrity sha1-WmbPk9LQtmHYC/akT7ZfXC5OChA=
 
 cssom@~0.3.6:
   version "0.3.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/cssom/-/cssom-0.3.8.tgz#9f1276f5b2b463f2114d3f2c75250af8c1a36f4a"
-  integrity sha512-b0tGHbfegbhPJpxpiBPU2sCkigAqtM9O121le6bbOlgyV+NyGyCmVfJ6QW9eRjz8CpNfWEOYBIMIGRYkLwsIYg==
+  resolved "https://registry.nlark.com/cssom/download/cssom-0.3.8.tgz#9f1276f5b2b463f2114d3f2c75250af8c1a36f4a"
+  integrity sha1-nxJ29bK0Y/IRTT8sdSUK+MGjb0o=
 
 cssstyle@^2.3.0:
   version "2.3.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/cssstyle/-/cssstyle-2.3.0.tgz#ff665a0ddbdc31864b09647f34163443d90b0852"
-  integrity sha512-AZL67abkUzIuvcHqk7c09cezpGNcxUxU4Ioi/05xHk4DQeTkWmGYftIE6ctU6AEt+Gn4n1lDStOtj7FKycP71A==
+  resolved "https://registry.npm.taobao.org/cssstyle/download/cssstyle-2.3.0.tgz#ff665a0ddbdc31864b09647f34163443d90b0852"
+  integrity sha1-/2ZaDdvcMYZLCWR/NBY0Q9kLCFI=
   dependencies:
     cssom "~0.3.6"
 
@@ -2665,8 +2665,8 @@ currently-unhandled@^0.4.1:
 
 data-urls@^2.0.0:
   version "2.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/data-urls/-/data-urls-2.0.0.tgz#156485a72963a970f5d5821aaf642bef2bf2db9b"
-  integrity sha512-X5eWTSXO/BJmpdIKCRuKUgSCgAN0OwliVK3yPKbwIWU1Tdw5BRajxlzMidvh+gwko9AfQ9zIj52pzF91Q3YAvQ==
+  resolved "https://registry.npmmirror.com/data-urls/download/data-urls-2.0.0.tgz?cache=0&sync_timestamp=1633539797628&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fdata-urls%2Fdownload%2Fdata-urls-2.0.0.tgz#156485a72963a970f5d5821aaf642bef2bf2db9b"
+  integrity sha1-FWSFpyljqXD11YIar2Qr7yvy25s=
   dependencies:
     abab "^2.0.3"
     whatwg-mimetype "^2.3.0"
@@ -2708,8 +2708,8 @@ decamelize@^1.1.0, decamelize@^1.2.0:
 
 decimal.js@^10.2.1:
   version "10.3.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/decimal.js/-/decimal.js-10.3.1.tgz#d8c3a444a9c6774ba60ca6ad7261c3a94fd5e783"
-  integrity sha512-V0pfhfr8suzyPGOx3nmq4aHqabehUZn6Ch9kyFpV79TGDTWFmHqUqXdabR7QHqxzrYolF4+tVmJhUG4OURg5dQ==
+  resolved "https://registry.nlark.com/decimal.js/download/decimal.js-10.3.1.tgz#d8c3a444a9c6774ba60ca6ad7261c3a94fd5e783"
+  integrity sha1-2MOkRKnGd0umDKatcmHDqU/V54M=
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
@@ -2718,7 +2718,7 @@ decode-uri-component@^0.2.0:
 
 dedent@^0.7.0:
   version "0.7.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
+  resolved "https://registry.npm.taobao.org/dedent/download/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
 
 deep-is@^0.1.3, deep-is@~0.1.3:
@@ -2728,8 +2728,8 @@ deep-is@^0.1.3, deep-is@~0.1.3:
 
 deepmerge@^4.2.2:
   version "4.2.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
-  integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
+  resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
+  integrity sha1-RNLqNnm49NT/ujPwPYZfwee/SVU=
 
 define-properties@^1.1.3:
   version "1.1.3"
@@ -2767,7 +2767,7 @@ defined@^1.0.0:
 
 delayed-stream@~1.0.0:
   version "1.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+  resolved "https://registry.npm.taobao.org/delayed-stream/download/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
 delegate@^3.1.2:
@@ -2777,8 +2777,8 @@ delegate@^3.1.2:
 
 detect-newline@^3.0.0:
   version "3.1.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
-  integrity sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==
+  resolved "https://registry.npmmirror.com/detect-newline/download/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
+  integrity sha1-V29d/GOuGhkv8ZLYrTr2MImRtlE=
 
 detective@^5.2.0:
   version "5.2.0"
@@ -2796,8 +2796,8 @@ didyoumean@^1.2.2:
 
 diff-sequences@^27.0.6:
   version "27.0.6"
-  resolved "http://packages.bbkedu.com/repository/npm-group/diff-sequences/-/diff-sequences-27.0.6.tgz#3305cb2e55a033924054695cc66019fd7f8e5723"
-  integrity sha512-ag6wfpBFyNXZ0p8pcuIDS//D8H062ZQJ3fzYxjpmeKjnz8W4pekL3AI8VohmyZmsWW2PWaHgjsmqR6L13101VQ==
+  resolved "https://registry.nlark.com/diff-sequences/download/diff-sequences-27.0.6.tgz?cache=0&sync_timestamp=1624900057366&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdiff-sequences%2Fdownload%2Fdiff-sequences-27.0.6.tgz#3305cb2e55a033924054695cc66019fd7f8e5723"
+  integrity sha1-MwXLLlWgM5JAVGlcxmAZ/X+OVyM=
 
 dir-glob@^2.2.2:
   version "2.2.2"
@@ -2866,8 +2866,8 @@ domelementtype@^2.0.1, domelementtype@^2.2.0:
 
 domexception@^2.0.1:
   version "2.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/domexception/-/domexception-2.0.1.tgz#fb44aefba793e1574b0af6aed2801d057529f304"
-  integrity sha512-yxJ2mFy/sibVQlu5qHjOkf9J3K6zgmCxgJ94u2EdvDOV09H+32LtRswEcUsmUWN72pVLOEnTSRaIVVzVQgS0dg==
+  resolved "https://registry.npmmirror.com/domexception/download/domexception-2.0.1.tgz?cache=0&sync_timestamp=1633538737274&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fdomexception%2Fdownload%2Fdomexception-2.0.1.tgz#fb44aefba793e1574b0af6aed2801d057529f304"
+  integrity sha1-+0Su+6eT4VdLCvau0oAdBXUp8wQ=
   dependencies:
     webidl-conversions "^5.0.0"
 
@@ -2916,13 +2916,13 @@ electron-to-chromium@^1.3.830:
 
 electron-to-chromium@^1.3.867:
   version "1.3.871"
-  resolved "http://packages.bbkedu.com/repository/npm-group/electron-to-chromium/-/electron-to-chromium-1.3.871.tgz#6e87365fd72037a6c898fb46050ad4be3ac9ef62"
-  integrity sha512-qcLvDUPf8DSIMWarHT2ptgcqrYg62n3vPA7vhrOF24d8UNzbUBaHu2CySiENR3nEDzYgaN60071t0F6KLYMQ7Q==
+  resolved "https://registry.npmmirror.com/electron-to-chromium/download/electron-to-chromium-1.3.871.tgz#6e87365fd72037a6c898fb46050ad4be3ac9ef62"
+  integrity sha1-boc2X9cgN6bImPtGBQrUvjrJ72I=
 
 emittery@^0.8.1:
   version "0.8.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/emittery/-/emittery-0.8.1.tgz#bb23cc86d03b30aa75a7f734819dee2e1ba70860"
-  integrity sha512-uDfvUjVrfGJJhymx/kz6prltenw1u7WrCg1oa94zYY8xxVpLLUu045LAT0dhDZdXG58/EpPL/5kA180fQ/qudg==
+  resolved "https://registry.nlark.com/emittery/download/emittery-0.8.1.tgz?cache=0&sync_timestamp=1631379353966&other_urls=https%3A%2F%2Fregistry.nlark.com%2Femittery%2Fdownload%2Femittery-0.8.1.tgz#bb23cc86d03b30aa75a7f734819dee2e1ba70860"
+  integrity sha1-uyPMhtA7MKp1p/c0gZ3uLhunCGA=
 
 emmet@^2.3.0:
   version "2.3.4"
@@ -3112,8 +3112,8 @@ escape-string-regexp@^1.0.5:
 
 escape-string-regexp@^2.0.0:
   version "2.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
-  integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
+  resolved "https://registry.nlark.com/escape-string-regexp/download/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
+  integrity sha1-owME6Z2qMuI7L9IPUbq9B8/8o0Q=
 
 escape-string-regexp@^4.0.0:
   version "4.0.0"
@@ -3122,8 +3122,8 @@ escape-string-regexp@^4.0.0:
 
 escodegen@^2.0.0:
   version "2.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/escodegen/-/escodegen-2.0.0.tgz#5e32b12833e8aa8fa35e1bf0befa89380484c7dd"
-  integrity sha512-mmHKys/C8BFUGI+MAWNcSYoORYLMdPzjrknd2Vc+bUsjN5bXcr8EhrNB+UTqfL1y3I9c4fw2ihgtMPQLBRiQxw==
+  resolved "https://registry.npm.taobao.org/escodegen/download/escodegen-2.0.0.tgz#5e32b12833e8aa8fa35e1bf0befa89380484c7dd"
+  integrity sha1-XjKxKDPoqo+jXhvwvvqJOASEx90=
   dependencies:
     esprima "^4.0.1"
     estraverse "^5.2.0"
@@ -3371,7 +3371,7 @@ execall@^2.0.0:
 
 exit@^0.1.2:
   version "0.1.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
+  resolved "https://registry.nlark.com/exit/download/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
   integrity sha1-BjJjj42HfMghB9MKD/8aF8uhzQw=
 
 expand-brackets@^2.1.4:
@@ -3389,8 +3389,8 @@ expand-brackets@^2.1.4:
 
 expect@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/expect/-/expect-27.2.5.tgz#16154aaa60b4d9a5b0adacfea3e4d6178f4b93fd"
-  integrity sha512-ZrO0w7bo8BgGoP/bLz+HDCI+0Hfei9jUSZs5yI/Wyn9VkG9w8oJ7rHRgYj+MA7yqqFa0IwHA3flJzZtYugShJA==
+  resolved "https://registry.npmmirror.com/expect/download/expect-27.2.5.tgz?cache=0&sync_timestamp=1633701043669&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fexpect%2Fdownload%2Fexpect-27.2.5.tgz#16154aaa60b4d9a5b0adacfea3e4d6178f4b93fd"
+  integrity sha1-FhVKqmC02aWwraz+o+TWF49Lk/0=
   dependencies:
     "@jest/types" "^27.2.5"
     ansi-styles "^5.0.0"
@@ -3490,8 +3490,8 @@ fastq@^1.6.0:
 
 fb-watchman@^2.0.0:
   version "2.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/fb-watchman/-/fb-watchman-2.0.1.tgz#fc84fb39d2709cf3ff6d743706157bb5708a8a85"
-  integrity sha512-DkPJKQeY6kKwmuMretBhr7G6Vodr7bFwDYTXIkfG1gjvNpaxBTQV3PbXg6bR1c1UP4jPOX0jHUbbHANL9vRjVg==
+  resolved "https://registry.npm.taobao.org/fb-watchman/download/fb-watchman-2.0.1.tgz#fc84fb39d2709cf3ff6d743706157bb5708a8a85"
+  integrity sha1-/IT7OdJwnPP/bXQ3BhV7tXCKioU=
   dependencies:
     bser "2.1.1"
 
@@ -3575,8 +3575,8 @@ for-in@^1.0.2:
 
 form-data@^3.0.0:
   version "3.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/form-data/-/form-data-3.0.1.tgz#ebd53791b78356a99af9a300d4282c4d5eb9755f"
-  integrity sha512-RHkBKtLWUVwd7SqRIvCZMEvAMoGUp0XU+seQiZejj0COz3RI3hWP4sCv3gZWWLjJTd7rGwcsF5eKZGii0r/hbg==
+  resolved "https://registry.npm.taobao.org/form-data/download/form-data-3.0.1.tgz#ebd53791b78356a99af9a300d4282c4d5eb9755f"
+  integrity sha1-69U3kbeDVqma+aMA1CgsTV65dV8=
   dependencies:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
@@ -3644,8 +3644,8 @@ get-own-enumerable-property-symbols@^3.0.0:
 
 get-package-type@^0.1.0:
   version "0.1.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/get-package-type/-/get-package-type-0.1.0.tgz#8de2d803cff44df3bc6c456e6668b36c3926e11a"
-  integrity sha512-pjzuKtY64GYfWizNAJ0fr9VqttZkNiK2iS430LtIHzjBEr6bX8Am2zm4sW4Ro5wjWW5cAlRL1qAMTcXbjNAO2Q==
+  resolved "https://registry.nlark.com/get-package-type/download/get-package-type-0.1.0.tgz#8de2d803cff44df3bc6c456e6668b36c3926e11a"
+  integrity sha1-jeLYA8/0TfO8bEVuZmizbDkm4Ro=
 
 get-stdin@^6.0.0:
   version "6.0.0"
@@ -3708,8 +3708,8 @@ glob@^7.0.0, glob@^7.1.3:
 
 glob@^7.1.1, glob@^7.1.2, glob@^7.1.4:
   version "7.2.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
-  integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==
+  resolved "https://registry.npmmirror.com/glob/download/glob-7.2.0.tgz?cache=0&sync_timestamp=1632353796482&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fglob%2Fdownload%2Fglob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
+  integrity sha1-0VU1r3cy4C6Uj0xBYovZECk/YCM=
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -3895,15 +3895,15 @@ hsla-regex@^1.0.0:
 
 html-encoding-sniffer@^2.0.1:
   version "2.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/html-encoding-sniffer/-/html-encoding-sniffer-2.0.1.tgz#42a6dc4fd33f00281176e8b23759ca4e4fa185f3"
-  integrity sha512-D5JbOMBIR/TVZkubHT+OyT2705QvogUW4IBn6nHd756OwieSF9aDYFj4dv6HHEVGYbHaLETa3WggZYWWMyy3ZQ==
+  resolved "https://registry.nlark.com/html-encoding-sniffer/download/html-encoding-sniffer-2.0.1.tgz?cache=0&sync_timestamp=1632006268441&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhtml-encoding-sniffer%2Fdownload%2Fhtml-encoding-sniffer-2.0.1.tgz#42a6dc4fd33f00281176e8b23759ca4e4fa185f3"
+  integrity sha1-QqbcT9M/ACgRduiyN1nKTk+hhfM=
   dependencies:
     whatwg-encoding "^1.0.5"
 
 html-escaper@^2.0.0:
   version "2.0.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
-  integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
+  resolved "https://registry.npm.taobao.org/html-escaper/download/html-escaper-2.0.2.tgz?cache=0&sync_timestamp=1613643546928&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhtml-escaper%2Fdownload%2Fhtml-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
+  integrity sha1-39YAJ9o2o238viNiYsAKWCJoFFM=
 
 html-tags@^2.0.0:
   version "2.0.0"
@@ -3947,8 +3947,8 @@ htmlparser2@^6.1.0:
 
 http-proxy-agent@^4.0.1:
   version "4.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/http-proxy-agent/-/http-proxy-agent-4.0.1.tgz#8a8c8ef7f5932ccf953c296ca8291b95aa74aa3a"
-  integrity sha512-k0zdNgqWTGA6aeIRVpvfVob4fL52dTfaehylg0Y4UvSySvOq/Y+BOyPrgpUrA7HylqvU8vIZGsRuXmspskV0Tg==
+  resolved "https://registry.npmmirror.com/http-proxy-agent/download/http-proxy-agent-4.0.1.tgz#8a8c8ef7f5932ccf953c296ca8291b95aa74aa3a"
+  integrity sha1-ioyO9/WTLM+VPClsqCkblap0qjo=
   dependencies:
     "@tootallnate/once" "1"
     agent-base "6"
@@ -3956,8 +3956,8 @@ http-proxy-agent@^4.0.1:
 
 https-proxy-agent@^5.0.0:
   version "5.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz#e2a90542abb68a762e0a0850f6c9edadfd8506b2"
-  integrity sha512-EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==
+  resolved "https://registry.nlark.com/https-proxy-agent/download/https-proxy-agent-5.0.0.tgz#e2a90542abb68a762e0a0850f6c9edadfd8506b2"
+  integrity sha1-4qkFQqu2inYuCghQ9sntrf2FBrI=
   dependencies:
     agent-base "6"
     debug "4"
@@ -3974,8 +3974,8 @@ husky@^7.0.2:
 
 iconv-lite@0.4.24:
   version "0.4.24"
-  resolved "http://packages.bbkedu.com/repository/npm-group/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
-  integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
+  resolved "https://registry.nlark.com/iconv-lite/download/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
+  integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
@@ -4031,8 +4031,8 @@ import-lazy@^4.0.0:
 
 import-local@^3.0.2:
   version "3.0.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/import-local/-/import-local-3.0.3.tgz#4d51c2c495ca9393da259ec66b62e022920211e0"
-  integrity sha512-bE9iaUY3CXH8Cwfan/abDKAxe1KGT9kyGsBPqf6DMK/z0a2OzAsrukeYNgIH6cH5Xr452jb1TUL8rSfCLjZ9uA==
+  resolved "https://registry.npmmirror.com/import-local/download/import-local-3.0.3.tgz?cache=0&sync_timestamp=1633327317807&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fimport-local%2Fdownload%2Fimport-local-3.0.3.tgz#4d51c2c495ca9393da259ec66b62e022920211e0"
+  integrity sha1-TVHCxJXKk5PaJZ7Ga2LgIpICEeA=
   dependencies:
     pkg-dir "^4.2.0"
     resolve-cwd "^3.0.0"
@@ -4165,8 +4165,8 @@ is-callable@^1.1.4, is-callable@^1.2.3:
 
 is-ci@^3.0.0:
   version "3.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/is-ci/-/is-ci-3.0.0.tgz#c7e7be3c9d8eef7d0fa144390bd1e4b88dc4c994"
-  integrity sha512-kDXyttuLeslKAHYL/K28F2YkM3x5jvFPEw3yXbRptXydjD9rpLEz+C5K5iutY9ZiUu6AP41JdvRQwF4Iqs4ZCQ==
+  resolved "https://registry.nlark.com/is-ci/download/is-ci-3.0.0.tgz#c7e7be3c9d8eef7d0fa144390bd1e4b88dc4c994"
+  integrity sha1-x+e+PJ2O730PoUQ5C9HkuI3EyZQ=
   dependencies:
     ci-info "^3.1.1"
 
@@ -4280,8 +4280,8 @@ is-fullwidth-code-point@^3.0.0:
 
 is-generator-fn@^2.0.0:
   version "2.1.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/is-generator-fn/-/is-generator-fn-2.1.0.tgz#7d140adc389aaf3011a8f2a2a4cfa6faadffb118"
-  integrity sha512-cTIB4yPYL/Grw0EaSzASzg6bBy9gqCofvWN8okThAYIxKJZC+udlRAmGbM0XLeniEJSs8uEgHPGuHSe1XsOLSQ==
+  resolved "https://registry.nlark.com/is-generator-fn/download/is-generator-fn-2.1.0.tgz?cache=0&sync_timestamp=1628686390261&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fis-generator-fn%2Fdownload%2Fis-generator-fn-2.1.0.tgz#7d140adc389aaf3011a8f2a2a4cfa6faadffb118"
+  integrity sha1-fRQK3DiarzARqPKipM+m+q3/sRg=
 
 is-glob@^3.1.0:
   version "3.1.0"
@@ -4355,8 +4355,8 @@ is-plain-object@^2.0.3, is-plain-object@^2.0.4:
 
 is-potential-custom-element-name@^1.0.1:
   version "1.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz#171ed6f19e3ac554394edf78caa05784a45bebb5"
-  integrity sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ==
+  resolved "https://registry.npm.taobao.org/is-potential-custom-element-name/download/is-potential-custom-element-name-1.0.1.tgz#171ed6f19e3ac554394edf78caa05784a45bebb5"
+  integrity sha1-Fx7W8Z46xVQ5Tt94yqBXhKRb67U=
 
 is-promise@^2.0.0:
   version "2.2.2"
@@ -4461,13 +4461,13 @@ isobject@^3.0.0, isobject@^3.0.1:
 
 istanbul-lib-coverage@^3.0.0:
   version "3.0.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/istanbul-lib-coverage/-/istanbul-lib-coverage-3.0.2.tgz#36786d4d82aad2ea5911007e255e2da6b5f80d86"
-  integrity sha512-o5+eTUYzCJ11/+JhW5/FUCdfsdoYVdQ/8I/OveE2XsjehYn5DdeSnNQAbjYaO8gQ6hvGTN6GM6ddQqpTVG5j8g==
+  resolved "https://registry.npmmirror.com/istanbul-lib-coverage/download/istanbul-lib-coverage-3.0.2.tgz#36786d4d82aad2ea5911007e255e2da6b5f80d86"
+  integrity sha1-NnhtTYKq0upZEQB+JV4tprX4DYY=
 
 istanbul-lib-instrument@^4.0.3:
   version "4.0.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/istanbul-lib-instrument/-/istanbul-lib-instrument-4.0.3.tgz#873c6fff897450118222774696a3f28902d77c1d"
-  integrity sha512-BXgQl9kf4WTCPCCpmFGoJkz/+uhvm7h7PFKUYxh7qarQd3ER33vHG//qaE8eN25l07YqZPpHXU9I09l/RD5aGQ==
+  resolved "https://registry.npmmirror.com/istanbul-lib-instrument/download/istanbul-lib-instrument-4.0.3.tgz#873c6fff897450118222774696a3f28902d77c1d"
+  integrity sha1-hzxv/4l0UBGCIndGlqPyiQLXfB0=
   dependencies:
     "@babel/core" "^7.7.5"
     "@istanbuljs/schema" "^0.1.2"
@@ -4476,8 +4476,8 @@ istanbul-lib-instrument@^4.0.3:
 
 istanbul-lib-instrument@^5.0.4:
   version "5.0.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/istanbul-lib-instrument/-/istanbul-lib-instrument-5.0.4.tgz#e976f2aa66ebc6737f236d3ab05b76e36f885c80"
-  integrity sha512-W6jJF9rLGEISGoCyXRqa/JCGQGmmxPO10TMu7izaUTynxvBvTjqzAIIGCK9USBmIbQAaSWD6XJPrM9Pv5INknw==
+  resolved "https://registry.npmmirror.com/istanbul-lib-instrument/download/istanbul-lib-instrument-5.0.4.tgz#e976f2aa66ebc6737f236d3ab05b76e36f885c80"
+  integrity sha1-6XbyqmbrxnN/I206sFt242+IXIA=
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/parser" "^7.14.7"
@@ -4487,8 +4487,8 @@ istanbul-lib-instrument@^5.0.4:
 
 istanbul-lib-report@^3.0.0:
   version "3.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/istanbul-lib-report/-/istanbul-lib-report-3.0.0.tgz#7518fe52ea44de372f460a76b5ecda9ffb73d8a6"
-  integrity sha512-wcdi+uAKzfiGT2abPpKZ0hSU1rGQjUQnLvtY5MpQ7QCTahD3VODhcu4wcfY1YtkGaDD5yuydOLINXsfbus9ROw==
+  resolved "https://registry.nlark.com/istanbul-lib-report/download/istanbul-lib-report-3.0.0.tgz#7518fe52ea44de372f460a76b5ecda9ffb73d8a6"
+  integrity sha1-dRj+UupE3jcvRgp2tezan/tz2KY=
   dependencies:
     istanbul-lib-coverage "^3.0.0"
     make-dir "^3.0.0"
@@ -4496,8 +4496,8 @@ istanbul-lib-report@^3.0.0:
 
 istanbul-lib-source-maps@^4.0.0:
   version "4.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/istanbul-lib-source-maps/-/istanbul-lib-source-maps-4.0.1.tgz#895f3a709fcfba34c6de5a42939022f3e4358551"
-  integrity sha512-n3s8EwkdFIJCG3BPKBYvskgXGoy88ARzvegkitk60NxRdwltLOTaH7CUiMRXvwYorl0Q712iEjcWB+fK/MrWVw==
+  resolved "https://registry.npmmirror.com/istanbul-lib-source-maps/download/istanbul-lib-source-maps-4.0.1.tgz#895f3a709fcfba34c6de5a42939022f3e4358551"
+  integrity sha1-iV86cJ/PujTG3lpCk5Ai8+Q1hVE=
   dependencies:
     debug "^4.1.1"
     istanbul-lib-coverage "^3.0.0"
@@ -4505,16 +4505,16 @@ istanbul-lib-source-maps@^4.0.0:
 
 istanbul-reports@^3.0.2:
   version "3.0.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/istanbul-reports/-/istanbul-reports-3.0.5.tgz#a2580107e71279ea6d661ddede929ffc6d693384"
-  integrity sha512-5+19PlhnGabNWB7kOFnuxT8H3T/iIyQzIbQMxXsURmmvKg86P2sbkrGOT77VnHw0Qr0gc2XzRaRfMZYYbSQCJQ==
+  resolved "https://registry.npmmirror.com/istanbul-reports/download/istanbul-reports-3.0.5.tgz?cache=0&sync_timestamp=1634144713451&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fistanbul-reports%2Fdownload%2Fistanbul-reports-3.0.5.tgz#a2580107e71279ea6d661ddede929ffc6d693384"
+  integrity sha1-olgBB+cSeeptZh3e3pKf/G1pM4Q=
   dependencies:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
 jest-changed-files@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-changed-files/-/jest-changed-files-27.2.5.tgz#9dfd550d158260bcb6fa80aff491f5647f7daeca"
-  integrity sha512-jfnNJzF89csUKRPKJ4MwZ1SH27wTmX2xiAIHUHrsb/OYd9Jbo4/SXxJ17/nnx6RIifpthk3Y+LEeOk+/dDeGdw==
+  resolved "https://registry.npmmirror.com/jest-changed-files/download/jest-changed-files-27.2.5.tgz?cache=0&sync_timestamp=1633701041412&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-changed-files%2Fdownload%2Fjest-changed-files-27.2.5.tgz#9dfd550d158260bcb6fa80aff491f5647f7daeca"
+  integrity sha1-nf1VDRWCYLy2+oCv9JH1ZH99rso=
   dependencies:
     "@jest/types" "^27.2.5"
     execa "^5.0.0"
@@ -4522,8 +4522,8 @@ jest-changed-files@^27.2.5:
 
 jest-circus@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-circus/-/jest-circus-27.2.5.tgz#573256a6fb6e447ac2fc7e0ade9375013309037f"
-  integrity sha512-eyL9IcrAxm3Saq3rmajFCwpaxaRMGJ1KJs+7hlTDinXpJmeR3P02bheM3CYohE7UfwOBmrFMJHjgo/WPcLTM+Q==
+  resolved "https://registry.npmmirror.com/jest-circus/download/jest-circus-27.2.5.tgz#573256a6fb6e447ac2fc7e0ade9375013309037f"
+  integrity sha1-VzJWpvtuRHrC/H4K3pN1ATMJA38=
   dependencies:
     "@jest/environment" "^27.2.5"
     "@jest/test-result" "^27.2.5"
@@ -4547,8 +4547,8 @@ jest-circus@^27.2.5:
 
 jest-cli@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-cli/-/jest-cli-27.2.5.tgz#88718c8f05f1c0f209152952ecd61afe4c3311bb"
-  integrity sha512-XzfcOXi5WQrXqFYsDxq5RDOKY4FNIgBgvgf3ZBz4e/j5/aWep5KnsAYH5OFPMdX/TP/LFsYQMRH7kzJUMh6JKg==
+  resolved "https://registry.npmmirror.com/jest-cli/download/jest-cli-27.2.5.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-cli%2Fdownload%2Fjest-cli-27.2.5.tgz#88718c8f05f1c0f209152952ecd61afe4c3311bb"
+  integrity sha1-iHGMjwXxwPIJFSlS7NYa/kwzEbs=
   dependencies:
     "@jest/core" "^27.2.5"
     "@jest/test-result" "^27.2.5"
@@ -4565,8 +4565,8 @@ jest-cli@^27.2.5:
 
 jest-config@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-config/-/jest-config-27.2.5.tgz#c2e4ec6ea2bf4ffd2cae3d927999fe6159cba207"
-  integrity sha512-QdENtn9b5rIIYGlbDNEcgY9LDL5kcokJnXrp7x8AGjHob/XFqw1Z6p+gjfna2sUulQsQ3ce2Fvntnv+7fKYDhQ==
+  resolved "https://registry.npmmirror.com/jest-config/download/jest-config-27.2.5.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-config%2Fdownload%2Fjest-config-27.2.5.tgz#c2e4ec6ea2bf4ffd2cae3d927999fe6159cba207"
+  integrity sha1-wuTsbqK/T/0srj2SeZn+YVnLogc=
   dependencies:
     "@babel/core" "^7.1.0"
     "@jest/test-sequencer" "^27.2.5"
@@ -4592,8 +4592,8 @@ jest-config@^27.2.5:
 
 jest-diff@^27.0.0, jest-diff@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-diff/-/jest-diff-27.2.5.tgz#908f7a6aca5653824516ad30e0a9fd9767e53623"
-  integrity sha512-7gfwwyYkeslOOVQY4tVq5TaQa92mWfC9COsVYMNVYyJTOYAqbIkoD3twi5A+h+tAPtAelRxkqY6/xu+jwTr0dA==
+  resolved "https://registry.npmmirror.com/jest-diff/download/jest-diff-27.2.5.tgz?cache=0&sync_timestamp=1633701044655&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-diff%2Fdownload%2Fjest-diff-27.2.5.tgz#908f7a6aca5653824516ad30e0a9fd9767e53623"
+  integrity sha1-kI96aspWU4JFFq0w4Kn9l2flNiM=
   dependencies:
     chalk "^4.0.0"
     diff-sequences "^27.0.6"
@@ -4602,15 +4602,15 @@ jest-diff@^27.0.0, jest-diff@^27.2.5:
 
 jest-docblock@^27.0.6:
   version "27.0.6"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-docblock/-/jest-docblock-27.0.6.tgz#cc78266acf7fe693ca462cbbda0ea4e639e4e5f3"
-  integrity sha512-Fid6dPcjwepTFraz0YxIMCi7dejjJ/KL9FBjPYhBp4Sv1Y9PdhImlKZqYU555BlN4TQKaTc+F2Av1z+anVyGkA==
+  resolved "https://registry.nlark.com/jest-docblock/download/jest-docblock-27.0.6.tgz?cache=0&sync_timestamp=1624901148199&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-docblock%2Fdownload%2Fjest-docblock-27.0.6.tgz#cc78266acf7fe693ca462cbbda0ea4e639e4e5f3"
+  integrity sha1-zHgmas9/5pPKRiy72g6k5jnk5fM=
   dependencies:
     detect-newline "^3.0.0"
 
 jest-each@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-each/-/jest-each-27.2.5.tgz#378118d516db730b92096a9607b8711165946353"
-  integrity sha512-HUPWIbJT0bXarRwKu/m7lYzqxR4GM5EhKOsu0z3t0SKtbFN6skQhpAUADM4qFShBXb9zoOuag5lcrR1x/WM+Ag==
+  resolved "https://registry.npmmirror.com/jest-each/download/jest-each-27.2.5.tgz?cache=0&sync_timestamp=1633701108390&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-each%2Fdownload%2Fjest-each-27.2.5.tgz#378118d516db730b92096a9607b8711165946353"
+  integrity sha1-N4EY1RbbcwuSCWqWB7hxEWWUY1M=
   dependencies:
     "@jest/types" "^27.2.5"
     chalk "^4.0.0"
@@ -4620,8 +4620,8 @@ jest-each@^27.2.5:
 
 jest-environment-jsdom@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-environment-jsdom/-/jest-environment-jsdom-27.2.5.tgz#21de3ad0e89441d961b592ba7561b16241279208"
-  integrity sha512-QtRpOh/RQKuXniaWcoFE2ElwP6tQcyxHu0hlk32880g0KczdonCs5P1sk5+weu/OVzh5V4Bt1rXuQthI01mBLg==
+  resolved "https://registry.npmmirror.com/jest-environment-jsdom/download/jest-environment-jsdom-27.2.5.tgz?cache=0&sync_timestamp=1633701043685&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-environment-jsdom%2Fdownload%2Fjest-environment-jsdom-27.2.5.tgz#21de3ad0e89441d961b592ba7561b16241279208"
+  integrity sha1-Id460OiUQdlhtZK6dWGxYkEnkgg=
   dependencies:
     "@jest/environment" "^27.2.5"
     "@jest/fake-timers" "^27.2.5"
@@ -4633,8 +4633,8 @@ jest-environment-jsdom@^27.2.5:
 
 jest-environment-node@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-environment-node/-/jest-environment-node-27.2.5.tgz#ffa1afb3604c640ec841f044d526c65912e02cef"
-  integrity sha512-0o1LT4grm7iwrS8fIoLtwJxb/hoa3GsH7pP10P02Jpj7Mi4BXy65u46m89vEM2WfD1uFJQ2+dfDiWZNA2e6bJg==
+  resolved "https://registry.npmmirror.com/jest-environment-node/download/jest-environment-node-27.2.5.tgz?cache=0&sync_timestamp=1633701043715&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-environment-node%2Fdownload%2Fjest-environment-node-27.2.5.tgz#ffa1afb3604c640ec841f044d526c65912e02cef"
+  integrity sha1-/6Gvs2BMZA7IQfBE1SbGWRLgLO8=
   dependencies:
     "@jest/environment" "^27.2.5"
     "@jest/fake-timers" "^27.2.5"
@@ -4645,13 +4645,13 @@ jest-environment-node@^27.2.5:
 
 jest-get-type@^27.0.6:
   version "27.0.6"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-get-type/-/jest-get-type-27.0.6.tgz#0eb5c7f755854279ce9b68a9f1a4122f69047cfe"
-  integrity sha512-XTkK5exIeUbbveehcSR8w0bhH+c0yloW/Wpl+9vZrjzztCPWrxhHwkIFpZzCt71oRBsgxmuUfxEqOYoZI2macg==
+  resolved "https://registry.nlark.com/jest-get-type/download/jest-get-type-27.0.6.tgz?cache=0&sync_timestamp=1624900056951&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-get-type%2Fdownload%2Fjest-get-type-27.0.6.tgz#0eb5c7f755854279ce9b68a9f1a4122f69047cfe"
+  integrity sha1-DrXH91WFQnnOm2ip8aQSL2kEfP4=
 
 jest-haste-map@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-haste-map/-/jest-haste-map-27.2.5.tgz#0247b7299250643472bbcf5b4ad85c72d5178e2e"
-  integrity sha512-pzO+Gw2WLponaSi0ilpzYBE0kuVJstoXBX8YWyUebR8VaXuX4tzzn0Zp23c/WaETo7XYTGv2e8KdnpiskAFMhQ==
+  resolved "https://registry.npmmirror.com/jest-haste-map/download/jest-haste-map-27.2.5.tgz?cache=0&sync_timestamp=1633701044155&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-haste-map%2Fdownload%2Fjest-haste-map-27.2.5.tgz#0247b7299250643472bbcf5b4ad85c72d5178e2e"
+  integrity sha1-Ake3KZJQZDRyu89bSthcctUXji4=
   dependencies:
     "@jest/types" "^27.2.5"
     "@types/graceful-fs" "^4.1.2"
@@ -4670,8 +4670,8 @@ jest-haste-map@^27.2.5:
 
 jest-jasmine2@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-jasmine2/-/jest-jasmine2-27.2.5.tgz#baaf96c69913c52bce0100000cf0721027c0fd66"
-  integrity sha512-hdxY9Cm/CjLqu2tXeAoQHPgA4vcqlweVXYOg1+S9FeFdznB9Rti+eEBKDDkmOy9iqr4Xfbq95OkC4NFbXXPCAQ==
+  resolved "https://registry.npmmirror.com/jest-jasmine2/download/jest-jasmine2-27.2.5.tgz#baaf96c69913c52bce0100000cf0721027c0fd66"
+  integrity sha1-uq+WxpkTxSvOAQAADPByECfA/WY=
   dependencies:
     "@babel/traverse" "^7.1.0"
     "@jest/environment" "^27.2.5"
@@ -4694,16 +4694,16 @@ jest-jasmine2@^27.2.5:
 
 jest-leak-detector@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-leak-detector/-/jest-leak-detector-27.2.5.tgz#e2edc3b37d38e8d9a527e10e456b403c3151b206"
-  integrity sha512-HYsi3GUR72bYhOGB5C5saF9sPdxGzSjX7soSQS+BqDRysc7sPeBwPbhbuT8DnOpijnKjgwWQ8JqvbmReYnt3aQ==
+  resolved "https://registry.npmmirror.com/jest-leak-detector/download/jest-leak-detector-27.2.5.tgz?cache=0&sync_timestamp=1633701047111&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-leak-detector%2Fdownload%2Fjest-leak-detector-27.2.5.tgz#e2edc3b37d38e8d9a527e10e456b403c3151b206"
+  integrity sha1-4u3Ds3046NmlJ+EORWtAPDFRsgY=
   dependencies:
     jest-get-type "^27.0.6"
     pretty-format "^27.2.5"
 
 jest-matcher-utils@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-matcher-utils/-/jest-matcher-utils-27.2.5.tgz#4684faaa8eb32bf15e6edaead6834031897e2980"
-  integrity sha512-qNR/kh6bz0Dyv3m68Ck2g1fLW5KlSOUNcFQh87VXHZwWc/gY6XwnKofx76Qytz3x5LDWT09/2+yXndTkaG4aWg==
+  resolved "https://registry.npmmirror.com/jest-matcher-utils/download/jest-matcher-utils-27.2.5.tgz?cache=0&sync_timestamp=1633701038690&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-matcher-utils%2Fdownload%2Fjest-matcher-utils-27.2.5.tgz#4684faaa8eb32bf15e6edaead6834031897e2980"
+  integrity sha1-RoT6qo6zK/Febtrq1oNAMYl+KYA=
   dependencies:
     chalk "^4.0.0"
     jest-diff "^27.2.5"
@@ -4712,8 +4712,8 @@ jest-matcher-utils@^27.2.5:
 
 jest-message-util@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-message-util/-/jest-message-util-27.2.5.tgz#ed8b7b0965247bb875a49c1f9b9ab2d1d0820028"
-  integrity sha512-ggXSLoPfIYcbmZ8glgEJZ8b+e0Msw/iddRmgkoO7lDAr9SmI65IIfv7VnvTnV4FGnIIUIjzM+fHRHO5RBvyAbQ==
+  resolved "https://registry.npmmirror.com/jest-message-util/download/jest-message-util-27.2.5.tgz?cache=0&sync_timestamp=1633701043625&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-message-util%2Fdownload%2Fjest-message-util-27.2.5.tgz#ed8b7b0965247bb875a49c1f9b9ab2d1d0820028"
+  integrity sha1-7Yt7CWUke7h1pJwfm5qy0dCCACg=
   dependencies:
     "@babel/code-frame" "^7.12.13"
     "@jest/types" "^27.2.5"
@@ -4727,26 +4727,26 @@ jest-message-util@^27.2.5:
 
 jest-mock@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-mock/-/jest-mock-27.2.5.tgz#0ec38d5ff1e49c4802e7a4a8179e8d7a2fd84de0"
-  integrity sha512-HiMB3LqE9RzmeMzZARi2Bz3NoymxyP0gCid4y42ca1djffNtYFKgI220aC1VP1mUZ8rbpqZbHZOJ15093bZV/Q==
+  resolved "https://registry.npmmirror.com/jest-mock/download/jest-mock-27.2.5.tgz?cache=0&sync_timestamp=1633701043679&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-mock%2Fdownload%2Fjest-mock-27.2.5.tgz#0ec38d5ff1e49c4802e7a4a8179e8d7a2fd84de0"
+  integrity sha1-DsONX/HknEgC56SoF56Nei/YTeA=
   dependencies:
     "@jest/types" "^27.2.5"
     "@types/node" "*"
 
 jest-pnp-resolver@^1.2.2:
   version "1.2.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-pnp-resolver/-/jest-pnp-resolver-1.2.2.tgz#b704ac0ae028a89108a4d040b3f919dfddc8e33c"
-  integrity sha512-olV41bKSMm8BdnuMsewT4jqlZ8+3TCARAXjZGT9jcoSnrfUnRCqnMoF9XEeoWjbzObpqF9dRhHQj0Xb9QdF6/w==
+  resolved "https://registry.nlark.com/jest-pnp-resolver/download/jest-pnp-resolver-1.2.2.tgz#b704ac0ae028a89108a4d040b3f919dfddc8e33c"
+  integrity sha1-twSsCuAoqJEIpNBAs/kZ393I4zw=
 
 jest-regex-util@^27.0.6:
   version "27.0.6"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-regex-util/-/jest-regex-util-27.0.6.tgz#02e112082935ae949ce5d13b2675db3d8c87d9c5"
-  integrity sha512-SUhPzBsGa1IKm8hx2F4NfTGGp+r7BXJ4CulsZ1k2kI+mGLG+lxGrs76veN2LF/aUdGosJBzKgXmNCw+BzFqBDQ==
+  resolved "https://registry.nlark.com/jest-regex-util/download/jest-regex-util-27.0.6.tgz?cache=0&sync_timestamp=1624900088428&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-regex-util%2Fdownload%2Fjest-regex-util-27.0.6.tgz#02e112082935ae949ce5d13b2675db3d8c87d9c5"
+  integrity sha1-AuESCCk1rpSc5dE7JnXbPYyH2cU=
 
 jest-resolve-dependencies@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-resolve-dependencies/-/jest-resolve-dependencies-27.2.5.tgz#fcd8eca005b3d11ba32da443045c028164b83be1"
-  integrity sha512-BSjefped31bcvvCh++/pN9ueqqN1n0+p8/58yScuWfklLm2tbPbS9d251vJhAy0ZI2pL/0IaGhOTJrs9Y4FJlg==
+  resolved "https://registry.npmmirror.com/jest-resolve-dependencies/download/jest-resolve-dependencies-27.2.5.tgz#fcd8eca005b3d11ba32da443045c028164b83be1"
+  integrity sha1-/NjsoAWz0RujLaRDBFwCgWS4O+E=
   dependencies:
     "@jest/types" "^27.2.5"
     jest-regex-util "^27.0.6"
@@ -4754,8 +4754,8 @@ jest-resolve-dependencies@^27.2.5:
 
 jest-resolve@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-resolve/-/jest-resolve-27.2.5.tgz#04dadbfc1312a2541f5c199c5011945e9cfe5cef"
-  integrity sha512-q5irwS3oS73SKy3+FM/HL2T7WJftrk9BRzrXF92f7net5HMlS7lJMg/ZwxLB4YohKqjSsdksEw7n/jvMxV7EKg==
+  resolved "https://registry.npmmirror.com/jest-resolve/download/jest-resolve-27.2.5.tgz?cache=0&sync_timestamp=1633701044359&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-resolve%2Fdownload%2Fjest-resolve-27.2.5.tgz#04dadbfc1312a2541f5c199c5011945e9cfe5cef"
+  integrity sha1-BNrb/BMSolQfXBmcUBGUXpz+XO8=
   dependencies:
     "@jest/types" "^27.2.5"
     chalk "^4.0.0"
@@ -4770,8 +4770,8 @@ jest-resolve@^27.2.5:
 
 jest-runner@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-runner/-/jest-runner-27.2.5.tgz#3d9d0626f351480bb2cffcfbbfac240c0097ebd4"
-  integrity sha512-n41vw9RLg5TKAnEeJK9d6pGOsBOpwE89XBniK+AD1k26oIIy3V7ogM1scbDjSheji8MUPC9pNgCrZ/FHLVDNgg==
+  resolved "https://registry.npmmirror.com/jest-runner/download/jest-runner-27.2.5.tgz?cache=0&sync_timestamp=1633701043682&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-runner%2Fdownload%2Fjest-runner-27.2.5.tgz#3d9d0626f351480bb2cffcfbbfac240c0097ebd4"
+  integrity sha1-PZ0GJvNRSAuyz/z7v6wkDACX69Q=
   dependencies:
     "@jest/console" "^27.2.5"
     "@jest/environment" "^27.2.5"
@@ -4798,8 +4798,8 @@ jest-runner@^27.2.5:
 
 jest-runtime@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-runtime/-/jest-runtime-27.2.5.tgz#d144c3f6889b927aae1e695b63a41a3323b7016b"
-  integrity sha512-N0WRZ3QszKyZ3Dm27HTBbBuestsSd3Ud5ooVho47XZJ8aSKO/X1Ag8M1dNx9XzfGVRNdB/xCA3lz8MJwIzPLLA==
+  resolved "https://registry.npmmirror.com/jest-runtime/download/jest-runtime-27.2.5.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-runtime%2Fdownload%2Fjest-runtime-27.2.5.tgz#d144c3f6889b927aae1e695b63a41a3323b7016b"
+  integrity sha1-0UTD9oibknquHmlbY6QaMyO3AWs=
   dependencies:
     "@jest/console" "^27.2.5"
     "@jest/environment" "^27.2.5"
@@ -4831,16 +4831,16 @@ jest-runtime@^27.2.5:
 
 jest-serializer@^27.0.6:
   version "27.0.6"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-serializer/-/jest-serializer-27.0.6.tgz#93a6c74e0132b81a2d54623251c46c498bb5bec1"
-  integrity sha512-PtGdVK9EGC7dsaziskfqaAPib6wTViY3G8E5wz9tLVPhHyiDNTZn/xjZ4khAw+09QkoOVpn7vF5nPSN6dtBexA==
+  resolved "https://registry.nlark.com/jest-serializer/download/jest-serializer-27.0.6.tgz#93a6c74e0132b81a2d54623251c46c498bb5bec1"
+  integrity sha1-k6bHTgEyuBotVGIyUcRsSYu1vsE=
   dependencies:
     "@types/node" "*"
     graceful-fs "^4.2.4"
 
 jest-snapshot@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-snapshot/-/jest-snapshot-27.2.5.tgz#8a612fe31e2967f58ad364542198dff61f92ef32"
-  integrity sha512-2/Jkn+VN6Abwz0llBltZaiJMnL8b1j5Bp/gRIxe9YR3FCEh9qp0TXVV0dcpTGZ8AcJV1SZGQkczewkI9LP5yGw==
+  resolved "https://registry.npmmirror.com/jest-snapshot/download/jest-snapshot-27.2.5.tgz#8a612fe31e2967f58ad364542198dff61f92ef32"
+  integrity sha1-imEv4x4pZ/WK02RUIZjf9h+S7zI=
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/generator" "^7.7.2"
@@ -4869,8 +4869,8 @@ jest-snapshot@^27.2.5:
 
 jest-util@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-util/-/jest-util-27.2.5.tgz#88740c4024d223634a82ce7c2263e8bc6df3b3ba"
-  integrity sha512-QRhDC6XxISntMzFRd/OQ6TGsjbzA5ONO0tlAj2ElHs155x1aEr0rkYJBEysG6H/gZVH3oGFzCdAB/GA8leh8NQ==
+  resolved "https://registry.npmmirror.com/jest-util/download/jest-util-27.2.5.tgz?cache=0&sync_timestamp=1633701042974&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-util%2Fdownload%2Fjest-util-27.2.5.tgz#88740c4024d223634a82ce7c2263e8bc6df3b3ba"
+  integrity sha1-iHQMQCTSI2NKgs58ImPovG3zs7o=
   dependencies:
     "@jest/types" "^27.2.5"
     "@types/node" "*"
@@ -4881,8 +4881,8 @@ jest-util@^27.2.5:
 
 jest-validate@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-validate/-/jest-validate-27.2.5.tgz#2d59bf1627d180f395ba58f24599b0ee0efcfbdf"
-  integrity sha512-XgYtjS89nhVe+UfkbLgcm+GgXKWgL80t9nTcNeejyO3t0Sj/yHE8BtIJqjZu9NXQksYbGImoQRXmQ1gP+Guffw==
+  resolved "https://registry.npmmirror.com/jest-validate/download/jest-validate-27.2.5.tgz?cache=0&sync_timestamp=1633701043211&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-validate%2Fdownload%2Fjest-validate-27.2.5.tgz#2d59bf1627d180f395ba58f24599b0ee0efcfbdf"
+  integrity sha1-LVm/FifRgPOVuljyRZmw7g78+98=
   dependencies:
     "@jest/types" "^27.2.5"
     camelcase "^6.2.0"
@@ -4893,8 +4893,8 @@ jest-validate@^27.2.5:
 
 jest-watcher@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-watcher/-/jest-watcher-27.2.5.tgz#41cd3e64dc5bea8a4327083d71ba7667be400567"
-  integrity sha512-umV4qGozg2Dn6DTTtqAh9puPw+DGLK9AQas7+mWjiK8t0fWMpxKg8ZXReZw7L4C88DqorsGUiDgwHNZ+jkVrkQ==
+  resolved "https://registry.npmmirror.com/jest-watcher/download/jest-watcher-27.2.5.tgz?cache=0&sync_timestamp=1633701038634&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-watcher%2Fdownload%2Fjest-watcher-27.2.5.tgz#41cd3e64dc5bea8a4327083d71ba7667be400567"
+  integrity sha1-Qc0+ZNxb6opDJwg9cbp2Z75ABWc=
   dependencies:
     "@jest/test-result" "^27.2.5"
     "@jest/types" "^27.2.5"
@@ -4906,8 +4906,8 @@ jest-watcher@^27.2.5:
 
 jest-worker@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest-worker/-/jest-worker-27.2.5.tgz#ed42865661959488aa020e8a325df010597c36d4"
-  integrity sha512-HTjEPZtcNKZ4LnhSp02NEH4vE+5OpJ0EsOWYvGQpHgUMLngydESAAMH5Wd/asPf29+XUDQZszxpLg1BkIIA2aw==
+  resolved "https://registry.npmmirror.com/jest-worker/download/jest-worker-27.2.5.tgz?cache=0&sync_timestamp=1633701040105&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-worker%2Fdownload%2Fjest-worker-27.2.5.tgz#ed42865661959488aa020e8a325df010597c36d4"
+  integrity sha1-7UKGVmGVlIiqAg6KMl3wEFl8NtQ=
   dependencies:
     "@types/node" "*"
     merge-stream "^2.0.0"
@@ -4915,8 +4915,8 @@ jest-worker@^27.2.5:
 
 jest@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jest/-/jest-27.2.5.tgz#7d8a5c8781a160f693beeb7c68e46c16ef948148"
-  integrity sha512-vDMzXcpQN4Ycaqu+vO7LX8pZwNNoKMhc+gSp6q1D8S6ftRk8gNW8cni3YFxknP95jxzQo23Lul0BI2FrWgnwYQ==
+  resolved "https://registry.npmmirror.com/jest/download/jest-27.2.5.tgz#7d8a5c8781a160f693beeb7c68e46c16ef948148"
+  integrity sha1-fYpch4GhYPaTvut8aORsFu+UgUg=
   dependencies:
     "@jest/core" "^27.2.5"
     import-local "^3.0.2"
@@ -4942,8 +4942,8 @@ js-yaml@^3.13.1:
 
 jsdom@^16.6.0:
   version "16.7.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jsdom/-/jsdom-16.7.0.tgz#918ae71965424b197c819f8183a754e18977b710"
-  integrity sha512-u9Smc2G1USStM+s/x1ru5Sxrl6mPYCbByG1U/hUmqaVsm4tbNyS7CicOSRyuGQYZhTu0h84qkZZQ/I+dzizSVw==
+  resolved "https://registry.npmmirror.com/jsdom/download/jsdom-16.7.0.tgz?cache=0&sync_timestamp=1633714173424&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjsdom%2Fdownload%2Fjsdom-16.7.0.tgz#918ae71965424b197c819f8183a754e18977b710"
+  integrity sha1-kYrnGWVCSxl8gZ+Bg6dU4Yl3txA=
   dependencies:
     abab "^2.0.5"
     acorn "^8.2.4"
@@ -4980,7 +4980,7 @@ jsesc@^2.5.1:
 
 jsesc@~0.5.0:
   version "0.5.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
+  resolved "https://registry.nlark.com/jsesc/download/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
 json-parse-better-errors@^1.0.1:
@@ -5075,8 +5075,8 @@ kind-of@^6.0.0, kind-of@^6.0.2, kind-of@^6.0.3:
 
 kleur@^3.0.3:
   version "3.0.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
-  integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
+  resolved "https://registry.nlark.com/kleur/download/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
+  integrity sha1-p5yezIbuHOP6YgbRIWxQHxR/wH4=
 
 known-css-properties@^0.11.0:
   version "0.11.0"
@@ -5095,8 +5095,8 @@ leven@^2.1.0:
 
 leven@^3.1.0:
   version "3.1.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/leven/-/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
-  integrity sha512-qsda+H8jTaUaN/x5vzW2rzc+8Rw4TAQ/4KjB46IwK5VH+IlVeeeje/EoZRpiXvIqjFgK84QffqPztGI3VBLG1A==
+  resolved "https://registry.nlark.com/leven/download/leven-3.1.0.tgz?cache=0&sync_timestamp=1628597917913&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fleven%2Fdownload%2Fleven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
+  integrity sha1-d4kd6DQGTMy6gq54QrtrFKE+1/I=
 
 levn@^0.4.1:
   version "0.4.1"
@@ -5108,7 +5108,7 @@ levn@^0.4.1:
 
 levn@~0.3.0:
   version "0.3.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/levn/-/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
+  resolved "https://registry.npm.taobao.org/levn/download/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
   integrity sha1-OwmSTt+fCDwEkP3UwLxEIeBHZO4=
   dependencies:
     prelude-ls "~1.1.2"
@@ -5189,7 +5189,7 @@ lodash.clonedeep@^4.5.0:
 
 lodash.debounce@^4.0.8:
   version "4.0.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  resolved "https://registry.npm.taobao.org/lodash.debounce/download/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
 lodash.merge@^4.6.2:
@@ -5266,14 +5266,14 @@ magic-string@^0.25.7:
 
 make-dir@^3.0.0:
   version "3.1.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/make-dir/-/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
-  integrity sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
+  resolved "https://registry.npm.taobao.org/make-dir/download/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
+  integrity sha1-QV6WcEazp/HRhSd9hKpYIDcmoT8=
   dependencies:
     semver "^6.0.0"
 
 makeerror@1.0.x:
   version "1.0.11"
-  resolved "http://packages.bbkedu.com/repository/npm-group/makeerror/-/makeerror-1.0.11.tgz#e01a5c9109f2af79660e4e8b9587790184f5a96c"
+  resolved "https://registry.nlark.com/makeerror/download/makeerror-1.0.11.tgz#e01a5c9109f2af79660e4e8b9587790184f5a96c"
   integrity sha1-4BpckQnyr3lmDk6LlYd5AYT1qWw=
   dependencies:
     tmpl "1.0.x"
@@ -5435,13 +5435,13 @@ micromatch@^4.0.4:
 
 mime-db@1.50.0:
   version "1.50.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/mime-db/-/mime-db-1.50.0.tgz#abd4ac94e98d3c0e185016c67ab45d5fde40c11f"
-  integrity sha512-9tMZCDlYHqeERXEHO9f/hKfNXhre5dK2eE/krIvUjZbS2KPcqGDfNShIWS1uW9XOTKQKqK6qbeOci18rbfW77A==
+  resolved "https://registry.nlark.com/mime-db/download/mime-db-1.50.0.tgz#abd4ac94e98d3c0e185016c67ab45d5fde40c11f"
+  integrity sha1-q9SslOmNPA4YUBbGerRdX95AwR8=
 
 mime-types@^2.1.12:
   version "2.1.33"
-  resolved "http://packages.bbkedu.com/repository/npm-group/mime-types/-/mime-types-2.1.33.tgz#1fa12a904472fafd068e48d9e8401f74d3f70edb"
-  integrity sha512-plLElXp7pRDd0bNZHw+nMd52vRYjLwQjygaNg7ddJ2uJtTlmnTCjWuPKxVu6//AdaRuME84SvLW91sIkBqGT0g==
+  resolved "https://registry.npmmirror.com/mime-types/download/mime-types-2.1.33.tgz#1fa12a904472fafd068e48d9e8401f74d3f70edb"
+  integrity sha1-H6EqkERy+v0GjkjZ6EAfdNP3Dts=
   dependencies:
     mime-db "1.50.0"
 
@@ -5570,12 +5570,12 @@ node-emoji@^1.11.0:
 
 node-int64@^0.4.0:
   version "0.4.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
+  resolved "https://registry.nlark.com/node-int64/download/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
   integrity sha1-h6kGXNs1XTGC2PlM4RGIuCXGijs=
 
 node-modules-regexp@^1.0.0:
   version "1.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz#8d9dbe28964a4ac5712e9131642107c71e90ec40"
+  resolved "https://registry.nlark.com/node-modules-regexp/download/node-modules-regexp-1.0.0.tgz#8d9dbe28964a4ac5712e9131642107c71e90ec40"
   integrity sha1-jZ2+KJZKSsVxLpExZCEHxx6Q7EA=
 
 node-releases@^1.1.75:
@@ -5585,8 +5585,8 @@ node-releases@^1.1.75:
 
 node-releases@^2.0.0:
   version "2.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/node-releases/-/node-releases-2.0.0.tgz#67dc74903100a7deb044037b8a2e5f453bb05400"
-  integrity sha512-aA87l0flFYMzCHpTM3DERFSYxc6lv/BltdbRTOMZuxZ0cwZCD3mejE5n9vLhSJCN++/eOqr77G1IO5uXxlQYWA==
+  resolved "https://registry.npmmirror.com/node-releases/download/node-releases-2.0.0.tgz?cache=0&sync_timestamp=1634124829358&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fnode-releases%2Fdownload%2Fnode-releases-2.0.0.tgz#67dc74903100a7deb044037b8a2e5f453bb05400"
+  integrity sha1-Z9x0kDEAp96wRAN7ii5fRTuwVAA=
 
 normalize-package-data@^2.3.2, normalize-package-data@^2.3.4, normalize-package-data@^2.5.0:
   version "2.5.0"
@@ -5637,8 +5637,8 @@ num2fraction@^1.2.2:
 
 nwsapi@^2.2.0:
   version "2.2.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/nwsapi/-/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
-  integrity sha512-h2AatdwYH+JHiZpv7pt/gSX1XoRGb7L/qSIeuqA6GwYoF9w1vP1cw42TO0aI2pNyshRK5893hNSl+1//vHK7hQ==
+  resolved "https://registry.nlark.com/nwsapi/download/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
+  integrity sha1-IEh5qePQaP8qVROcLHcngGgaOLc=
 
 object-assign@^4.1.1:
   version "4.1.1"
@@ -5726,8 +5726,8 @@ open@^7.4.2:
 
 optionator@^0.8.1:
   version "0.8.3"
-  resolved "http://packages.bbkedu.com/repository/npm-group/optionator/-/optionator-0.8.3.tgz#84fa1d036fe9d3c7e21d99884b601167ec8fb495"
-  integrity sha512-+IW9pACdk3XWmmTXG8m3upGUJst5XRGzxMRjXzAuJ1XnIFNvfhjjIuYkDvysnPQ7qzqVzLt78BCruntqRhWQbA==
+  resolved "https://registry.nlark.com/optionator/download/optionator-0.8.3.tgz#84fa1d036fe9d3c7e21d99884b601167ec8fb495"
+  integrity sha1-hPodA2/p08fiHZmIS2ARZ+yPtJU=
   dependencies:
     deep-is "~0.1.3"
     fast-levenshtein "~2.0.6"
@@ -5844,8 +5844,8 @@ parse-json@^5.0.0:
 
 parse5@6.0.1:
   version "6.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
-  integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
+  resolved "https://registry.nlark.com/parse5/download/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
+  integrity sha1-4aHAhcVps9wIMhGE8Zo5zCf3wws=
 
 pascalcase@^0.1.1:
   version "0.1.1"
@@ -5901,8 +5901,8 @@ perfect-scrollbar@^1.5.2:
 
 picocolors@^1.0.0:
   version "1.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
-  integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+  resolved "https://registry.npmmirror.com/picocolors/download/picocolors-1.0.0.tgz?cache=0&sync_timestamp=1634093442271&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpicocolors%2Fdownload%2Fpicocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
+  integrity sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.3.0"
@@ -5921,8 +5921,8 @@ pify@^4.0.0, pify@^4.0.1:
 
 pirates@^4.0.1:
   version "4.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/pirates/-/pirates-4.0.1.tgz#643a92caf894566f91b2b986d2c66950a8e2fb87"
-  integrity sha512-WuNqLTbMI3tmfef2TKxlQmAiLHKtFhlsCZnPIpuv2Ow0RDVO8lfy1Opf4NUzlMXLjPl+Men7AuVdX6TA+s+uGA==
+  resolved "https://registry.nlark.com/pirates/download/pirates-4.0.1.tgz#643a92caf894566f91b2b986d2c66950a8e2fb87"
+  integrity sha1-ZDqSyviUVm+RsrmG0sZpUKji+4c=
   dependencies:
     node-modules-regexp "^1.0.0"
 
@@ -5935,8 +5935,8 @@ pkg-dir@^2.0.0:
 
 pkg-dir@^4.2.0:
   version "4.2.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/pkg-dir/-/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"
-  integrity sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
+  resolved "https://registry.npmmirror.com/pkg-dir/download/pkg-dir-4.2.0.tgz?cache=0&sync_timestamp=1633498133295&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpkg-dir%2Fdownload%2Fpkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"
+  integrity sha1-8JkTPfft5CLoHR2ESCcO6z5CYfM=
   dependencies:
     find-up "^4.0.0"
 
@@ -6144,7 +6144,7 @@ prelude-ls@^1.2.1:
 
 prelude-ls@~1.1.2:
   version "1.1.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
+  resolved "https://registry.nlark.com/prelude-ls/download/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
 prettier-linter-helpers@^1.0.0:
@@ -6161,8 +6161,8 @@ prettier@^2.4.1:
 
 pretty-format@^27.0.0, pretty-format@^27.2.5:
   version "27.2.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/pretty-format/-/pretty-format-27.2.5.tgz#7cfe2a8e8f01a5b5b29296a0b70f4140df0830c5"
-  integrity sha512-+nYn2z9GgicO9JiqmY25Xtq8SYfZ/5VCpEU3pppHHNAhd1y+ZXxmNPd1evmNcAd6Hz4iBV2kf0UpGth5A/VJ7g==
+  resolved "https://registry.npmmirror.com/pretty-format/download/pretty-format-27.2.5.tgz?cache=0&sync_timestamp=1633701045920&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpretty-format%2Fdownload%2Fpretty-format-27.2.5.tgz#7cfe2a8e8f01a5b5b29296a0b70f4140df0830c5"
+  integrity sha1-fP4qjo8BpbWykpagtw9BQN8IMMU=
   dependencies:
     "@jest/types" "^27.2.5"
     ansi-regex "^5.0.1"
@@ -6188,16 +6188,16 @@ promise@^7.0.1:
 
 prompts@^2.0.1:
   version "2.4.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/prompts/-/prompts-2.4.2.tgz#7b57e73b3a48029ad10ebd44f74b01722a4cb069"
-  integrity sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==
+  resolved "https://registry.npmmirror.com/prompts/download/prompts-2.4.2.tgz#7b57e73b3a48029ad10ebd44f74b01722a4cb069"
+  integrity sha1-e1fnOzpIAprRDr1E90sBcipMsGk=
   dependencies:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
 psl@^1.1.33:
   version "1.8.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
-  integrity sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
+  resolved "https://registry.npm.taobao.org/psl/download/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
+  integrity sha1-kyb4vPsBOtzABf3/BWrM4CDlHCQ=
 
 pug-attrs@^3.0.0:
   version "3.0.0"
@@ -6339,8 +6339,8 @@ quick-lru@^5.1.1:
 
 react-is@^17.0.1:
   version "17.0.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
-  integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+  resolved "https://registry.npmmirror.com/react-is/download/react-is-17.0.2.tgz?cache=0&sync_timestamp=1634314723192&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Freact-is%2Fdownload%2Freact-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
+  integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
 
 read-pkg-up@^3.0.0:
   version "3.0.0"
@@ -6420,25 +6420,25 @@ reduce-css-calc@^2.1.8:
 
 regenerate-unicode-properties@^9.0.0:
   version "9.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/regenerate-unicode-properties/-/regenerate-unicode-properties-9.0.0.tgz#54d09c7115e1f53dc2314a974b32c1c344efe326"
-  integrity sha512-3E12UeNSPfjrgwjkR81m5J7Aw/T55Tu7nUyZVQYCKEOs+2dkxEY+DpPtZzO4YruuiPb7NkYLVcyJC4+zCbk5pA==
+  resolved "https://registry.nlark.com/regenerate-unicode-properties/download/regenerate-unicode-properties-9.0.0.tgz?cache=0&sync_timestamp=1631617161322&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregenerate-unicode-properties%2Fdownload%2Fregenerate-unicode-properties-9.0.0.tgz#54d09c7115e1f53dc2314a974b32c1c344efe326"
+  integrity sha1-VNCccRXh9T3CMUqXSzLBw0Tv4yY=
   dependencies:
     regenerate "^1.4.2"
 
 regenerate@^1.4.2:
   version "1.4.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/regenerate/-/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
-  integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
+  resolved "https://registry.npm.taobao.org/regenerate/download/regenerate-1.4.2.tgz?cache=0&sync_timestamp=1604218353677&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregenerate%2Fdownload%2Fregenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
+  integrity sha1-uTRtiCfo9aMve6KWN9OYtpAUhIo=
 
 regenerator-runtime@^0.13.4:
   version "0.13.9"
-  resolved "http://packages.bbkedu.com/repository/npm-group/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
-  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
+  resolved "https://registry.nlark.com/regenerator-runtime/download/regenerator-runtime-0.13.9.tgz?cache=0&sync_timestamp=1626993001371&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
+  integrity sha1-iSV0Kpj/2QgUmI11Zq0wyjsmO1I=
 
 regenerator-transform@^0.14.2:
   version "0.14.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/regenerator-transform/-/regenerator-transform-0.14.5.tgz#c98da154683671c9c4dcb16ece736517e1b7feb4"
-  integrity sha512-eOf6vka5IO151Jfsw2NO9WpGX58W6wWmefK3I1zEGr0lOD0u8rwPaNqQL1aRxUaxLeKO3ArNh3VYg1KbaD+FFw==
+  resolved "https://registry.nlark.com/regenerator-transform/download/regenerator-transform-0.14.5.tgz?cache=0&sync_timestamp=1627057533376&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregenerator-transform%2Fdownload%2Fregenerator-transform-0.14.5.tgz#c98da154683671c9c4dcb16ece736517e1b7feb4"
+  integrity sha1-yY2hVGg2ccnE3LFuznNlF+G3/rQ=
   dependencies:
     "@babel/runtime" "^7.8.4"
 
@@ -6457,8 +6457,8 @@ regexpp@^3.1.0:
 
 regexpu-core@^4.7.1:
   version "4.8.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/regexpu-core/-/regexpu-core-4.8.0.tgz#e5605ba361b67b1718478501327502f4479a98f0"
-  integrity sha512-1F6bYsoYiz6is+oz70NWur2Vlh9KWtswuRuzJOfeYUrfPX2o8n74AnUVaOGDbUqVGO9fNHu48/pjJO4sNVwsOg==
+  resolved "https://registry.nlark.com/regexpu-core/download/regexpu-core-4.8.0.tgz?cache=0&sync_timestamp=1631619113277&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregexpu-core%2Fdownload%2Fregexpu-core-4.8.0.tgz#e5605ba361b67b1718478501327502f4479a98f0"
+  integrity sha1-5WBbo2G2excYR4UBMnUC9EeamPA=
   dependencies:
     regenerate "^1.4.2"
     regenerate-unicode-properties "^9.0.0"
@@ -6469,13 +6469,13 @@ regexpu-core@^4.7.1:
 
 regjsgen@^0.5.2:
   version "0.5.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/regjsgen/-/regjsgen-0.5.2.tgz#92ff295fb1deecbf6ecdab2543d207e91aa33733"
-  integrity sha512-OFFT3MfrH90xIW8OOSyUrk6QHD5E9JOTeGodiJeBS3J6IwlgzJMNE/1bZklWz5oTg+9dCMyEetclvCVXOPoN3A==
+  resolved "https://registry.npmmirror.com/regjsgen/download/regjsgen-0.5.2.tgz#92ff295fb1deecbf6ecdab2543d207e91aa33733"
+  integrity sha1-kv8pX7He7L9uzaslQ9IH6RqjNzM=
 
 regjsparser@^0.7.0:
   version "0.7.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/regjsparser/-/regjsparser-0.7.0.tgz#a6b667b54c885e18b52554cb4960ef71187e9968"
-  integrity sha512-A4pcaORqmNMDVwUjWoTzuhwMGpP+NykpfqAsEgI1FSH/EzC7lrN5TMd+kN8YCovX+jMpu8eaqXgXPCa0g8FQNQ==
+  resolved "https://registry.nlark.com/regjsparser/download/regjsparser-0.7.0.tgz?cache=0&sync_timestamp=1630946816794&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregjsparser%2Fdownload%2Fregjsparser-0.7.0.tgz#a6b667b54c885e18b52554cb4960ef71187e9968"
+  integrity sha1-prZntUyIXhi1JVTLSWDvcRh+mWg=
   dependencies:
     jsesc "~0.5.0"
 
@@ -6584,8 +6584,8 @@ require-from-string@^2.0.2:
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/resolve-cwd/-/resolve-cwd-3.0.0.tgz#0f0075f1bb2544766cf73ba6a6e2adfebcb13f2d"
-  integrity sha512-OrZaX2Mb+rJCpH/6CpSqt9xFVpN++x01XnN2ie9g6P5/3xelLAkXWVADpdz1IHD/KFfEXyE6V0U01OQ3UO2rEg==
+  resolved "https://registry.nlark.com/resolve-cwd/download/resolve-cwd-3.0.0.tgz#0f0075f1bb2544766cf73ba6a6e2adfebcb13f2d"
+  integrity sha1-DwB18bslRHZs9zumpuKt/ryxPy0=
   dependencies:
     resolve-from "^5.0.0"
 
@@ -6709,8 +6709,8 @@ safe-regex@^1.1.0:
 
 "safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
-  integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+  resolved "https://registry.nlark.com/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+  integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
 sass@^1.42.1:
   version "1.42.1"
@@ -6721,8 +6721,8 @@ sass@^1.42.1:
 
 saxes@^5.0.1:
   version "5.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/saxes/-/saxes-5.0.1.tgz#eebab953fa3b7608dbe94e5dadb15c888fa6696d"
-  integrity sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==
+  resolved "https://registry.npm.taobao.org/saxes/download/saxes-5.0.1.tgz#eebab953fa3b7608dbe94e5dadb15c888fa6696d"
+  integrity sha1-7rq5U/o7dgjb6U5drbFciI+maW0=
   dependencies:
     xmlchars "^2.2.0"
 
@@ -6743,8 +6743,8 @@ semver-compare@^1.0.0:
 
 semver@7.0.0:
   version "7.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
-  integrity sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==
+  resolved "https://registry.nlark.com/semver/download/semver-7.0.0.tgz?cache=0&sync_timestamp=1622604551741&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsemver%2Fdownload%2Fsemver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
+  integrity sha1-XzyjV2HkfgWyBsba/yz4FPAxa44=
 
 semver@^6.0.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   version "6.3.0"
@@ -6803,8 +6803,8 @@ simple-swizzle@^0.2.2:
 
 sisteransi@^1.0.5:
   version "1.0.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
-  integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
+  resolved "https://registry.npm.taobao.org/sisteransi/download/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
+  integrity sha1-E01oEpd1ZDfMBcoBNw06elcQde0=
 
 slash@^2.0.0:
   version "2.0.0"
@@ -6891,8 +6891,8 @@ source-map-resolve@^0.5.0:
 
 source-map-support@^0.5.6:
   version "0.5.20"
-  resolved "http://packages.bbkedu.com/repository/npm-group/source-map-support/-/source-map-support-0.5.20.tgz#12166089f8f5e5e8c56926b377633392dd2cb6c9"
-  integrity sha512-n1lZZ8Ve4ksRqizaBQgxXDgKwttHDhyfQjA6YZZn8+AroHbsIz+JjwxQDxbp+7y5OYCI8t1Yk7etjD9CRd2hIw==
+  resolved "https://registry.nlark.com/source-map-support/download/source-map-support-0.5.20.tgz?cache=0&sync_timestamp=1631179636992&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsource-map-support%2Fdownload%2Fsource-map-support-0.5.20.tgz#12166089f8f5e5e8c56926b377633392dd2cb6c9"
+  integrity sha1-EhZgifj15ejFaSazd2Mzkt0stsk=
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -6967,8 +6967,8 @@ sprintf-js@~1.0.2:
 
 stack-utils@^2.0.3:
   version "2.0.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/stack-utils/-/stack-utils-2.0.5.tgz#d25265fca995154659dbbfba3b49254778d2fdd5"
-  integrity sha512-xrQcmYhOsn/1kX+Vraq+7j4oE2j/6BFscZ0etmYg81xuM8Gq0022Pxb8+IqgOFUIaxHs0KaSb7T1+OegiNrNFA==
+  resolved "https://registry.nlark.com/stack-utils/download/stack-utils-2.0.5.tgz#d25265fca995154659dbbfba3b49254778d2fdd5"
+  integrity sha1-0lJl/KmVFUZZ27+6O0klR3jS/dU=
   dependencies:
     escape-string-regexp "^2.0.0"
 
@@ -6992,8 +6992,8 @@ string-argv@0.3.1:
 
 string-length@^4.0.1:
   version "4.0.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/string-length/-/string-length-4.0.2.tgz#a8a8dc7bd5c1a82b9b3c8b87e125f66871b6e57a"
-  integrity sha512-+l6rNN5fYHNhZZy41RXsYptCjA2Igmq4EG7kZAYFQI1E1VTXarr6ZPXBg6eq7Y6eK4FEhY6AJlyuFIb/v/S0VQ==
+  resolved "https://registry.nlark.com/string-length/download/string-length-4.0.2.tgz?cache=0&sync_timestamp=1631559499195&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fstring-length%2Fdownload%2Fstring-length-4.0.2.tgz#a8a8dc7bd5c1a82b9b3c8b87e125f66871b6e57a"
+  integrity sha1-qKjce9XBqCubPIuH4SX2aHG25Xo=
   dependencies:
     char-regex "^1.0.2"
     strip-ansi "^6.0.0"
@@ -7079,8 +7079,8 @@ strip-bom@^3.0.0:
 
 strip-bom@^4.0.0:
   version "4.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/strip-bom/-/strip-bom-4.0.0.tgz#9c3505c1db45bcedca3d9cf7a16f5c5aa3901878"
-  integrity sha512-3xurFv5tEgii33Zi8Jtp55wEIILR9eh34FAW00PZf+JnSsTmV/ioewSgQl97JHvgjoRGwPShsWm+IdrxB35d0w==
+  resolved "https://registry.nlark.com/strip-bom/download/strip-bom-4.0.0.tgz#9c3505c1db45bcedca3d9cf7a16f5c5aa3901878"
+  integrity sha1-nDUFwdtFvO3KPZz3oW9cWqOQGHg=
 
 strip-final-newline@^2.0.0:
   version "2.0.0"
@@ -7300,15 +7300,15 @@ supports-color@^7.0.0, supports-color@^7.1.0:
 
 supports-color@^8.0.0:
   version "8.1.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/supports-color/-/supports-color-8.1.1.tgz#cd6fc17e28500cff56c1b86c0a7fd4a54a73005c"
-  integrity sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==
+  resolved "https://registry.nlark.com/supports-color/download/supports-color-8.1.1.tgz?cache=0&sync_timestamp=1626703414084&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsupports-color%2Fdownload%2Fsupports-color-8.1.1.tgz#cd6fc17e28500cff56c1b86c0a7fd4a54a73005c"
+  integrity sha1-zW/BfihQDP9WwbhsCn/UpUpzAFw=
   dependencies:
     has-flag "^4.0.0"
 
 supports-hyperlinks@^2.0.0:
   version "2.2.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/supports-hyperlinks/-/supports-hyperlinks-2.2.0.tgz#4f77b42488765891774b70c79babd87f9bd594bb"
-  integrity sha512-6sXEzV5+I5j8Bmq9/vUphGRM/RJNT9SCURJLjwfOg51heRtguGWDzcaBlgAzKhQa0EVNpPEKzQuBwZ8S8WaCeQ==
+  resolved "https://registry.nlark.com/supports-hyperlinks/download/supports-hyperlinks-2.2.0.tgz#4f77b42488765891774b70c79babd87f9bd594bb"
+  integrity sha1-T3e0JIh2WJF3S3DHm6vYf5vVlLs=
   dependencies:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
@@ -7320,8 +7320,8 @@ svg-tags@^1.0.0:
 
 symbol-tree@^3.2.4:
   version "3.2.4"
-  resolved "http://packages.bbkedu.com/repository/npm-group/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
-  integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
+  resolved "https://registry.npm.taobao.org/symbol-tree/download/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
+  integrity sha1-QwY30ki6d+B4iDlR+5qg7tfGP6I=
 
 table@^5.0.0:
   version "5.4.6"
@@ -7385,16 +7385,16 @@ tailwindcss@^2.1.2:
 
 terminal-link@^2.0.0:
   version "2.1.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/terminal-link/-/terminal-link-2.1.1.tgz#14a64a27ab3c0df933ea546fba55f2d078edc994"
-  integrity sha512-un0FmiRUQNr5PJqy9kP7c40F5BOfpGlYTrxonDChEZB7pzZxRNp/bt+ymiy9/npwXya9KH99nJ/GXFIiUkYGFQ==
+  resolved "https://registry.npm.taobao.org/terminal-link/download/terminal-link-2.1.1.tgz?cache=0&sync_timestamp=1618724387605&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fterminal-link%2Fdownload%2Fterminal-link-2.1.1.tgz#14a64a27ab3c0df933ea546fba55f2d078edc994"
+  integrity sha1-FKZKJ6s8Dfkz6lRvulXy0HjtyZQ=
   dependencies:
     ansi-escapes "^4.2.1"
     supports-hyperlinks "^2.0.0"
 
 test-exclude@^6.0.0:
   version "6.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/test-exclude/-/test-exclude-6.0.0.tgz#04a8698661d805ea6fa293b6cb9e63ac044ef15e"
-  integrity sha512-cAGWPIyOHU6zlmg88jwm7VRyXnMN7iV68OGAbYDk/Mh/xC/pzVPlQtY6ngoIH/5/tciuhGfvESU8GrHrcxD56w==
+  resolved "https://registry.nlark.com/test-exclude/download/test-exclude-6.0.0.tgz#04a8698661d805ea6fa293b6cb9e63ac044ef15e"
+  integrity sha1-BKhphmHYBepvopO2y55jrARO8V4=
   dependencies:
     "@istanbuljs/schema" "^0.1.2"
     glob "^7.1.4"
@@ -7414,8 +7414,8 @@ text-table@^0.2.0:
 
 throat@^6.0.1:
   version "6.0.1"
-  resolved "http://packages.bbkedu.com/repository/npm-group/throat/-/throat-6.0.1.tgz#d514fedad95740c12c2d7fc70ea863eb51ade375"
-  integrity sha512-8hmiGIJMDlwjg7dlJ4yKGLK8EsYqKgPWbG3b4wjJddKNwc7N7Dpn08Df4szr/sZdMVeOstrdYSsqzX6BYbcB+w==
+  resolved "https://registry.nlark.com/throat/download/throat-6.0.1.tgz#d514fedad95740c12c2d7fc70ea863eb51ade375"
+  integrity sha1-1RT+2tlXQMEsLX/HDqhj61Gt43U=
 
 through@^2.3.8:
   version "2.3.8"
@@ -7436,8 +7436,8 @@ tmp@^0.2.1:
 
 tmpl@1.0.x:
   version "1.0.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
-  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
+  resolved "https://registry.nlark.com/tmpl/download/tmpl-1.0.5.tgz?cache=0&sync_timestamp=1630997259079&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftmpl%2Fdownload%2Ftmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha1-hoPguQK7nCDE9ybjwLafNlGMB8w=
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
@@ -7483,8 +7483,8 @@ token-stream@1.0.0:
 
 tough-cookie@^4.0.0:
   version "4.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/tough-cookie/-/tough-cookie-4.0.0.tgz#d822234eeca882f991f0f908824ad2622ddbece4"
-  integrity sha512-tHdtEpQCMrc1YLrMaqXXcj6AxhYi/xgit6mZu1+EDWUn+qhUf8wMQoFIy9NXuq23zAwtcB0t/MjACGR18pcRbg==
+  resolved "https://registry.npm.taobao.org/tough-cookie/download/tough-cookie-4.0.0.tgz#d822234eeca882f991f0f908824ad2622ddbece4"
+  integrity sha1-2CIjTuyogvmR8PkIgkrSYi3b7OQ=
   dependencies:
     psl "^1.1.33"
     punycode "^2.1.1"
@@ -7492,8 +7492,8 @@ tough-cookie@^4.0.0:
 
 tr46@^2.1.0:
   version "2.1.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/tr46/-/tr46-2.1.0.tgz#fa87aa81ca5d5941da8cbf1f9b749dc969a4e240"
-  integrity sha512-15Ih7phfcdP5YxqiB+iDtLoaTz4Nd35+IiAv0kQ5FNKHzXgdWqPoTIqEDDJmXceQt4JZk6lVPT8lnDlPpGDppw==
+  resolved "https://registry.npmmirror.com/tr46/download/tr46-2.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Ftr46%2Fdownload%2Ftr46-2.1.0.tgz#fa87aa81ca5d5941da8cbf1f9b749dc969a4e240"
+  integrity sha1-+oeqgcpdWUHajL8fm3SdyWmk4kA=
   dependencies:
     punycode "^2.1.1"
 
@@ -7553,15 +7553,15 @@ type-check@^0.4.0, type-check@~0.4.0:
 
 type-check@~0.3.2:
   version "0.3.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/type-check/-/type-check-0.3.2.tgz#5884cab512cf1d355e3fb784f30804b2b520db72"
+  resolved "https://registry.npm.taobao.org/type-check/download/type-check-0.3.2.tgz#5884cab512cf1d355e3fb784f30804b2b520db72"
   integrity sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
   dependencies:
     prelude-ls "~1.1.2"
 
 type-detect@4.0.8:
   version "4.0.8"
-  resolved "http://packages.bbkedu.com/repository/npm-group/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
-  integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
+  resolved "https://registry.npm.taobao.org/type-detect/download/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
+  integrity sha1-dkb7XxiHHPu3dJ5pvTmmOI63RQw=
 
 type-fest@^0.18.0:
   version "0.18.1"
@@ -7620,26 +7620,26 @@ unherit@^1.0.4:
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz#301acdc525631670d39f6146e0e77ff6bbdebddc"
-  integrity sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==
+  resolved "https://registry.nlark.com/unicode-canonical-property-names-ecmascript/download/unicode-canonical-property-names-ecmascript-2.0.0.tgz#301acdc525631670d39f6146e0e77ff6bbdebddc"
+  integrity sha1-MBrNxSVjFnDTn2FG4Od/9rvevdw=
 
 unicode-match-property-ecmascript@^2.0.0:
   version "2.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/unicode-match-property-ecmascript/-/unicode-match-property-ecmascript-2.0.0.tgz#54fd16e0ecb167cf04cf1f756bdcc92eba7976c3"
-  integrity sha512-5kaZCrbp5mmbz5ulBkDkbY0SsPOjKqVS35VpL9ulMPfSl0J0Xsm+9Evphv9CoIZFwre7aJoa94AY6seMKGVN5Q==
+  resolved "https://registry.nlark.com/unicode-match-property-ecmascript/download/unicode-match-property-ecmascript-2.0.0.tgz?cache=0&sync_timestamp=1631618696521&other_urls=https%3A%2F%2Fregistry.nlark.com%2Funicode-match-property-ecmascript%2Fdownload%2Funicode-match-property-ecmascript-2.0.0.tgz#54fd16e0ecb167cf04cf1f756bdcc92eba7976c3"
+  integrity sha1-VP0W4OyxZ88Ezx91a9zJLrp5dsM=
   dependencies:
     unicode-canonical-property-names-ecmascript "^2.0.0"
     unicode-property-aliases-ecmascript "^2.0.0"
 
 unicode-match-property-value-ecmascript@^2.0.0:
   version "2.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/unicode-match-property-value-ecmascript/-/unicode-match-property-value-ecmascript-2.0.0.tgz#1a01aa57247c14c568b89775a54938788189a714"
-  integrity sha512-7Yhkc0Ye+t4PNYzOGKedDhXbYIBe1XEQYQxOPyhcXNMJ0WCABqqj6ckydd6pWRZTHV4GuCPKdBAUiMc60tsKVw==
+  resolved "https://registry.nlark.com/unicode-match-property-value-ecmascript/download/unicode-match-property-value-ecmascript-2.0.0.tgz#1a01aa57247c14c568b89775a54938788189a714"
+  integrity sha1-GgGqVyR8FMVouJd1pUk4eIGJpxQ=
 
 unicode-property-aliases-ecmascript@^2.0.0:
   version "2.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.0.0.tgz#0a36cb9a585c4f6abd51ad1deddb285c165297c8"
-  integrity sha512-5Zfuy9q/DFr4tfO7ZPeVXb1aPoeQSdeFMLpYuFebehDAhbuevLs5yxSZmIFN1tP5F9Wl4IpJrYojg85/zgyZHQ==
+  resolved "https://registry.nlark.com/unicode-property-aliases-ecmascript/download/unicode-property-aliases-ecmascript-2.0.0.tgz?cache=0&sync_timestamp=1631609457921&other_urls=https%3A%2F%2Fregistry.nlark.com%2Funicode-property-aliases-ecmascript%2Fdownload%2Funicode-property-aliases-ecmascript-2.0.0.tgz#0a36cb9a585c4f6abd51ad1deddb285c165297c8"
+  integrity sha1-CjbLmlhcT2q9Ua0d7dsoXBZSl8g=
 
 unified@^7.0.0:
   version "7.1.0"
@@ -7748,8 +7748,8 @@ unist-util-visit@^1.1.0:
 
 universalify@^0.1.2:
   version "0.1.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
-  integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
+  resolved "https://registry.nlark.com/universalify/download/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
+  integrity sha1-tkb2m+OULavOzJ1mOcgNwQXvqmY=
 
 universalify@^2.0.0:
   version "2.0.0"
@@ -7805,8 +7805,8 @@ v8-compile-cache@^2.0.3, v8-compile-cache@^2.3.0:
 
 v8-to-istanbul@^8.1.0:
   version "8.1.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/v8-to-istanbul/-/v8-to-istanbul-8.1.0.tgz#0aeb763894f1a0a1676adf8a8b7612a38902446c"
-  integrity sha512-/PRhfd8aTNp9Ggr62HPzXg2XasNFGy5PBt0Rp04du7/8GNNSgxFL6WBTkgMKSL9bFjH+8kKEG3f37FmxiTqUUA==
+  resolved "https://registry.npmmirror.com/v8-to-istanbul/download/v8-to-istanbul-8.1.0.tgz#0aeb763894f1a0a1676adf8a8b7612a38902446c"
+  integrity sha1-Cut2OJTxoKFnat+Ki3YSo4kCRGw=
   dependencies:
     "@types/istanbul-lib-coverage" "^2.0.1"
     convert-source-map "^1.6.0"
@@ -8061,51 +8061,51 @@ vuex@^4.0.2:
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"
-  resolved "http://packages.bbkedu.com/repository/npm-group/w3c-hr-time/-/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
-  integrity sha512-z8P5DvDNjKDoFIHK7q8r8lackT6l+jo/Ye3HOle7l9nICP9lf1Ci25fy9vHd0JOWewkIFzXIEig3TdKT7JQ5fQ==
+  resolved "https://registry.nlark.com/w3c-hr-time/download/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
+  integrity sha1-ConN9cwVgi35w2BUNnaWPgzDCM0=
   dependencies:
     browser-process-hrtime "^1.0.0"
 
 w3c-xmlserializer@^2.0.0:
   version "2.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/w3c-xmlserializer/-/w3c-xmlserializer-2.0.0.tgz#3e7104a05b75146cc60f564380b7f683acf1020a"
-  integrity sha512-4tzD0mF8iSiMiNs30BiLO3EpfGLZUT2MSX/G+o7ZywDzliWQ3OPtTZ0PTC3B3ca1UAf4cJMHB+2Bf56EriJuRA==
+  resolved "https://registry.nlark.com/w3c-xmlserializer/download/w3c-xmlserializer-2.0.0.tgz?cache=0&sync_timestamp=1632004166700&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fw3c-xmlserializer%2Fdownload%2Fw3c-xmlserializer-2.0.0.tgz#3e7104a05b75146cc60f564380b7f683acf1020a"
+  integrity sha1-PnEEoFt1FGzGD1ZDgLf2g6zxAgo=
   dependencies:
     xml-name-validator "^3.0.0"
 
 walker@^1.0.7:
   version "1.0.7"
-  resolved "http://packages.bbkedu.com/repository/npm-group/walker/-/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"
+  resolved "https://registry.nlark.com/walker/download/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"
   integrity sha1-L3+bj9ENZ3JisYqITijRlhjgKPs=
   dependencies:
     makeerror "1.0.x"
 
 webidl-conversions@^5.0.0:
   version "5.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/webidl-conversions/-/webidl-conversions-5.0.0.tgz#ae59c8a00b121543a2acc65c0434f57b0fc11aff"
-  integrity sha512-VlZwKPCkYKxQgeSbH5EyngOmRp7Ww7I9rQLERETtf5ofd9pGeswWiOtogpEO850jziPRarreGxn5QIiTqpb2wA==
+  resolved "https://registry.nlark.com/webidl-conversions/download/webidl-conversions-5.0.0.tgz#ae59c8a00b121543a2acc65c0434f57b0fc11aff"
+  integrity sha1-rlnIoAsSFUOirMZcBDT1ew/BGv8=
 
 webidl-conversions@^6.1.0:
   version "6.1.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/webidl-conversions/-/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
-  integrity sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
+  resolved "https://registry.nlark.com/webidl-conversions/download/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
+  integrity sha1-kRG01+qArNQPUnDWZmIa+ni2lRQ=
 
 whatwg-encoding@^1.0.5:
   version "1.0.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/whatwg-encoding/-/whatwg-encoding-1.0.5.tgz#5abacf777c32166a51d085d6b4f3e7d27113ddb0"
-  integrity sha512-b5lim54JOPN9HtzvK9HFXvBma/rnfFeqsic0hSpjtDbVxR3dJKLc+KB4V6GgiGOvl7CY/KNh8rxSo9DKQrnUEw==
+  resolved "https://registry.nlark.com/whatwg-encoding/download/whatwg-encoding-1.0.5.tgz#5abacf777c32166a51d085d6b4f3e7d27113ddb0"
+  integrity sha1-WrrPd3wyFmpR0IXWtPPn0nET3bA=
   dependencies:
     iconv-lite "0.4.24"
 
 whatwg-mimetype@^2.3.0:
   version "2.3.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
-  integrity sha512-M4yMwr6mAnQz76TbJm914+gPpB/nCwvZbJU28cUD6dR004SAxDLOOSUaB1JDRqLtaOV/vi0IC5lEAGFgrjGv/g==
+  resolved "https://registry.nlark.com/whatwg-mimetype/download/whatwg-mimetype-2.3.0.tgz?cache=0&sync_timestamp=1631993439192&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fwhatwg-mimetype%2Fdownload%2Fwhatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
+  integrity sha1-PUseAxLSB5h5+Cav8Y2+7KWWD78=
 
 whatwg-url@^8.0.0, whatwg-url@^8.5.0:
   version "8.7.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/whatwg-url/-/whatwg-url-8.7.0.tgz#656a78e510ff8f3937bc0bcbe9f5c0ac35941b77"
-  integrity sha512-gAojqb/m9Q8a5IV96E3fHJM70AzCkgt4uXYX2O7EmuyOnLrViCQlsEBmF9UQIu3/aeAIp2U17rtbpZWNntQqdg==
+  resolved "https://registry.npmmirror.com/whatwg-url/download/whatwg-url-8.7.0.tgz?cache=0&sync_timestamp=1633539062585&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fwhatwg-url%2Fdownload%2Fwhatwg-url-8.7.0.tgz#656a78e510ff8f3937bc0bcbe9f5c0ac35941b77"
+  integrity sha1-ZWp45RD/jzk3vAvL6fXArDWUG3c=
   dependencies:
     lodash "^4.7.0"
     tr46 "^2.1.0"
@@ -8193,8 +8193,8 @@ write@1.0.3:
 
 ws@^7.4.6:
   version "7.5.5"
-  resolved "http://packages.bbkedu.com/repository/npm-group/ws/-/ws-7.5.5.tgz#8b4bc4af518cfabd0473ae4f99144287b33eb881"
-  integrity sha512-BAkMFcAzl8as1G/hArkxOxq3G7pjUqQ3gzYbLL0/5zNkph70e+lCoxBGnm6AW1+/aiNeV4fnKqZ8m4GZewmH2w==
+  resolved "https://registry.npmmirror.com/ws/download/ws-7.5.5.tgz?cache=0&sync_timestamp=1633200039582&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fws%2Fdownload%2Fws-7.5.5.tgz#8b4bc4af518cfabd0473ae4f99144287b33eb881"
+  integrity sha1-i0vEr1GM+r0Ec65PmRRCh7M+uIE=
 
 x-is-string@^0.1.0:
   version "0.1.0"
@@ -8203,13 +8203,13 @@ x-is-string@^0.1.0:
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
-  integrity sha512-A5CUptxDsvxKJEU3yO6DuWBSJz/qizqzJKOMIfUJHETbBw/sFaDxgd6fxm1ewUaM0jZ444Fc5vC5ROYurg/4Pw==
+  resolved "https://registry.nlark.com/xml-name-validator/download/xml-name-validator-3.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fxml-name-validator%2Fdownload%2Fxml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
+  integrity sha1-auc+Bt5NjG5H+fsYH3jWSK1FfGo=
 
 xmlchars@^2.2.0:
   version "2.2.0"
-  resolved "http://packages.bbkedu.com/repository/npm-group/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
-  integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
+  resolved "https://registry.npm.taobao.org/xmlchars/download/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
+  integrity sha1-Bg/hvLf5x2/ioX24apvDq4lCEMs=
 
 xtend@^4.0.0, xtend@^4.0.1, xtend@^4.0.2:
   version "4.0.2"
