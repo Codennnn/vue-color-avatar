@@ -35,6 +35,7 @@ import Logo from '@/components/Logo.vue'
     margin-left: 1rem;
     font-weight: bold;
     font-size: 1.9rem;
+    cursor: default;
 
     @media screen and (max-width: $screen-sm) {
       display: none;

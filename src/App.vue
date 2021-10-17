@@ -245,7 +245,8 @@ function handleAction(actionType: ActionType) {
         color: lighten($color-text, 10);
       }
 
-      &:disabled {
+      &:disabled,
+      &[disabled] {
         color: rgba($color-text, 0.5);
         cursor: default;
       }

@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
-    <div v-if="props.visible" class="code-modal" @click="emit('close')">
-      <div class="code-box" @click.stop>
+    <div v-if="props.visible" class="code-modal" @click.self="emit('close')">
+      <div class="code-box">
         <div class="code-header">
           <div class="title">{{ t('text.codeModalTitle') }}</div>
 
