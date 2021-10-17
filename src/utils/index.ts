@@ -102,7 +102,7 @@ export function getRandomAvatarOption(
   return avatarOption
 }
 
-export function getSpecialAvatarOption() {
+export function getSpecialAvatarOption(): AvatarOption {
   return SPECIAL_AVATARS[Math.floor(Math.random() * SPECIAL_AVATARS.length)]
 }
 

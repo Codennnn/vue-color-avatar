@@ -97,7 +97,7 @@ export const NONE = 'none'
 
 export const TRIGGER_PROBABILITY = 0.1
 
-export const SPECIAL_AVATARS: Readonly<AvatarOption>[] = [
+export const SPECIAL_AVATARS: Readonly<AvatarOption[]> = [
   {
     wrapperShape: 'squircle',
     background: {

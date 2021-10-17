@@ -5,3 +5,4 @@ dist-ssr
 *.local
 yarn-error.log
 stats.html
+coverage
