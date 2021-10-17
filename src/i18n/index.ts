@@ -7,7 +7,7 @@ import zh from './locales/zh'
 
 const messages = { en, zh }
 
-const [locale, fallbackLocale] = /^zh\b/.test(navigator.language)
+const [locale, fallbackLocale] = /^zh\b/.test(window.navigator.language)
   ? [Locale.ZH, Locale.EN]
   : [Locale.EN, Locale.ZH]
 
