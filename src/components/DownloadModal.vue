@@ -6,7 +6,7 @@
   >
     <div class="download-modal" @click.stop>
       <div class="modal-body">
-        <div class="img">
+        <div class="avatar-preview">
           <img
             alt="vue-color-avatar"
             :src="props.imageUrl"
@@ -71,7 +71,7 @@ const { t } = useI18n()
     height: 100%;
     padding: 1.8rem 1.2rem 1rem 1.2rem;
 
-    .img {
+    .avatar-preview {
       width: 60%;
       margin: 0 auto;
 

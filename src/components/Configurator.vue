@@ -33,7 +33,7 @@
               :style="{ background: bgColor }"
               class="bg-color"
               :class="{ active: bgColor === avatarOption.background.color }"
-            />
+            ></div>
           </li>
         </ul>
       </SectionWrapper>

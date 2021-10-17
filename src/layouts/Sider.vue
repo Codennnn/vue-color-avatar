@@ -3,7 +3,7 @@
     <slot />
 
     <div class="trigger" @click="isCollapsed ? openSider() : closeSider()">
-      <img :src="IconRight" class="icon-right" />
+      <img :src="IconRight" class="icon-right" alt="arrow" />
     </div>
   </aside>
 </template>

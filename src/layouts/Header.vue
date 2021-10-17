@@ -11,7 +11,7 @@
         rel="nofollow noopener noreferrer"
       >
         <button class="github-button">
-          <img :src="IconGitHub" />
+          <img :src="IconGitHub" alt="GitHub" />
           <span class="text">GitHub</span>
         </button>
       </a>

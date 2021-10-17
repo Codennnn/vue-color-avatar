@@ -8,7 +8,7 @@
       :title="ac.tip"
       @click="emit('actionHandler', ac.type)"
     >
-      <img :src="ac.icon" />
+      <img :src="ac.icon" :alt="ac.tip" />
     </div>
   </div>
 </template>

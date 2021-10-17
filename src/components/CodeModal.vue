@@ -6,7 +6,7 @@
           <div class="title">{{ t('text.codeModalTitle') }}</div>
 
           <div class="close-btn" @click="emit('close')">
-            <img :src="IconClose" class="icon-close" alt="close" />
+            <img :src="IconClose" class="icon-close" :alt="t('action.close')" />
           </div>
         </div>
 
@@ -15,7 +15,7 @@
             class="code-scroll-wrapper"
             :options="{ suppressScrollX: false }"
           >
-            <pre><code class="code-content" v-html="highlightedCode" /></pre>
+            <pre><code class="code-content" v-html="highlightedCode"></code></pre>
           </PerfectScrollbar>
 
           <button
