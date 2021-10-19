@@ -10,7 +10,14 @@
         target="_blank"
         rel="nofollow noopener noreferrer"
       >
-        <button class="github-button">
+        <button
+          class="github-button"
+          @click="
+            recordEvent('click_github', {
+              event_category: 'click',
+            })
+          "
+        >
           <img :src="IconGitHub" alt="GitHub" />
           <span class="text">GitHub</span>
         </button>
@@ -22,6 +29,7 @@
 <script lang="ts" setup>
 import IconGitHub from '@/assets/icons/icon-github.svg'
 import Logo from '@/components/Logo.vue'
+import { recordEvent } from '@/utils/ga'
 </script>
 
 <style lang="scss" scoped>

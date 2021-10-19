@@ -91,7 +91,7 @@ import {
   NOT_COMPATIBLE_AGENTS,
   TRIGGER_PROBABILITY,
 } from '@/utils/constant'
-import { recordClick } from '@/utils/ga'
+import { recordEvent } from '@/utils/ga'
 
 import Confetti from './components/Confetti.vue'
 
@@ -117,6 +117,10 @@ function handleGenerate() {
     const randomOption = getRandomAvatarOption(avatarOption.value)
     setAvatarOption(randomOption)
   }
+
+  recordEvent('click_randomize', {
+    event_category: 'click',
+  })
 }
 
 const downloadModalVisible = ref(false)
@@ -150,6 +154,10 @@ async function handleDownload() {
         trigger.click()
       }
     }
+
+    recordEvent('click_download', {
+      event_category: 'click',
+    })
   } finally {
     setTimeout(() => {
       downloading.value = false
@@ -164,21 +172,33 @@ function handleAction(actionType: ActionType) {
   switch (actionType) {
     case ActionType.Undo:
       store.commit(UNDO)
+      recordEvent('action_undo', {
+        event_category: 'action',
+        event_label: 'Undo',
+      })
       break
 
     case ActionType.Redo:
       store.commit(REDO)
+      recordEvent('action_redo', {
+        event_category: 'action',
+        event_label: 'Redo',
+      })
       break
 
     case ActionType.Flip:
       flipped.value = !flipped.value
+      recordEvent('action_flip_avatar', {
+        event_category: 'action',
+        event_label: 'Flip Avatar',
+      })
       break
 
     case ActionType.Code:
       codeVisible.value = !codeVisible.value
-      recordClick({
-        event_category: 'code',
-        event_label: 'view code',
+      recordEvent('action_view_code', {
+        event_category: 'action',
+        event_label: 'View Avatar Option Code',
       })
       break
   }
@@ -267,7 +287,7 @@ function handleAction(actionType: ActionType) {
   height: 100%;
   overflow: hidden;
 
-  @mixin gradient-block($color) {
+  @mixin gradient-style($color) {
     position: absolute;
     width: 100vh;
     height: 100vh;
@@ -284,14 +304,14 @@ function handleAction(actionType: ActionType) {
   }
 
   .gradient-top {
-    @include gradient-block($color-secondary);
+    @include gradient-style($color-secondary);
 
     top: -50%;
     right: -20%;
   }
 
   .gradient-bottom {
-    @include gradient-block($color-accent);
+    @include gradient-style($color-accent);
 
     bottom: -50%;
     left: -20%;
