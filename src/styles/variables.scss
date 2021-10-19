@@ -6,6 +6,7 @@ $color-dark: hsl(216, 14%, 14%);
 $color-gray: lighten($color-dark, 5);
 $color-page-bg: darken($color-dark, 5);
 $color-configurator: $color-dark;
+$color-stroke: $color-text;
 
 $layout-header-height: 6rem;
 $layout-sider-width: 20rem;

@@ -96,16 +96,23 @@ onUnmounted(() => {
   padding: 2rem 0;
   overflow: hidden;
   transform: translate(-50%, 0);
+
+  @supports (backdrop-filter: blur(0.1rem)) {
+    backdrop-filter: blur(0.1rem);
+  }
 }
 
 .code-box {
   $code-header-height: 4rem;
+  $code-box-side-padding-normal: 2rem;
+  $code-box-side-padding-small: 1rem;
   position: relative;
   width: 75%;
   max-width: 800px;
   height: 100%;
   margin: 0 auto;
-  padding: $code-header-height 2rem 2.5rem 2rem;
+  padding: $code-header-height $code-box-side-padding-normal 2.5rem
+    $code-box-side-padding-normal;
   background-color: lighten($color-dark, 3);
   border-radius: 1rem;
   transition: width 0.2s;
@@ -120,6 +127,12 @@ onUnmounted(() => {
 
   @media screen and (max-width: $screen-sm) {
     width: 90%;
+    padding: $code-header-height $code-box-side-padding-small 2.5rem
+      $code-box-side-padding-small;
+
+    .code-header {
+      padding: 0 $code-box-side-padding-small;
+    }
   }
 
   .code-header {
@@ -130,7 +143,7 @@ onUnmounted(() => {
     align-items: center;
     width: 100%;
     height: $code-header-height;
-    padding: 0 2rem;
+    padding: 0 $code-box-side-padding-normal;
 
     .title {
       font-weight: bold;
@@ -218,6 +231,11 @@ onUnmounted(() => {
   font-size: 1.25rem;
   font-family: 'Ubuntu Mono', Fallback;
   line-height: 1.4;
+
+  @media screen and (max-width: $screen-sm) {
+    padding: 0 1rem;
+    font-size: 1rem;
+  }
 
   & > .token {
     &.key {

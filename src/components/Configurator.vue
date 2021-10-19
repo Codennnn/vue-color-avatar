@@ -290,7 +290,7 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
       }
 
       & :deep(path) {
-        stroke: #aaa !important;
+        stroke: $color-stroke !important;
       }
     }
   }

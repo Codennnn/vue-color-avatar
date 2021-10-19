@@ -279,42 +279,45 @@ function handleAction(actionType: ActionType) {
   }
 }
 
-.gradient-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+@supports (filter: blur(4rem)) or (-webkit-filter: blur(4rem)) or
+  (-moz-filter: blur(4rem)) {
+  .gradient-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 
-  @mixin gradient-style($color) {
-    position: absolute;
-    width: 100vh;
-    height: 100vh;
-    background-image: radial-gradient(
-      rgba($color, 0.8) 20%,
-      rgba($color, 0.6) 40%,
-      rgba($color, 0.4) 60%,
-      rgba($color, 0.2) 80%,
-      transparent 100%
-    );
-    border-radius: 50%;
-    opacity: 0.2;
-    filter: blur(4rem);
-  }
+    @mixin gradient-style($color) {
+      position: absolute;
+      width: 100vh;
+      height: 100vh;
+      background-image: radial-gradient(
+        rgba($color, 0.8) 20%,
+        rgba($color, 0.6) 40%,
+        rgba($color, 0.4) 60%,
+        rgba($color, 0.2) 80%,
+        transparent 100%
+      );
+      border-radius: 50%;
+      opacity: 0.2;
+      filter: blur(4rem);
+    }
 
-  .gradient-top {
-    @include gradient-style($color-secondary);
+    .gradient-top {
+      @include gradient-style($color-secondary);
 
-    top: -50%;
-    right: -20%;
-  }
+      top: -50%;
+      right: -20%;
+    }
 
-  .gradient-bottom {
-    @include gradient-style($color-accent);
+    .gradient-bottom {
+      @include gradient-style($color-accent);
 
-    bottom: -50%;
-    left: -20%;
+      bottom: -50%;
+      left: -20%;
+    }
   }
 }
 </style>
