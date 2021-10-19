@@ -40,6 +40,8 @@ type AvatarWidgets = {
 }
 
 export interface AvatarOption {
+  gender?: Gender
+
   wrapperShape?: `${WrapperShape}`
 
   background: {

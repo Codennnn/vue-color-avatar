@@ -1,4 +1,5 @@
-import type { BeardShape, EarringsShape, GlassesShape } from '@/enums'
+import type { EarringsShape, GlassesShape } from '@/enums'
+import { BeardShape, Gender, TopsShape } from '@/enums'
 import type { AvatarOption, None } from '@/types'
 
 import { NONE, SETTINGS, SPECIAL_AVATARS } from './constant'
@@ -32,7 +33,19 @@ export function getRandomAvatarOption(
   presetOption: Partial<AvatarOption> = {},
   useOption: Partial<AvatarOption> = {}
 ): AvatarOption {
+  const gender = getRandomValue(SETTINGS.gender)
+
+  const beardList: BeardShape[] = []
+  let topList: TopsShape[] = [TopsShape.Danny, TopsShape.Wave, TopsShape.Pixie]
+
+  if (gender === Gender.Male) {
+    beardList.push(BeardShape.Scruff)
+    topList = SETTINGS.topsShape.filter((shape) => !topList.includes(shape))
+  }
+
   const avatarOption: AvatarOption = {
+    gender,
+
     wrapperShape:
       presetOption?.wrapperShape || getRandomValue(SETTINGS.wrapperShape),
 
@@ -47,7 +60,7 @@ export function getRandomAvatarOption(
         shape: getRandomValue(SETTINGS.faceShape),
       },
       tops: {
-        shape: getRandomValue(SETTINGS.topsShape, {
+        shape: getRandomValue(topList, {
           avoid: [useOption.widgets?.tops?.shape],
         }),
       },
@@ -87,7 +100,7 @@ export function getRandomAvatarOption(
         }),
       },
       beard: {
-        shape: getRandomValue<BeardShape | None>(SETTINGS.beardShape, {
+        shape: getRandomValue<BeardShape | None>(beardList, {
           usually: [NONE],
         }),
       },

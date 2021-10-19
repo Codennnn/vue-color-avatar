@@ -111,6 +111,7 @@ function handleGenerate() {
     ) {
       colorfulOption = getSpecialAvatarOption()
     }
+    colorfulOption.wrapperShape = avatarOption.value.wrapperShape
     setAvatarOption(colorfulOption)
     showConfetti()
   } else {
