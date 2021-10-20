@@ -166,7 +166,6 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
   width: $layout-sider-width;
   height: 100%;
   background-color: $color-configurator;
-  backdrop-filter: blur(10px);
 }
 
 .configurator {
@@ -209,7 +208,10 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
     align-items: center;
 
     .bg-color-list__item {
-      padding: 0.4rem 0.5rem;
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      padding: 0.6rem 0.5rem;
       cursor: pointer;
       transition: transform 0.2s;
 
@@ -229,7 +231,7 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
           z-index: -1;
           width: 100%;
           height: 100%;
-          background-color: inherit;
+          background: inherit;
           border-radius: 50%;
           transform: translate(-50%, -50%);
           opacity: 0.5;
@@ -241,6 +243,7 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
           position: absolute;
           top: 50%;
           left: 50%;
+          z-index: 1;
           color: $color-configurator;
           font-size: 1.5rem;
           transform: translate(-50%, -50%) scale(0.5);

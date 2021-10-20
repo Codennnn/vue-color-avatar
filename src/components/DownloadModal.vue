@@ -49,9 +49,12 @@ const { t } = useI18n()
   height: 100%;
   padding: 2rem 0;
   overflow: hidden;
-  background-color: rgba($color-dark, 0.4);
   transform: translate(-50%, 0);
   backdrop-filter: blur(0.3rem);
+
+  @supports not (backdrop-filter: blur(0.3rem)) {
+    background-color: rgba($color-dark, 0.8);
+  }
 }
 
 .download-modal {

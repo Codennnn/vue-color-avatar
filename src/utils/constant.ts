@@ -72,8 +72,6 @@ export const SETTINGS: Readonly<AvatarSettings> = {
   clothesShape: Object.values(ClothesShape),
 
   backgroundColor: [
-    '#EEE',
-    '#9287FF',
     '#6BD9E9',
     '#FC909F',
     '#F4D150',
@@ -83,7 +81,11 @@ export const SETTINGS: Readonly<AvatarSettings> = {
     '#FFEBA4',
     '#506AF4',
     '#F48150',
-    '#74D153',
+    'linear-gradient(45deg, #E3648C, #D97567)',
+    'linear-gradient(62deg, #8EC5FC, #E0C3FC)',
+    'linear-gradient(90deg, #ffecd2, #fcb69f)',
+    'linear-gradient(120deg, #a1c4fd, #c2e9fb)',
+    'linear-gradient(-135deg, #fccb90, #d57eeb)',
   ],
   skinColor: ['#F9C9B6', '#AC6651'],
   clothesColor: ['#9287FF', '#6BD9E9', '#FC909F', '#F4D150', '#77311D'],

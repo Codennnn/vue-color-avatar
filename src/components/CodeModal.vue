@@ -96,10 +96,7 @@ onUnmounted(() => {
   padding: 2rem 0;
   overflow: hidden;
   transform: translate(-50%, 0);
-
-  @supports (backdrop-filter: blur(0.1rem)) {
-    backdrop-filter: blur(0.1rem);
-  }
+  backdrop-filter: blur(0.1rem);
 }
 
 .code-box {

@@ -136,7 +136,7 @@ export function showConfetti() {
 
     const duration = performance.now() + 1 * 1000
 
-    const colors = SETTINGS.backgroundColor.slice(1, 4)
+    const colors = ['#6967fe', '#85e9f4', '#e16984']
 
     void (function frame() {
       myConfetti({
