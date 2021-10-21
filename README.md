@@ -11,17 +11,29 @@
 
 ![preview](./images/social-preview-2.png)
 
+![preview](./images/social-preview-3.jpeg)
+
 ## 在线预览
 
 [`https://vue-color-avatar.vercel.app`](https://vue-color-avatar.vercel.app)
 
 ## 🥳 介绍
 
-根据你喜好的风格，通过组合不同的头像组件来生成生成千变万化的头像。
+**这是一款矢量风格头像的生成器，你可以搭配不同的素材组件，生成自己的个性化头像。**
+
+你可能感兴趣的功能：
+
+- 可视化组件配置栏
+- 随机生成头像，有一定概率触发彩蛋
+- 撤销/还原*更改*
+- 国际化多语言
 
 ## 设计资源
 
-目前该项目所使用的所有头像素材均来自于 [Figma 社区](https://www.figma.com/community/file/829741575478342595)，作者：Micah Lanier。请注意，虽然该项目是 MIT 协议，但是素材的设计基于 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 协议。如果你有好的创意素材，欢迎补充~
+- 设计师：[@Micah](https://www.figma.com/@Micah) on Figma
+- 素材来源：[Avatar Illustration System](https://www.figma.com/community/file/829741575478342595)
+
+> 请注意，虽然该项目是 MIT 协议，但是素材资源基于 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 协议。如果你有好的创意素材，欢迎补充！
 
 ## 项目开发
 

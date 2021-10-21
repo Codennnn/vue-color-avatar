@@ -11,13 +11,22 @@
 
 ![preview](./images/social-preview-2.png)
 
+![preview](./images/social-preview-3.jpeg)
+
 ## Preview
 
 [`https://vue-color-avatar.vercel.app`](https://vue-color-avatar.vercel.app)
 
 ## Introduction
 
-By swapping components around, you can build your own avatar.
+**By swapping components around, you can build your own avatar.**
+
+Features you might be interested in:
+
+- Visual component configuration bar
+- Randomly generate an avatar
+- Redo/Undo
+- i18n
 
 ## Assets
 
