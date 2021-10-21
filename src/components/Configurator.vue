@@ -32,7 +32,10 @@
             <div
               :style="{ background: bgColor }"
               class="bg-color"
-              :class="{ active: bgColor === avatarOption.background.color }"
+              :class="{
+                active: bgColor === avatarOption.background.color,
+                transparent: bgColor === 'transparent',
+              }"
             ></div>
           </li>
         </ul>
@@ -210,8 +213,8 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
     .bg-color-list__item {
       position: relative;
       z-index: 1;
-      flex: 1;
-      padding: 0.6rem 0.5rem;
+      width: calc(100% / 7);
+      padding: 0.6rem 0;
       cursor: pointer;
       transition: transform 0.2s;
 
@@ -220,9 +223,27 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
         box-sizing: content-box;
         width: 1.3em;
         height: 1.3em;
+        margin: 0 auto;
         font-size: 16px;
         border-radius: 50%;
-        box-shadow: 0 0 0.1em 0.15em $color-configurator;
+        box-shadow: 0 0 0.05em 0.2em $color-configurator;
+
+        &.transparent {
+          background: #fff !important;
+
+          &::after {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 1;
+            color: #ff4757;
+            font-weight: bold;
+            font-size: 1.8rem;
+            transform: translate(-50%, -50%) scale(0.5);
+            opacity: 1;
+            content: '\\';
+          }
+        }
 
         &::before {
           position: absolute;
