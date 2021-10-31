@@ -165,15 +165,17 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
 </script>
 
 <style lang="scss" scoped>
+@use 'src/styles/var';
+
 .configurator-scroll {
-  width: $layout-sider-width;
+  width: var.$layout-sider-width;
   height: 100%;
-  background-color: $color-configurator;
+  background-color: var.$color-configurator;
 }
 
 .configurator {
   width: 100%;
-  color: $color-text;
+  color: var.$color-text;
 
   .wrapper-shape {
     display: flex;
@@ -187,7 +189,7 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
         display: inline-block;
         width: 1.5rem;
         height: 1.5rem;
-        background-color: $color-text;
+        background-color: var.$color-text;
         transition: background-color 0.2s;
 
         &.circle {
@@ -199,7 +201,7 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
         }
 
         &.active {
-          background-color: $color-accent;
+          background-color: var.$color-accent;
         }
       }
     }
@@ -226,7 +228,7 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
         margin: 0 auto;
         font-size: 16px;
         border-radius: 50%;
-        box-shadow: 0 0 0.05em 0.2em $color-configurator;
+        box-shadow: 0 0 0.05em 0.2em var.$color-configurator;
 
         &.transparent {
           background: #fff !important;
@@ -265,7 +267,7 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
           top: 50%;
           left: 50%;
           z-index: 1;
-          color: $color-configurator;
+          color: var.$color-configurator;
           font-size: 1.5rem;
           transform: translate(-50%, -50%) scale(0.5);
           opacity: 0;
@@ -301,11 +303,11 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
       transition: background-color 0.2s;
 
       &.selected.selected {
-        background-color: lighten($color-configurator, 6);
+        background-color: lighten(var.$color-configurator, 6);
       }
 
       &:hover {
-        background-color: darken($color-configurator, 3);
+        background-color: darken(var.$color-configurator, 3);
       }
 
       & > :deep(svg) {
@@ -314,7 +316,7 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
       }
 
       & :deep(path) {
-        stroke: $color-stroke !important;
+        stroke: var.$color-stroke !important;
       }
     }
   }

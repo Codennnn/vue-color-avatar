@@ -207,12 +207,14 @@ function handleAction(actionType: ActionType) {
 </script>
 
 <style lang="scss" scoped>
+@use 'src/styles/var';
+
 .main {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  color: $color-text;
-  background-color: $color-page-bg;
+  color: var.$color-text;
+  background-color: var.$color-page-bg;
 
   .content-warpper {
     height: 100%;
@@ -242,7 +244,7 @@ function handleAction(actionType: ActionType) {
     align-items: center;
     justify-content: center;
 
-    @media screen and (max-width: $screen-sm) {
+    @media screen and (max-width: var.$screen-sm) {
       transform: scale(0.85);
     }
   }
@@ -259,21 +261,21 @@ function handleAction(actionType: ActionType) {
       height: 2.5rem;
       margin: 0 1rem;
       padding: 0 1rem;
-      color: $color-text;
+      color: var.$color-text;
       font-weight: bold;
-      background: $color-gray;
+      background: var.$color-gray;
       border-radius: 0.6rem;
       cursor: pointer;
       transition: color 0.2s;
       user-select: none;
 
       &:hover {
-        color: lighten($color-text, 10);
+        color: lighten(var.$color-text, 10);
       }
 
       &:disabled,
       &[disabled] {
-        color: rgba($color-text, 0.5);
+        color: rgba(var.$color-text, 0.5);
         cursor: default;
       }
     }
@@ -307,14 +309,14 @@ function handleAction(actionType: ActionType) {
     }
 
     .gradient-top {
-      @include gradient-style($color-secondary);
+      @include gradient-style(var.$color-secondary);
 
       top: -50%;
       right: -20%;
     }
 
     .gradient-bottom {
-      @include gradient-style($color-accent);
+      @include gradient-style(var.$color-accent);
 
       bottom: -50%;
       left: -20%;

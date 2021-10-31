@@ -34,12 +34,4 @@ export default defineConfig(({ mode }) => ({
     __VUE_I18N_LEGACY_API__: false,
     __INTLIFY_PROD_DEVTOOLS__: false,
   },
-
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@import "./src/styles/variables.scss";`,
-      },
-    },
-  },
 }))

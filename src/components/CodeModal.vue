@@ -86,6 +86,8 @@ onUnmounted(() => {
 </script>
 
 <style lang="scss" scoped>
+@use 'src/styles/var';
+
 .code-modal {
   position: fixed;
   bottom: 0;
@@ -110,7 +112,7 @@ onUnmounted(() => {
   margin: 0 auto;
   padding: $code-header-height $code-box-side-padding-normal 2.5rem
     $code-box-side-padding-normal;
-  background-color: lighten($color-dark, 3);
+  background-color: lighten(var.$color-dark, 3);
   border-radius: 1rem;
   transition: width 0.2s;
 
@@ -118,11 +120,11 @@ onUnmounted(() => {
     width: 75%;
   }
 
-  @media screen and (max-width: $screen-md) {
+  @media screen and (max-width: var.$screen-md) {
     width: 80%;
   }
 
-  @media screen and (max-width: $screen-sm) {
+  @media screen and (max-width: var.$screen-sm) {
     width: 90%;
     padding: $code-header-height $code-box-side-padding-small 2.5rem
       $code-box-side-padding-small;
@@ -153,7 +155,7 @@ onUnmounted(() => {
       width: 2rem;
       height: 2rem;
       margin-left: auto;
-      background-color: lighten($color-dark, 8);
+      background-color: lighten(var.$color-dark, 8);
       border-radius: 50%;
       cursor: pointer;
 
@@ -176,7 +178,7 @@ onUnmounted(() => {
     height: 20rem;
     height: 100%;
     padding: 1rem 0;
-    background: darken($color-dark, 1);
+    background: darken(var.$color-dark, 1);
     border-radius: 0.8rem;
 
     .code-scroll-wrapper {
@@ -193,15 +195,15 @@ onUnmounted(() => {
       width: 5rem;
       height: 2rem;
       color: #fff;
-      background-color: $color-accent;
+      background-color: var.$color-accent;
       border-radius: 0.4rem;
       transform: translate(-50%, -45%);
       cursor: pointer;
       transition: color 0.15s, background-color 0.15s;
 
       &.copied {
-        color: $color-dark;
-        background-color: $color-secondary;
+        color: var.$color-dark;
+        background-color: var.$color-secondary;
       }
     }
   }
@@ -220,6 +222,8 @@ onUnmounted(() => {
 </style>
 
 <style lang="scss">
+@use 'src/styles/var';
+
 .code-content {
   display: block;
   padding: 0 1.5rem;
@@ -229,7 +233,7 @@ onUnmounted(() => {
   font-family: 'Ubuntu Mono', Fallback;
   line-height: 1.4;
 
-  @media screen and (max-width: $screen-sm) {
+  @media screen and (max-width: var.$screen-sm) {
     padding: 0 1rem;
     font-size: 1rem;
   }

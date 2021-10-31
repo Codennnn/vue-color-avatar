@@ -33,10 +33,12 @@ import { recordEvent } from '@/utils/ga'
 </script>
 
 <style lang="scss" scoped>
+@use 'src/styles/var';
+
 .header {
   display: flex;
   align-items: center;
-  height: $layout-header-height;
+  height: var.$layout-header-height;
   padding: 1rem 2rem;
 
   .site-title {
@@ -45,7 +47,7 @@ import { recordEvent } from '@/utils/ga'
     font-size: 1.9rem;
     cursor: default;
 
-    @media screen and (max-width: $screen-sm) {
+    @media screen and (max-width: var.$screen-sm) {
       display: none;
     }
   }
@@ -59,18 +61,18 @@ import { recordEvent } from '@/utils/ga'
       justify-content: center;
       width: 8rem;
       height: 2.5rem;
-      color: $color-text;
+      color: var.$color-text;
       font-weight: bold;
       font-size: 1.05rem;
-      background-color: $color-dark;
+      background-color: var.$color-dark;
       border-radius: 0.6rem;
       cursor: pointer;
       transition: box-shadow 0.2s, background-color 0.2s;
       user-select: none;
 
       &:hover {
-        background-color: lighten($color-dark, 2);
-        box-shadow: 0 0.2rem 1.5rem 0.2rem lighten($color-dark, 5);
+        background-color: lighten(var.$color-dark, 2);
+        box-shadow: 0 0.2rem 1.5rem 0.2rem lighten(var.$color-dark, 5);
       }
 
       .text {

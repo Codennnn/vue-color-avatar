@@ -33,13 +33,15 @@ function switchLocale() {
 </script>
 
 <style lang="scss" scoped>
+@use 'src/styles/var';
+
 .footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: $layout-footer-height;
+  height: var.$layout-footer-height;
   padding: 0.8rem 0;
-  color: rgba($color-text, 0.4);
+  color: rgba(var.$color-text, 0.4);
   font-weight: bold;
   font-size: 0.8rem;
 
@@ -56,7 +58,7 @@ function switchLocale() {
     transition: color 0.2s;
 
     &:hover {
-      color: $color-text;
+      color: var.$color-text;
     }
   }
 }

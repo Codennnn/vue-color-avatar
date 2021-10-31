@@ -53,16 +53,18 @@ onUnmounted(() => {
 </script>
 
 <style lang="scss" scoped>
+@use 'src/styles/var';
+
 .container {
   height: 100%;
-  padding-right: $layout-sider-width;
+  padding-right: var.$layout-sider-width;
   transition: padding-right 0.2s;
 
   &.full {
     padding-right: 0;
   }
 
-  @media screen and (max-width: $screen-lg) {
+  @media screen and (max-width: var.$screen-lg) {
     padding-right: 0;
   }
 }

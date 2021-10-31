@@ -1,4 +1,7 @@
+@use 'src/styles/var';
+/* stylelint-disable-next-line no-invalid-position-at-import-rule */
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* stylelint-disable-next-line no-invalid-position-at-import-rule */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 @font-face {
@@ -25,7 +28,7 @@ img {
 }
 
 ::selection {
-  background: rgba($color-text, 0.15);
+  background: rgba(var.$color-text, 0.15);
 }
 
 #app {

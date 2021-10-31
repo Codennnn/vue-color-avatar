@@ -37,6 +37,8 @@ const { t } = useI18n()
 </script>
 
 <style lang="scss" scoped>
+@use 'src/styles/var';
+
 .download-modal-wrapper {
   position: fixed;
   bottom: 0;
@@ -53,7 +55,7 @@ const { t } = useI18n()
   backdrop-filter: blur(0.3rem);
 
   @supports not (backdrop-filter: blur(0.3rem)) {
-    background-color: rgba($color-dark, 0.8);
+    background-color: rgba(var.$color-dark, 0.8);
   }
 }
 
@@ -62,8 +64,8 @@ const { t } = useI18n()
   width: 50%;
   min-width: 310px;
   max-width: 500px;
-  background-color: darken($color-dark, 1);
-  border: 0.15rem solid rgba($color-accent, 0.8);
+  background-color: darken(var.$color-dark, 1);
+  border: 0.15rem solid rgba(var.$color-accent, 0.8);
   border-radius: 1rem;
 
   .modal-body {
@@ -78,11 +80,11 @@ const { t } = useI18n()
       width: 60%;
       margin: 0 auto;
 
-      @media screen and (max-width: $screen-md) {
+      @media screen and (max-width: var.$screen-md) {
         width: 80%;
       }
 
-      @media screen and (max-width: $screen-sm) {
+      @media screen and (max-width: var.$screen-sm) {
         width: 90%;
       }
 
@@ -97,7 +99,7 @@ const { t } = useI18n()
       max-width: 70%;
       margin: 0 auto;
       padding: 1.5rem 0;
-      color: $color-text;
+      color: var.$color-text;
       font-size: 0.85rem;
       text-align: center;
       cursor: default;
@@ -113,9 +115,9 @@ const { t } = useI18n()
     margin: 0 1rem;
     margin-left: auto;
     padding: 0 1rem;
-    color: $color-text;
+    color: var.$color-text;
     font-weight: bold;
-    background: $color-gray;
+    background: var.$color-gray;
     border-radius: 0.2rem;
     border-radius: 0.6rem;
     cursor: pointer;
@@ -123,7 +125,7 @@ const { t } = useI18n()
     user-select: none;
 
     &:hover {
-      color: lighten($color-text, 10);
+      color: lighten(var.$color-text, 10);
       transform: translateY(-0.3rem);
     }
   }

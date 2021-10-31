@@ -16,6 +16,8 @@ const { isCollapsed, openSider, closeSider } = useSider()
 </script>
 
 <style lang="scss" scoped>
+@use 'src/styles/var';
+
 .sider {
   position: fixed;
   top: 0;
@@ -45,7 +47,7 @@ const { isCollapsed, openSider, closeSider } = useSider()
     justify-content: center;
     width: 1.2rem;
     height: 4rem;
-    background-color: lighten($color-configurator, 2);
+    background-color: lighten(var.$color-configurator, 2);
     border-radius: 0.4rem 0 0 0.4rem;
     transform: translate(-100%, -50%);
     cursor: pointer;
@@ -53,7 +55,7 @@ const { isCollapsed, openSider, closeSider } = useSider()
 
     &:hover {
       width: 1.5rem;
-      background-color: lighten($color-configurator, 5);
+      background-color: lighten(var.$color-configurator, 5);
     }
   }
 }
