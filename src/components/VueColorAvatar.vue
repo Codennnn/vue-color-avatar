@@ -14,6 +14,12 @@
   </div>
 </template>
 
+<script lang="ts">
+export interface VueColorAvatarRef {
+  avatarRef: HTMLDivElement
+}
+</script>
+
 <script lang="ts" setup>
 import { ref, toRefs, watchEffect } from 'vue'
 
@@ -25,7 +31,7 @@ import { widgetData } from '@/utils/dynamic-data'
 
 import Background from './widgets/Background.vue'
 
-export interface VueColorAvatarProps {
+interface VueColorAvatarProps {
   option: AvatarOption
   size?: number
 }
@@ -36,10 +42,6 @@ const props = withDefaults(defineProps<VueColorAvatarProps>(), {
 })
 
 const { option: avatarOption, size: avatarSize } = toRefs(props)
-
-export interface VueColorAvatarRef {
-  avatarRef: HTMLDivElement
-}
 
 const avatarRef = ref<VueColorAvatarRef['avatarRef']>()
 

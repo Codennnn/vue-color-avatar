@@ -17,7 +17,7 @@
               />
             </div>
 
-            <ActionBar @actionHandler="handleAction" />
+            <ActionBar @action="handleAction" />
 
             <div class="action-group">
               <button class="action-randomize" @click="handleGenerate">
@@ -48,7 +48,7 @@
           />
         </div>
 
-        <Confetti />
+        <ConfettiCanvas />
 
         <div class="gradient-bg">
           <div class="gradient-top"></div>
@@ -93,7 +93,7 @@ import {
 } from '@/utils/constant'
 import { recordEvent } from '@/utils/ga'
 
-import Confetti from './components/Confetti.vue'
+import ConfettiCanvas from './components/ConfettiCanvas.vue'
 
 const store = useStore()
 

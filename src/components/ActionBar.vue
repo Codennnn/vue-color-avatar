@@ -6,7 +6,7 @@
       class="menu-item"
       :class="{ disabled: ac.disabled }"
       :title="ac.tip"
-      @click="emit('actionHandler', ac.type)"
+      @click="emit('action', ac.type)"
     >
       <img :src="ac.icon" :alt="ac.tip" />
     </div>
@@ -25,7 +25,7 @@ import { ActionType } from '@/enums'
 import { useStore } from '@/store'
 
 const emit = defineEmits<{
-  (e: 'actionHandler', actionType: ActionType): void
+  (e: 'action', actionType: ActionType): void
 }>()
 
 const { t } = useI18n()

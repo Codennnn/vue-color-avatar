@@ -26,7 +26,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:vue/vue3-recommended',
     'plugin:prettier/recommended',
-    'plugin:tailwindcss/recommended',
   ],
   plugins: ['simple-import-sort'],
   rules: {
@@ -45,7 +44,6 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 0,
     '@typescript-eslint/consistent-type-imports': 1,
     '@typescript-eslint/no-non-null-assertion': 0,
-    'tailwindcss/no-custom-classname': 0,
   },
   ignorePatterns: [
     'dist',
