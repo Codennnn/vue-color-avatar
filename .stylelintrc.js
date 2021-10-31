@@ -27,4 +27,15 @@ module.exports = {
   },
 
   ignoreFiles: ['dist/**/*.css'],
+
+  overrides: [
+    {
+      files: ['**/*.vue'],
+      customSyntax: 'postcss-html',
+    },
+    {
+      files: ['**/*.scss'],
+      customSyntax: 'postcss-scss',
+    },
+  ],
 }
