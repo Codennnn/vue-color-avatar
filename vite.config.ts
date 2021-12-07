@@ -5,10 +5,6 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  server: {
-    port: 5000,
-  },
-
   plugins: [
     vue(),
     ...(mode === 'prerelease'
