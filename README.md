@@ -7,17 +7,15 @@
 
 </div>
 
-![preview](./images/social-preview-1.png)
-
-![preview](./images/social-preview-2.png)
-
-![preview](./images/social-preview-3.jpeg)
+<a>
+  <img src="./images/social-preview-1.png" alt="website-preview" />
+</a>
 
 ## 在线预览
 
 [`https://vue-color-avatar.vercel.app`](https://vue-color-avatar.vercel.app)
 
-## 🥳 介绍
+## 介绍
 
 **这是一款矢量风格头像的生成器，你可以搭配不同的素材组件，生成自己的个性化头像。**
 

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../public/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A pure front-end avatar generator." />
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+      }
+
+      .color-block {
+        --size: 40vmax;
+
+        position: fixed;
+        z-index: 99;
+        width: var(--size);
+        height: var(--size);
+        background: #fff;
+        border-radius: 50%;
+        opacity: 0.06;
+        filter: blur(100px);
+      }
+
+      .color-block[data-id='1'] {
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
+      }
+
+      .color-block[data-id='2'] {
+        right: 0;
+        bottom: 0;
+        transform: translate(50%, 50%);
+      }
+    </style>
+
+    <title>Vue Color Avatar</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <main style="height: 100vh; background-color: #1a1b24">
+        <header
+          style="
+            position: relative;
+            z-index: 100;
+            padding: 30px 35px 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <div style="display: flex; align-items: center">
+            <div style="margin-right: 20px">
+              <img src="../public/favicon.svg" width="60" />
+            </div>
+            <div style="font-size: 40px; font-weight: bold">Color Avatar</div>
+          </div>
+
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              padding: 10px 20px;
+              background: #303141;
+              border-radius: 10px;
+            "
+          >
+            <img src="./ts.svg" style="width: 50px" />
+            <img src="./vue.svg" style="width: 50px; margin: 0 30px" />
+            <img src="./vite.svg" style="width: 50px" />
+          </div>
+        </header>
+
+        <div style="position: relative; z-index: 100">
+          <h1
+            style="
+              margin: 10px 0 30px;
+              display: flex;
+              flex-direction: column;
+              font-weight: bold;
+              font-size: 80px;
+              text-align: center;
+            "
+          >
+            <span style="font-size: 75px">Front-End Only</span>
+            <span
+              style="
+                background: linear-gradient(90deg, #6967fe, #85e9f4);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+              "
+              >Avatar Generator</span
+            >
+          </h1>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: 30px;
+            "
+          >
+            <img src="./avatar-1.png" style="width: 55px" />
+            <img src="./avatar-2.png" style="width: 55px; margin: 0 40px" />
+            <img src="./avatar-3.png" style="width: 55px" />
+          </div>
+
+          <div style="width: 80vw; margin: 0 auto">
+            <img style="width: 100%" src="./preview.png" />
+          </div>
+        </div>
+
+        <div class="color-block" data-id="1"></div>
+        <div class="color-block" data-id="2"></div>
+      </main>
+    </div>
+  </body>
+</html>

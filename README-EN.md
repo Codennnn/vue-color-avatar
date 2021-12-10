@@ -1,17 +1,15 @@
 <div align="center">
   <h1>Vue Color Avatar</h1>
 
-  <p>🧑‍🦱 A pure front-end avatar generation website 🧑‍🦳</p>
+  <p>🧑‍🦱 A front-end only avatar generation website 🧑‍🦳</p>
 
 [简体中文](./README.md)
 
 </div>
 
-![preview](./images/social-preview-1.png)
-
-![preview](./images/social-preview-2.png)
-
-![preview](./images/social-preview-3.jpeg)
+<a>
+  <img src="./images/social-preview-1.png" alt="website-preview" />
+</a>
 
 ## Preview
 
