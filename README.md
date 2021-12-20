@@ -7,7 +7,7 @@
 
 </div>
 
-<a>
+<a href="https://vue-color-avatar.vercel.app" target="_blank">
   <img src="./images/social-preview-1.png" alt="website-preview" />
 </a>
 
