@@ -31,3 +31,12 @@ onUnmounted(() => {
   ps.destroy()
 })
 </script>
+
+<style lang="scss">
+.ps--active-y .ps__rail-y {
+  &:hover,
+  &.ps--clicking {
+    background-color: #2c323a;
+  }
+}
+</style>
