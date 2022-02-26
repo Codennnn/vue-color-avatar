@@ -1,6 +1,11 @@
-import type { EarringsShape, GlassesShape } from '@/enums'
-import { BeardShape, Gender, TopsShape } from '@/enums'
-import type { AvatarOption, None } from '@/types'
+import {
+  type EarringsShape,
+  type GlassesShape,
+  BeardShape,
+  Gender,
+  TopsShape,
+} from '@/enums'
+import { type AvatarOption, type None } from '@/types'
 
 import { NONE, SETTINGS, SPECIAL_AVATARS } from './constant'
 

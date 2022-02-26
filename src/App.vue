@@ -71,8 +71,9 @@ import ActionBar from '@/components/ActionBar.vue'
 import CodeModal from '@/components/CodeModal.vue'
 import Configurator from '@/components/Configurator.vue'
 import DownloadModal from '@/components/DownloadModal.vue'
-import type { VueColorAvatarRef } from '@/components/VueColorAvatar.vue'
-import VueColorAvatar from '@/components/VueColorAvatar.vue'
+import VueColorAvatar, {
+  type VueColorAvatarRef,
+} from '@/components/VueColorAvatar.vue'
 import { ActionType } from '@/enums'
 import { useAvatarOption } from '@/hooks'
 import Container from '@/layouts/Container.vue'

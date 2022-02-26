@@ -1,21 +1,21 @@
-import type { NONE } from '@/utils/constant'
+import { type NONE } from '@/utils/constant'
 
 export type None = typeof NONE
 
-import type {
-  BeardShape,
-  ClothesShape,
-  EarringsShape,
-  EarShape,
-  EyebrowsShape,
-  EyesShape,
-  FaceShape,
-  Gender,
-  GlassesShape,
-  MouthShape,
-  NoseShape,
-  TopsShape,
-  WrapperShape,
+import {
+  type BeardShape,
+  type ClothesShape,
+  type EarringsShape,
+  type EarShape,
+  type EyebrowsShape,
+  type EyesShape,
+  type FaceShape,
+  type Gender,
+  type GlassesShape,
+  type MouthShape,
+  type NoseShape,
+  type TopsShape,
+  type WrapperShape,
 } from '../enums'
 
 interface Widget<Shape> {

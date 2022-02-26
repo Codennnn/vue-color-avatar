@@ -1,9 +1,8 @@
-import type { InjectionKey } from 'vue'
-import type { Store } from 'vuex'
-import { createStore, useStore as baseUseStore } from 'vuex'
+import { type InjectionKey } from 'vue'
+import { type Store, createStore, useStore as baseUseStore } from 'vuex'
 
 import { WrapperShape } from '@/enums'
-import type { AvatarOption } from '@/types'
+import { type AvatarOption } from '@/types'
 import { getRandomAvatarOption } from '@/utils'
 import { SCREEN } from '@/utils/constant'
 

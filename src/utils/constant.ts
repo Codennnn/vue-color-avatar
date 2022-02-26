@@ -1,4 +1,4 @@
-import type { AvatarOption, AvatarSettings } from '@/types'
+import { type AvatarOption, type AvatarSettings } from '@/types'
 
 import {
   BeardShape,
