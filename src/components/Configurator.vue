@@ -22,11 +22,11 @@
       </SectionWrapper>
 
       <SectionWrapper :title="t('label.backgroundColor')">
-        <ul class="bg-color-list">
+        <ul class="color-list">
           <li
             v-for="bgColor in SETTINGS.backgroundColor"
             :key="bgColor"
-            class="bg-color-list__item"
+            class="color-list__item"
             @click="switchBgColor(bgColor)"
           >
             <div
@@ -57,8 +57,28 @@
             }"
             @click="switchWidget(s.widgetType, it.widgetShape)"
             v-html="it.svgRaw"
-          ></li>
+          />
         </ul>
+
+        <details
+          v-if="
+            s.widgetType === WidgetType.Tops ||
+            s.widgetType === WidgetType.Clothes
+          "
+          class="color-picker"
+        >
+          <summary class="color">颜色</summary>
+          <ul class="color-list">
+            <li
+              v-for="fillColor in SETTINGS.commonColors"
+              :key="fillColor"
+              class="color-list__item"
+              @click="setWidgetColor(s.widgetType, fillColor)"
+            >
+              <div :style="{ background: fillColor }" class="bg-color" />
+            </li>
+          </ul>
+        </details>
       </SectionWrapper>
     </div>
   </PerfectScrollbar>
@@ -70,9 +90,14 @@ import { useI18n } from 'vue-i18n'
 
 import PerfectScrollbar from '@/components/PerfectScrollbar.vue'
 import SectionWrapper from '@/components/SectionWrapper.vue'
-import { type WidgetShape, type WrapperShape, WidgetType } from '@/enums'
+import {
+  type WidgetShape,
+  type WrapperShape,
+  BeardShape,
+  WidgetType,
+} from '@/enums'
 import { useAvatarOption } from '@/hooks'
-import { SETTINGS } from '@/utils/constant'
+import { AVATAR_LAYER, SETTINGS } from '@/utils/constant'
 import { previewData } from '@/utils/dynamic-data'
 
 const { t } = useI18n()
@@ -156,6 +181,24 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
         [widgetType]: {
           ...avatarOption.value.widgets?.[widgetType],
           shape: widgetShape,
+          ...(widgetShape === BeardShape.Scruff
+            ? { zIndex: AVATAR_LAYER['mouth'].zIndex - 1 }
+            : undefined),
+        },
+      },
+    })
+  }
+}
+
+function setWidgetColor(widgetType: WidgetType, fillColor: string) {
+  if (avatarOption.value.widgets?.[widgetType]) {
+    setAvatarOption({
+      ...avatarOption.value,
+      widgets: {
+        ...avatarOption.value.widgets,
+        [widgetType]: {
+          ...avatarOption.value.widgets?.[widgetType],
+          fillColor,
         },
       },
     })
@@ -206,12 +249,23 @@ function switchWidget(widgetType: WidgetType, widgetShape: WidgetShape) {
     }
   }
 
-  .bg-color-list {
+  .color-picker {
+    margin-top: 1rem;
+
+    summary {
+      color: darken(var.$color-text, 20);
+      font-size: small;
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+
+  .color-list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 
-    .bg-color-list__item {
+    .color-list__item {
       position: relative;
       z-index: 1;
       width: calc(100% / 7);

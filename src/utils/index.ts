@@ -7,7 +7,7 @@ import {
 } from '@/enums'
 import { type AvatarOption, type None } from '@/types'
 
-import { NONE, SETTINGS, SPECIAL_AVATARS } from './constant'
+import { AVATAR_LAYER, NONE, SETTINGS, SPECIAL_AVATARS } from './constant'
 
 /**
  * get a random value from an array
@@ -34,6 +34,12 @@ function getRandomValue<Item = unknown>(
   return randomValue
 }
 
+export function getRandomFillColor() {
+  return SETTINGS.commonColors[
+    Math.floor(Math.random() * SETTINGS.commonColors.length)
+  ]
+}
+
 export function getRandomAvatarOption(
   presetOption: Partial<AvatarOption> = {},
   useOption: Partial<AvatarOption> = {}
@@ -47,6 +53,10 @@ export function getRandomAvatarOption(
     beardList.push(BeardShape.Scruff)
     topList = SETTINGS.topsShape.filter((shape) => !topList.includes(shape))
   }
+
+  const beardShape = getRandomValue<BeardShape | None>(beardList, {
+    usually: [NONE],
+  })
 
   const avatarOption: AvatarOption = {
     gender,
@@ -68,6 +78,7 @@ export function getRandomAvatarOption(
         shape: getRandomValue(topList, {
           avoid: [useOption.widgets?.tops?.shape],
         }),
+        fillColor: getRandomFillColor(),
       },
       ear: {
         shape: getRandomValue(SETTINGS.earShape, {
@@ -105,14 +116,18 @@ export function getRandomAvatarOption(
         }),
       },
       beard: {
-        shape: getRandomValue<BeardShape | None>(beardList, {
-          usually: [NONE],
-        }),
+        shape: beardShape,
+
+        // HACK:
+        ...(beardShape === BeardShape.Scruff
+          ? { zIndex: AVATAR_LAYER['mouth'].zIndex - 1 }
+          : undefined),
       },
       clothes: {
         shape: getRandomValue(SETTINGS.clothesShape, {
           avoid: [useOption.widgets?.clothes?.shape],
         }),
+        fillColor: getRandomFillColor(),
       },
     },
   }
@@ -141,22 +156,22 @@ export function showConfetti() {
 
     const duration = performance.now() + 1 * 1000
 
-    const colors = ['#6967fe', '#85e9f4', '#e16984']
+    const confettiColors = ['#6967fe', '#85e9f4', '#e16984']
 
     void (function frame() {
       myConfetti({
-        particleCount: colors.length,
+        particleCount: confettiColors.length,
         angle: 60,
         spread: 55,
         origin: { x: 0 },
-        colors: colors,
+        colors: confettiColors,
       })
       myConfetti({
-        particleCount: colors.length,
+        particleCount: confettiColors.length,
         angle: 120,
         spread: 55,
         origin: { x: 1 },
-        colors: colors,
+        colors: confettiColors,
       })
 
       if (performance.now() < duration) {

@@ -26,7 +26,7 @@ import { ref, toRefs, watchEffect } from 'vue'
 import { WrapperShape } from '@/enums'
 import { type AvatarOption } from '@/types'
 import { getRandomAvatarOption } from '@/utils'
-import { AVATAR_LAYER, NONE } from '@/utils/constant'
+import { AVATAR_LAYER, NONE, SETTINGS } from '@/utils/constant'
 import { widgetData } from '@/utils/dynamic-data'
 
 import Background from './widgets/Background.vue'
@@ -62,9 +62,9 @@ const svgContent = ref('')
 
 watchEffect(async () => {
   const sortedList = Object.entries(avatarOption.value.widgets).sort(
-    (i, ii) => {
-      const ix = AVATAR_LAYER[i[0]]?.zIndex ?? 0
-      const iix = AVATAR_LAYER[ii[0]]?.zIndex ?? 0
+    ([prevShape, prev], [nextShape, next]) => {
+      const ix = prev.zIndex ?? AVATAR_LAYER[prevShape]?.zIndex ?? 0
+      const iix = next.zIndex ?? AVATAR_LAYER[nextShape]?.zIndex ?? 0
       return ix - iix
     }
   )
@@ -86,9 +86,12 @@ watchEffect(async () => {
 
   const svgRawList = await Promise.all(promises).then((raw) => {
     return raw.map((svgRaw, i) => {
+      const widgetFillColor = sortedList[i][1].fillColor
+
       const content = svgRaw
         .slice(svgRaw.indexOf('>', svgRaw.indexOf('<svg')) + 1)
         .replace('</svg>', '')
+        .replaceAll('$fillColor', widgetFillColor || 'transparent')
 
       return `
         <g id="vue-color-avatar-${sortedList[i][0]}">

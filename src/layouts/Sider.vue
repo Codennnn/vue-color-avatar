@@ -41,13 +41,13 @@ const { isCollapsed, openSider, closeSider } = useSider()
   .trigger {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 1.2rem;
     height: 4rem;
-    background-color: lighten(var.$color-configurator, 2);
+    background-color: var.$color-configurator;
     border-radius: 0.4rem 0 0 0.4rem;
     transform: translate(-100%, -50%);
     cursor: pointer;

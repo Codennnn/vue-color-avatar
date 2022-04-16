@@ -71,7 +71,7 @@ export const SETTINGS: Readonly<AvatarSettings> = {
   beardShape: Object.values(BeardShape),
   clothesShape: Object.values(ClothesShape),
 
-  backgroundColor: [
+  commonColors: [
     '#6BD9E9',
     '#FC909F',
     '#F4D150',
@@ -84,15 +84,20 @@ export const SETTINGS: Readonly<AvatarSettings> = {
     '#48A99A',
     '#C09FFF',
     '#FD6F5D',
-    'linear-gradient(45deg, #E3648C, #D97567)',
-    'linear-gradient(62deg, #8EC5FC, #E0C3FC)',
-    'linear-gradient(90deg, #ffecd2, #fcb69f)',
-    'linear-gradient(120deg, #a1c4fd, #c2e9fb)',
-    'linear-gradient(-135deg, #fccb90, #d57eeb)',
-    'transparent',
   ],
+
+  get backgroundColor() {
+    return [
+      ...this.commonColors,
+      'linear-gradient(45deg, #E3648C, #D97567)',
+      'linear-gradient(62deg, #8EC5FC, #E0C3FC)',
+      'linear-gradient(90deg, #ffecd2, #fcb69f)',
+      'linear-gradient(120deg, #a1c4fd, #c2e9fb)',
+      'linear-gradient(-135deg, #fccb90, #d57eeb)',
+      'transparent',
+    ]
+  },
   skinColor: ['#F9C9B6', '#AC6651'],
-  clothesColor: ['#9287FF', '#6BD9E9', '#FC909F', '#F4D150', '#77311D'],
 }
 
 export const SCREEN = {
@@ -107,7 +112,7 @@ export const SPECIAL_AVATARS: Readonly<AvatarOption[]> = [
   {
     wrapperShape: 'squircle',
     background: {
-      color: '#E0DDFF',
+      color: 'linear-gradient(62deg, #8EC5FC, #E0C3FC)',
     },
     widgets: {
       face: {
@@ -115,6 +120,7 @@ export const SPECIAL_AVATARS: Readonly<AvatarOption[]> = [
       },
       tops: {
         shape: TopsShape.Pixie,
+        fillColor: '#d2eff3',
       },
       ear: {
         shape: EarShape.Attached,
@@ -142,13 +148,14 @@ export const SPECIAL_AVATARS: Readonly<AvatarOption[]> = [
       },
       clothes: {
         shape: ClothesShape.Crew,
+        fillColor: '#e0ddff',
       },
     },
   },
   {
     wrapperShape: 'squircle',
     background: {
-      color: '#F4D150',
+      color: '#fd6f5d',
     },
     widgets: {
       face: {
@@ -183,6 +190,7 @@ export const SPECIAL_AVATARS: Readonly<AvatarOption[]> = [
       },
       clothes: {
         shape: ClothesShape.Crew,
+        fillColor: '#f4d150',
       },
     },
   },

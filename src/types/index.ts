@@ -67,7 +67,7 @@ export interface AvatarSettings {
   glassesShape: GlassesShape[]
   clothesShape: ClothesShape[]
 
+  commonColors: string[]
   backgroundColor: string[]
   skinColor: string[]
-  clothesColor: string[]
 }
