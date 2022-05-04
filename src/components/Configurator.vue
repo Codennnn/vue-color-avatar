@@ -67,7 +67,7 @@
           "
           class="color-picker"
         >
-          <summary class="color">颜色</summary>
+          <summary class="color">{{ t('label.colors') }}</summary>
           <ul class="color-list">
             <li
               v-for="fillColor in SETTINGS.commonColors"

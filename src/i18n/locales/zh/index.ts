@@ -16,6 +16,7 @@ export default {
   label: {
     wrapperShape: '头像形状',
     backgroundColor: '背景颜色',
+    colors: '颜色',
   },
   widgetType: {
     [WidgetType.Face]: '脸蛋',

@@ -20,6 +20,7 @@ const props = defineProps<{
   .section-title {
     margin-bottom: 1.5rem;
     font-weight: bold;
+    line-height: 23px;
   }
 }
 </style>

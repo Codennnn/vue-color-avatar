@@ -9,8 +9,22 @@ test('highlightJSON', () => {
   expect(highlightJSON(str)).toMatch('string')
 })
 
+const getKeys = (target: Record<string, any>) => {
+  const keys: string[] = []
+
+  for (const key in target) {
+    if (typeof target[key] === 'object') {
+      keys.push(...getKeys(target[key]))
+    } else {
+      keys.push(key)
+    }
+  }
+
+  return keys
+}
+
 test('check locales completeness', () => {
-  const zh = Reflect.ownKeys(localeZH).sort()
-  const en = Reflect.ownKeys(localeEN).sort()
+  const zh = getKeys(localeZH).sort()
+  const en = getKeys(localeEN).sort()
   expect(zh).toEqual(en)
 })

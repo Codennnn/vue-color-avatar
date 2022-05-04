@@ -16,6 +16,7 @@ export default {
   label: {
     wrapperShape: 'Avatar Shape',
     backgroundColor: 'Background Color',
+    colors: 'colors',
   },
   widgetType: {
     [WidgetType.Face]: 'Face',

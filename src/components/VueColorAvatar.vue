@@ -26,7 +26,7 @@ import { ref, toRefs, watchEffect } from 'vue'
 import { WrapperShape } from '@/enums'
 import { type AvatarOption } from '@/types'
 import { getRandomAvatarOption } from '@/utils'
-import { AVATAR_LAYER, NONE, SETTINGS } from '@/utils/constant'
+import { AVATAR_LAYER, NONE } from '@/utils/constant'
 import { widgetData } from '@/utils/dynamic-data'
 
 import Background from './widgets/Background.vue'

@@ -44,6 +44,7 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 0,
     '@typescript-eslint/consistent-type-imports': 1,
     '@typescript-eslint/no-non-null-assertion': 0,
+    '@typescript-eslint/no-explicit-any': 0,
   },
   ignorePatterns: [
     'dist',
