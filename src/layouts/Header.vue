@@ -56,27 +56,65 @@ import { recordEvent } from '@/utils/ga'
     margin-left: auto;
 
     .github-button {
+      position: relative;
+      z-index: 0;
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 8rem;
-      height: 2.5rem;
+      width: 9rem;
+      height: 2.6rem;
+      overflow: hidden;
       color: var.$color-text;
       font-weight: bold;
       font-size: 1.05rem;
       background-color: var.$color-dark;
       border-radius: 0.6rem;
       cursor: pointer;
-      transition: box-shadow 0.2s, background-color 0.2s;
       user-select: none;
 
-      &:hover {
-        background-color: lighten(var.$color-dark, 2);
-        box-shadow: 0 0.2rem 1.5rem 0.2rem lighten(var.$color-dark, 5);
+      @media (prefers-reduced-motion: no-preference) {
+        transition: background-color 0.2s;
+
+        &::before,
+        &::after {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          z-index: -1;
+          width: 5rem;
+          height: 5rem;
+          background: var.$color-text;
+          border-radius: 50%;
+          transform: translate(100%, -25%) translate3d(0, 0, 0);
+          opacity: 0;
+          transition: transform 0.15s cubic-bezier(0.02, 0.01, 0.47, 1),
+            opacity 0.15s cubic-bezier(0.02, 0.01, 0.47, 1);
+          content: '';
+        }
+
+        &:hover {
+          background-color: darken(var.$color-dark, 3);
+
+          &::before,
+          &::after {
+            opacity: 0.15;
+            transition: transform 0.2s cubic-bezier(0.02, 0.01, 0.47, 1),
+              opacity 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+          }
+
+          &::before {
+            transform: translate3d(50%, 0, 0) scale(0.9);
+          }
+
+          &::after {
+            transform: translate(50%, 0) scale(1.1);
+          }
+        }
       }
 
       .text {
         margin-left: 0.5rem;
+        letter-spacing: 0.03rem;
       }
     }
   }

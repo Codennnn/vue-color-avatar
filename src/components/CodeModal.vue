@@ -211,7 +211,9 @@ onUnmounted(() => {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.25s ease, transform 0.25s;
+  @media (prefers-reduced-motion: no-preference) {
+    transition: opacity 0.25s ease, transform 0.25s;
+  }
 }
 
 .fade-enter-from,

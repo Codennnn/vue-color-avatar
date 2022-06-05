@@ -58,7 +58,6 @@ onUnmounted(() => {
 .container {
   height: 100%;
   padding-right: var.$layout-sider-width;
-  transition: padding-right 0.2s;
 
   &.full {
     padding-right: 0;
@@ -66,6 +65,10 @@ onUnmounted(() => {
 
   @media screen and (max-width: var.$screen-lg) {
     padding-right: 0;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    transition: padding-right 0.2s;
   }
 }
 </style>

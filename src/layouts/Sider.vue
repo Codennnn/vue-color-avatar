@@ -24,7 +24,13 @@ const { isCollapsed, openSider, closeSider } = useSider()
   right: 0;
   z-index: 200;
   height: 100%;
-  transition: transform 0.2s;
+
+  @media (prefers-reduced-motion: no-preference) {
+    & {
+      transition: transform 0.2s;
+      will-change: transform;
+    }
+  }
 
   .icon-right {
     transition: transform 0.2s;
