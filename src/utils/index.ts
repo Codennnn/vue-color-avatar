@@ -58,6 +58,11 @@ export function getRandomAvatarOption(
     usually: [NONE],
   })
 
+  const hairShape = getRandomValue(topList, {
+    avoid: [useOption.widgets?.tops?.shape],
+  })
+  const hairColor = getRandomFillColor()
+
   const avatarOption: AvatarOption = {
     gender,
 
@@ -66,7 +71,10 @@ export function getRandomAvatarOption(
 
     background: {
       color: getRandomValue(SETTINGS.backgroundColor, {
-        avoid: [useOption.background?.color],
+        avoid: [
+          useOption.background?.color,
+          hairShape === TopsShape.Punk && hairColor, // Handle special cases and prevent color conflicts.
+        ],
       }),
     },
 
@@ -75,10 +83,8 @@ export function getRandomAvatarOption(
         shape: getRandomValue(SETTINGS.faceShape),
       },
       tops: {
-        shape: getRandomValue(topList, {
-          avoid: [useOption.widgets?.tops?.shape],
-        }),
-        fillColor: getRandomFillColor(),
+        shape: hairShape,
+        fillColor: hairColor,
       },
       ear: {
         shape: getRandomValue(SETTINGS.earShape, {
