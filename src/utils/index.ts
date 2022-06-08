@@ -73,7 +73,8 @@ export function getRandomAvatarOption(
       color: getRandomValue(SETTINGS.backgroundColor, {
         avoid: [
           useOption.background?.color,
-          hairShape === TopsShape.Punk && hairColor, // Handle special cases and prevent color conflicts.
+          (hairShape === TopsShape.Punk || hairShape === TopsShape.Fonze) &&
+            hairColor, // Handle special cases and prevent color conflicts.
         ],
       }),
     },
