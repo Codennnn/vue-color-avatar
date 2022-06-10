@@ -212,7 +212,10 @@ function setWidgetColor(widgetType: WidgetType, fillColor: string) {
 .configurator-scroll {
   width: var.$layout-sider-width;
   height: 100%;
-  background-color: var.$color-configurator;
+
+  @media screen and (max-width: var.$screen-lg) {
+    background-color: var.$color-configurator;
+  }
 }
 
 .configurator {
@@ -360,7 +363,7 @@ function setWidgetColor(widgetType: WidgetType, fillColor: string) {
       }
 
       &:hover {
-        background-color: darken(var.$color-configurator, 3);
+        background-color: lighten(var.$color-configurator, 0);
       }
 
       & > :deep(svg) {
