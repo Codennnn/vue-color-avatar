@@ -2,7 +2,7 @@ import { computed } from 'vue'
 
 import { useStore } from '@/store'
 import { SET_AVATAR_OPTION } from '@/store/mutation-type'
-import { type AvatarOption } from '@/types'
+import type { AvatarOption } from '@/types'
 
 export default function useAvatarOption() {
   const store = useStore()

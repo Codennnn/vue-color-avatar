@@ -10,7 +10,7 @@
             :title="t(`wrapperShape.${wrapperShape}`)"
             @click="switchWrapperShape(wrapperShape)"
           >
-            <i
+            <div
               class="shape"
               :class="[
                 wrapperShape,

@@ -5,7 +5,7 @@ import {
   Gender,
   TopsShape,
 } from '@/enums'
-import { type AvatarOption, type None } from '@/types'
+import type { AvatarOption, None } from '@/types'
 
 import { AVATAR_LAYER, NONE, SETTINGS, SPECIAL_AVATARS } from './constant'
 

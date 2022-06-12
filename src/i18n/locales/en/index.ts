@@ -8,6 +8,7 @@ export default {
     code: 'code',
     randomize: 'Randomize',
     download: 'Download',
+    downloadMultiple: 'Download multiple',
     copyCode: 'Copy',
     copied: 'Copied',
     downloading: 'Downloading',
@@ -39,5 +40,8 @@ export default {
   text: {
     codeModalTitle: 'Code',
     downloadTip: 'LONG PRESS or RIGHT CLICK to save',
+    downloadMultiple: 'Download',
+    downloadingMultiple: 'Downloading',
+    downloadMultipleTip: 'Automatically generate avatar for you',
   },
 }

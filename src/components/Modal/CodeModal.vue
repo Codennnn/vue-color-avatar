@@ -1,35 +1,33 @@
 <template>
-  <transition name="fade">
-    <div v-if="props.visible" class="code-modal" @click.self="emit('close')">
-      <div class="code-box">
-        <div class="code-header">
-          <div class="title">{{ t('text.codeModalTitle') }}</div>
+  <ModalWrapper :visible="props.visible" @close="emit('close')">
+    <div class="code-box">
+      <div class="code-header">
+        <div class="title">{{ t('text.codeModalTitle') }}</div>
 
-          <div class="close-btn" @click="emit('close')">
-            <img :src="IconClose" class="icon-close" :alt="t('action.close')" />
-          </div>
-        </div>
-
-        <div class="code-content-box">
-          <PerfectScrollbar
-            class="code-scroll-wrapper"
-            :options="{ suppressScrollX: false }"
-          >
-            <pre><code class="code-content" v-html="highlightedCode"></code></pre>
-          </PerfectScrollbar>
-
-          <button
-            id="copy-code-btn"
-            class="copy-btn"
-            :class="{ copied: copied }"
-            :data-clipboard-text="codeJSON"
-          >
-            {{ copied ? t('action.copied') : t('action.copyCode') }}
-          </button>
+        <div class="close-btn" @click="emit('close')">
+          <img :src="IconClose" class="icon-close" :alt="t('action.close')" />
         </div>
       </div>
+
+      <div class="code-content-box">
+        <PerfectScrollbar
+          class="code-scroll-wrapper"
+          :options="{ suppressScrollX: false }"
+        >
+          <pre><code class="code-content" v-html="highlightedCode"></code></pre>
+        </PerfectScrollbar>
+
+        <button
+          id="copy-code-btn"
+          class="copy-btn"
+          :class="{ copied: copied }"
+          :data-clipboard-text="codeJSON"
+        >
+          {{ copied ? t('action.copied') : t('action.copyCode') }}
+        </button>
+      </div>
     </div>
-  </transition>
+  </ModalWrapper>
 </template>
 
 <script lang="ts" setup>
@@ -41,6 +39,8 @@ import IconClose from '@/assets/icons/icon-close.svg'
 import PerfectScrollbar from '@/components/PerfectScrollbar.vue'
 import { useAvatarOption } from '@/hooks'
 import { highlightJSON } from '@/utils'
+
+import ModalWrapper from './ModalWrapper.vue'
 
 const props = defineProps<{ visible?: boolean }>()
 
@@ -88,32 +88,23 @@ onUnmounted(() => {
 <style lang="scss" scoped>
 @use 'src/styles/var';
 
-.code-modal {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  padding: 2rem 0;
-  overflow: hidden;
-  transform: translate(-50%, 0);
-  backdrop-filter: blur(0.1rem);
-}
-
 .code-box {
   $code-header-height: 4rem;
   $code-box-side-padding-normal: 2rem;
   $code-box-side-padding-small: 1rem;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: 75%;
   max-width: 800px;
-  height: 100%;
+  height: max(90vh, 1000px);
   margin: 0 auto;
   padding: $code-header-height $code-box-side-padding-normal 2.5rem
     $code-box-side-padding-normal;
+  overflow: hidden;
   background-color: lighten(var.$color-dark, 3);
   border-radius: 1rem;
+  transform: translate(-50%, -50%);
   transition: width 0.2s;
 
   @media screen and (max-width: 1200px) {
@@ -207,19 +198,6 @@ onUnmounted(() => {
       }
     }
   }
-}
-
-.fade-enter-active,
-.fade-leave-active {
-  @media (prefers-reduced-motion: no-preference) {
-    transition: opacity 0.25s ease, transform 0.25s;
-  }
-}
-
-.fade-enter-from,
-.fade-leave-to {
-  transform: translate(-50%, 2rem);
-  opacity: 0;
 }
 </style>
 

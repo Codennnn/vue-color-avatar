@@ -8,6 +8,7 @@ export default {
     code: '配置代码',
     randomize: '随机生成',
     download: '下载头像',
+    downloadMultiple: '批量下载',
     copyCode: '复制代码',
     copied: '已复制',
     downloading: '准备下载',
@@ -39,5 +40,8 @@ export default {
   text: {
     codeModalTitle: '配置代码',
     downloadTip: '长按图片或右键点击下载至本地相册',
+    downloadMultiple: '开始下载',
+    downloadingMultiple: '正在下载',
+    downloadMultipleTip: '已为你自动生成头像',
   },
 }

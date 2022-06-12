@@ -17,7 +17,7 @@
         <p class="tip">{{ t('text.downloadTip') }} 🥳</p>
       </div>
 
-      <button class="close-btn" @click="emit('close')">
+      <button type="button" class="close-btn" @click="emit('close')">
         {{ t('action.close') }}
       </button>
     </div>

@@ -11,6 +11,7 @@
         rel="nofollow noopener noreferrer"
       >
         <button
+          type="button"
           class="github-button"
           @click="
             recordEvent('click_github', {

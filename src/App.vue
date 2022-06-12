@@ -20,11 +20,17 @@
             <ActionBar @action="handleAction" />
 
             <div class="action-group">
-              <button class="action-randomize" @click="handleGenerate">
+              <button
+                type="button"
+                class="action-btn action-randomize"
+                @click="handleGenerate"
+              >
                 {{ t('action.randomize') }}
               </button>
+
               <button
-                class="action-download"
+                type="button"
+                class="action-btn action-download"
                 :disabled="downloading"
                 @click="handleDownload"
               >
@@ -33,6 +39,14 @@
                     ? `${t('action.downloading')}...`
                     : t('action.download')
                 }}
+              </button>
+
+              <button
+                type="button"
+                class="action-btn action-multiple"
+                @click="() => generateMultiple()"
+              >
+                {{ t('action.downloadMultiple') }}
               </button>
             </div>
           </div>
@@ -57,6 +71,12 @@
       </div>
     </Container>
 
+    <BatchDownloadModal
+      :visible="avatarListVisible"
+      :avatar-list="avatarList"
+      @close=";(avatarListVisible = false), (avatarList = [])"
+    />
+
     <Sider>
       <Configurator />
     </Sider>
@@ -64,13 +84,14 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
+import { ref, watchEffect } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 import ActionBar from '@/components/ActionBar.vue'
-import CodeModal from '@/components/CodeModal.vue'
 import Configurator from '@/components/Configurator.vue'
-import DownloadModal from '@/components/DownloadModal.vue'
+import BatchDownloadModal from '@/components/Modal/BatchDownloadModal.vue'
+import CodeModal from '@/components/Modal/CodeModal.vue'
+import DownloadModal from '@/components/Modal/DownloadModal.vue'
 import VueColorAvatar, {
   type VueColorAvatarRef,
 } from '@/components/VueColorAvatar.vue'
@@ -94,7 +115,9 @@ import {
 } from '@/utils/constant'
 import { recordEvent } from '@/utils/ga'
 
+import { name as appName } from '../package.json'
 import ConfettiCanvas from './components/ConfettiCanvas.vue'
+import type { AvatarOption } from './types'
 
 const store = useStore()
 
@@ -152,7 +175,7 @@ async function handleDownload() {
       } else {
         const trigger = document.createElement('a')
         trigger.href = dataURL
-        trigger.download = 'vue-color-avatar.png'
+        trigger.download = `${appName}.png`
         trigger.click()
       }
     }
@@ -205,6 +228,44 @@ function handleAction(actionType: ActionType) {
       break
   }
 }
+
+const avatarListVisible = ref(false)
+const avatarList = ref<AvatarOption[]>([])
+
+watchEffect(() => {
+  avatarListVisible.value =
+    Array.isArray(avatarList.value) && avatarList.value.length > 0
+})
+
+async function generateMultiple(count = 5 * 6) {
+  const { default: hash } = await import('object-hash')
+
+  const avatarMap = [...Array(count)].reduce<Map<string, AvatarOption>>(
+    (res) => {
+      let randomAvatarOption: AvatarOption
+      let hashKey: string
+
+      do {
+        randomAvatarOption = getRandomAvatarOption(avatarOption.value)
+        hashKey = hash.sha1(randomAvatarOption)
+      } while (
+        randomAvatarOption.background.color === 'transparent' ||
+        res.has(hashKey)
+      )
+
+      res.set(hashKey, randomAvatarOption)
+
+      return res
+    },
+    new Map()
+  )
+
+  avatarList.value = Array.from(avatarMap.values())
+
+  recordEvent('click_generate_multiple', {
+    event_category: 'click',
+  })
+}
 </script>
 
 <style lang="scss" scoped>
@@ -255,12 +316,17 @@ function handleAction(actionType: ActionType) {
     align-items: center;
     justify-content: center;
     margin-top: 4rem;
+    column-gap: 1rem;
 
-    .action-randomize,
-    .action-download {
+    @supports not (column-gap: 1rem) {
+      .action-btn {
+        margin: 0 0.5rem;
+      }
+    }
+
+    .action-btn {
       min-width: 6rem;
       height: 2.5rem;
-      margin: 0 1rem;
       padding: 0 1rem;
       color: var.$color-text;
       font-weight: bold;
@@ -278,6 +344,12 @@ function handleAction(actionType: ActionType) {
       &[disabled] {
         color: rgba(var.$color-text, 0.5);
         cursor: default;
+      }
+    }
+
+    @media screen and (max-width: var.$screen-sm) {
+      .action-multiple {
+        display: none;
       }
     }
   }
