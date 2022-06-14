@@ -31,7 +31,7 @@
 </template>
 
 <script lang="ts" setup>
-import ClipboardJS from 'clipboard'
+import type ClipboardJS from 'clipboard'
 import { computed, onMounted, onUnmounted, ref, watchEffect } from 'vue'
 import { useI18n } from 'vue-i18n'
 
@@ -66,7 +66,8 @@ const copied = ref(false)
 
 let clipboard: ClipboardJS
 
-onMounted(() => {
+onMounted(async () => {
+  const { default: ClipboardJS } = await import('clipboard')
   clipboard = new ClipboardJS('#copy-code-btn')
 
   clipboard.on('success', (e) => {
@@ -97,7 +98,7 @@ onUnmounted(() => {
   left: 50%;
   width: 75%;
   max-width: 800px;
-  height: max(90vh, 1000px);
+  height: min(90vh, 1000px);
   margin: 0 auto;
   padding: $code-header-height $code-box-side-padding-normal 2.5rem
     $code-box-side-padding-normal;

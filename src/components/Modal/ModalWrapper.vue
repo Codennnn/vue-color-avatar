@@ -29,7 +29,7 @@ const emit = defineEmits<{
 .fade-enter-active,
 .fade-leave-active {
   @media (prefers-reduced-motion: no-preference) {
-    transition: opacity 0.25s ease, transform 0.25s;
+    transition: opacity 0.25s ease, transform 0.2s;
   }
 }
 

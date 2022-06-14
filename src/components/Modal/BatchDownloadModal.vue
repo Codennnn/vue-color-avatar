@@ -113,7 +113,7 @@ async function make() {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: max(90vh, 1000px);
+  height: min(90vh, 1000px);
   overflow: hidden;
   background-color: lighten(var.$color-dark, 3);
   border-radius: 1rem;
