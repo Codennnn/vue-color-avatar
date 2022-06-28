@@ -74,6 +74,7 @@
     <BatchDownloadModal
       :visible="avatarListVisible"
       :avatar-list="avatarList"
+      @regenerate="generateMultiple"
       @close=";(avatarListVisible = false), (avatarList = [])"
     />
 

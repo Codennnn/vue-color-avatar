@@ -42,6 +42,7 @@ export default {
     downloadTip: 'LONG PRESS or RIGHT CLICK to save',
     downloadMultiple: 'Download',
     downloadingMultiple: 'Downloading',
-    downloadMultipleTip: 'Automatically generate avatar for you',
+    downloadMultipleTip: 'Automatically generated',
+    regenerate: 'Regenerate',
   },
 }

@@ -43,5 +43,6 @@ export default {
     downloadMultiple: '开始下载',
     downloadingMultiple: '正在下载',
     downloadMultipleTip: '已为你自动生成头像',
+    regenerate: '换一批',
   },
 }

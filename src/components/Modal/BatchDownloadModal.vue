@@ -6,10 +6,14 @@
         <div class="right">
           <button
             type="button"
+            class="regenerate-btn"
             :disabled="making"
-            class="download-btn"
-            @click="make"
+            @click="emit('regenerate')"
           >
+            {{ t(`text.regenerate`) }}
+          </button>
+
+          <button type="button" class="download-btn" @click="make">
             {{
               making
                 ? `${t('text.downloadingMultiple')}(${madeCount}/${
@@ -57,6 +61,7 @@ import ModalWrapper from './ModalWrapper.vue'
 const props = defineProps<{ visible?: boolean; avatarList?: AvatarOption[] }>()
 
 const emit = defineEmits<{
+  (e: 'regenerate'): void
   (e: 'close'): void
 }>()
 
@@ -138,21 +143,25 @@ async function make() {
       margin-left: auto;
 
       .download-btn {
+        color: #fff;
+        background-color: var.$color-accent;
+      }
+
+      .regenerate-btn,
+      .download-btn {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 2rem;
         margin-left: 1rem;
         padding: 0 1rem;
-        color: #fff;
-        background-color: var.$color-accent;
         border-radius: 0.4rem;
         cursor: pointer;
 
         &:disabled,
         &[disabled] {
           color: rgba(#fff, 0.8);
-          cursor: default;
+          cursor: not-allowed;
         }
       }
     }
