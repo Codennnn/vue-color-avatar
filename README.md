@@ -32,7 +32,8 @@
 - 设计师：[@Micah](https://www.figma.com/@Micah) on Figma
 - 素材来源：[Avatar Illustration System](https://www.figma.com/community/file/829741575478342595)
 
-> 请注意，虽然该项目是 MIT 协议，但是素材资源基于 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 协议。如果你有好的创意素材，欢迎补充！
+> **Note**
+> 虽然该项目是 MIT 协议，但是素材资源基于 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 协议。如果你有好的创意素材，欢迎补充！
 
 ## 项目开发
 
