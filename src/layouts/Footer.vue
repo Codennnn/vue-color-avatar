@@ -1,6 +1,8 @@
 <template>
   <footer class="footer">
-    <div>
+    <div
+      data-message="If you are deploying to your own public website, please do not modify it unless you have permission from the original author."
+    >
       Made by
       <a
         class="link"
