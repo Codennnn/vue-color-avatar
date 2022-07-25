@@ -73,44 +73,8 @@ import { recordEvent } from '@/utils/ga'
       cursor: pointer;
       user-select: none;
 
-      @media (prefers-reduced-motion: no-preference) {
-        transition: background-color 0.2s;
-
-        &::before,
-        &::after {
-          position: absolute;
-          right: 0;
-          bottom: 0;
-          z-index: -1;
-          width: 5rem;
-          height: 5rem;
-          background: var.$color-text;
-          border-radius: 50%;
-          transform: translate(100%, -25%) translate3d(0, 0, 0);
-          opacity: 0;
-          transition: transform 0.15s cubic-bezier(0.02, 0.01, 0.47, 1),
-            opacity 0.15s cubic-bezier(0.02, 0.01, 0.47, 1);
-          content: '';
-        }
-
-        &:hover {
-          background-color: darken(var.$color-dark, 3);
-
-          &::before,
-          &::after {
-            opacity: 0.15;
-            transition: transform 0.2s cubic-bezier(0.02, 0.01, 0.47, 1),
-              opacity 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
-          }
-
-          &::before {
-            transform: translate3d(50%, 0, 0) scale(0.9);
-          }
-
-          &::after {
-            transform: translate(50%, 0) scale(1.1);
-          }
-        }
+      &:hover {
+        background-color: darken(var.$color-dark, 3);
       }
 
       .text {
