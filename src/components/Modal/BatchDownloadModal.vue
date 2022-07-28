@@ -227,7 +227,6 @@ async function make() {
         padding: 0 1rem;
         color: var.$color-text;
         font-weight: bold;
-        letter-spacing: 0.1rem;
         background: var.$color-gray;
         border-radius: 0.4rem;
         border-radius: 0.6rem;

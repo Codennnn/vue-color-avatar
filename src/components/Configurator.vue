@@ -46,20 +46,6 @@
         :key="s.widgetType"
         :title="t(`widgetType.${s.widgetType}`)"
       >
-        <ul class="widget-list">
-          <li
-            v-for="it in s.widgetList"
-            :key="it.widgetShape"
-            class="list-item"
-            :class="{
-              selected:
-                it.widgetShape === avatarOption.widgets?.[s.widgetType]?.shape,
-            }"
-            @click="switchWidget(s.widgetType, it.widgetShape)"
-            v-html="it.svgRaw"
-          />
-        </ul>
-
         <details
           v-if="
             s.widgetType === WidgetType.Tops ||
@@ -79,6 +65,20 @@
             </li>
           </ul>
         </details>
+
+        <ul class="widget-list">
+          <li
+            v-for="it in s.widgetList"
+            :key="it.widgetShape"
+            class="list-item"
+            :class="{
+              selected:
+                it.widgetShape === avatarOption.widgets?.[s.widgetType]?.shape,
+            }"
+            @click="switchWidget(s.widgetType, it.widgetShape)"
+            v-html="it.svgRaw"
+          />
+        </ul>
       </SectionWrapper>
     </div>
   </PerfectScrollbar>
@@ -253,7 +253,7 @@ function setWidgetColor(widgetType: WidgetType, fillColor: string) {
   }
 
   .color-picker {
-    margin-top: 1rem;
+    margin: 1rem 0 0.5rem 0;
 
     summary {
       color: darken(var.$color-text, 20);

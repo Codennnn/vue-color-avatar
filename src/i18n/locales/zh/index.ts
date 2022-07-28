@@ -8,7 +8,7 @@ export default {
     code: '配置代码',
     randomize: '随机生成',
     download: '下载头像',
-    downloadMultiple: '批量下载',
+    downloadMultiple: '批量生成',
     copyCode: '复制代码',
     copied: '已复制',
     downloading: '准备下载',

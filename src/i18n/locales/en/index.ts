@@ -8,7 +8,7 @@ export default {
     code: 'code',
     randomize: 'Randomize',
     download: 'Download',
-    downloadMultiple: 'Download multiple',
+    downloadMultiple: 'Generate multiple',
     copyCode: 'Copy',
     copied: 'Copied',
     downloading: 'Downloading',
