@@ -37,6 +37,10 @@
                 :style="{ opacity: making && i + 1 > madeCount ? 0.5 : 1 }"
               >
                 <VueColorAvatar :id="`avatar-${i}`" :option="opt" :size="280" />
+
+                <button class="download-single" @click="handleDownload(i)">
+                  {{ t('action.download') }}
+                </button>
               </div>
             </template>
           </div>
@@ -69,6 +73,27 @@ const { t } = useI18n()
 
 const making = ref(false)
 const madeCount = ref(0)
+
+async function handleDownload(avatarIndex) {
+  const avatarEle = window.document.querySelector(`#avatar-${avatarIndex}`)
+
+  if (avatarEle instanceof HTMLElement) {
+    const html2canvas = (await import('html2canvas')).default
+    const canvas = await html2canvas(avatarEle, {
+      backgroundColor: null,
+    })
+    const dataURL = canvas.toDataURL()
+
+    const trigger = document.createElement('a')
+    trigger.href = dataURL
+    trigger.download = `${appName}.png`
+    trigger.click()
+  }
+
+  recordEvent('click_download', {
+    event_category: 'click',
+  })
+}
 
 async function make() {
   if (props.avatarList && !making.value) {
@@ -183,9 +208,43 @@ async function make() {
     padding: 2rem;
 
     .avatar-box {
+      position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
+
+      .download-single {
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 6.6rem;
+        height: 2.3rem;
+        margin-left: 1rem;
+        padding: 0 1rem;
+        color: var.$color-text;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        background: var.$color-gray;
+        border-radius: 0.4rem;
+        border-radius: 0.6rem;
+        transform: translateX(-50%);
+        cursor: pointer;
+        opacity: 0;
+        transition: color 0.2s;
+        user-select: none;
+
+        &:hover {
+          color: lighten(var.$color-text, 10);
+        }
+      }
+
+      &:hover .download-single {
+        opacity: 1;
+      }
     }
   }
 }

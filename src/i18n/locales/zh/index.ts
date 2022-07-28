@@ -40,7 +40,7 @@ export default {
   text: {
     codeModalTitle: '配置代码',
     downloadTip: '长按图片或右键点击下载至本地相册',
-    downloadMultiple: '开始下载',
+    downloadMultiple: '下载全部',
     downloadingMultiple: '正在下载',
     downloadMultipleTip: '已为你自动生成头像',
     regenerate: '换一批',

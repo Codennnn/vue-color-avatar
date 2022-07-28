@@ -25,7 +25,7 @@ Features you might be interested in:
 - Randomly generate an avatar
 - Redo/Undo
 - i18n
-- Download multiple
+- Generate multiple avatars in batch
 
 ## Assets
 

@@ -40,7 +40,7 @@ export default {
   text: {
     codeModalTitle: 'Code',
     downloadTip: 'LONG PRESS or RIGHT CLICK to save',
-    downloadMultiple: 'Download',
+    downloadMultiple: 'Download All',
     downloadingMultiple: 'Downloading',
     downloadMultipleTip: 'Automatically generated',
     regenerate: 'Regenerate',
