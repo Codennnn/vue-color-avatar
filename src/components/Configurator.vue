@@ -61,7 +61,13 @@
               class="color-list__item"
               @click="setWidgetColor(s.widgetType, fillColor)"
             >
-              <div :style="{ background: fillColor }" class="bg-color" />
+              <div
+                :style="{ background: fillColor }"
+                class="bg-color"
+                :class="{
+                  active: fillColor === getWidgetColor(s.widgetType),
+                }"
+              />
             </li>
           </ul>
         </details>
@@ -203,6 +209,12 @@ function setWidgetColor(widgetType: WidgetType, fillColor: string) {
       },
     })
   }
+}
+
+function getWidgetColor(type: string) {
+  if (type === WidgetType.Tops || type === WidgetType.Clothes) {
+    return avatarOption.value.widgets[type]?.fillColor
+  } else return ''
 }
 </script>
 
