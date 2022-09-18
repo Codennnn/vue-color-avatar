@@ -1,14 +1,14 @@
 <div align="center">
   <h1>Vue Color Avatar</h1>
 
-  <p>🧑‍🦱 A front-end only avatar generation website 🧑‍🦳</p>
+  <p>🧑‍🦱 A playful avatar generator 🧑‍🦳</p>
 
-[简体中文](./README.md)
+[简体中文](./README-CN.md)
 
 </div>
 
-<a>
-  <img src="./images/social-preview-1.png" alt="website-preview" />
+<a href="https://vue-color-avatar.vercel.app">
+  <img src="./images/social-preview-1.png" alt="website-cover" />
 </a>
 
 ## Preview
@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**By swapping components around, you can build your own avatar.**
+**This is a vector style avatar generator, you can match different material components to generate your own personalized avatar.**
 
 Features you might be interested in:
 
@@ -29,11 +29,12 @@ Features you might be interested in:
 
 ## Assets
 
-Implementation of [Avatar Illustration System](https://www.figma.com/community/file/829741575478342595) by Micah Lanier. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+> **Note**
+> The avatar assets implementation of [Avatar Illustration System](https://www.figma.com/community/file/829741575478342595) by Micah Lanier. And the licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Develop
 
-This project is implemented using `Vue3`.
+This project is built with `Vue3` + `Vite`.
 
 ```sh
 # 1. Clone project

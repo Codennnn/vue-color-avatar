@@ -3,7 +3,7 @@
 
   <p>🧑‍🦱 一个纯前端实现的头像生成网站 🧑‍🦳</p>
 
-[Read in English](./README-EN.md)
+[Read in English](./README.md)
 
 </div>
 
