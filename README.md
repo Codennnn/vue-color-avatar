@@ -29,7 +29,7 @@ Features you might be interested in:
 
 ## Assets
 
-> **Note**
+> **Note**  
 > The avatar assets implementation of [Avatar Illustration System](https://www.figma.com/community/file/829741575478342595) by Micah Lanier. And the licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Develop
