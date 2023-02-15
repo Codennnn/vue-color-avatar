@@ -32,8 +32,8 @@ const { t } = useI18n()
 
 const store = useStore()
 
-const canUndo = computed(() => store.state.history.past.length > 0)
-const canRedo = computed(() => store.state.history.future.length > 0)
+const canUndo = computed(() => store.history.past.length > 0)
+const canRedo = computed(() => store.history.future.length > 0)
 
 const actions = computed(() => [
   {

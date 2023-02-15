@@ -1,5 +1,4 @@
-import { type InjectionKey } from 'vue'
-import { type Store, createStore, useStore as baseUseStore } from 'vuex'
+import { defineStore } from 'pinia'
 
 import { WrapperShape } from '@/enums'
 import type { AvatarOption } from '@/types'
@@ -22,64 +21,53 @@ export interface State {
   isSiderCollapsed: boolean
 }
 
-export default createStore<State>({
-  strict: true,
-
-  state: {
-    history: {
-      past: [],
-      present: getRandomAvatarOption({ wrapperShape: WrapperShape.Squircle }),
-      future: [],
-    },
-    isSiderCollapsed: window.innerWidth <= SCREEN.lg,
-  },
-
-  mutations: {
-    [SET_AVATAR_OPTION](state, data: AvatarOption) {
-      state.history = {
-        past: [...state.history.past, state.history.present],
+export const useStore = defineStore('store', {
+  state: () =>
+    ({
+      history: {
+        past: [],
+        present: getRandomAvatarOption({ wrapperShape: WrapperShape.Squircle }),
+        future: [],
+      },
+      isSiderCollapsed: window.innerWidth <= SCREEN.lg,
+    } as State),
+  actions: {
+    [SET_AVATAR_OPTION](data: AvatarOption) {
+      this.history = {
+        past: [...this.history.past, this.history.present],
         present: data,
         future: [],
       }
     },
 
-    [UNDO](state) {
-      if (state.history.past.length > 0) {
-        const previous = state.history.past[state.history.past.length - 1]
-        const newPast = state.history.past.slice(
-          0,
-          state.history.past.length - 1
-        )
-        state.history = {
+    [UNDO]() {
+      if (this.history.past.length > 0) {
+        const previous = this.history.past[this.history.past.length - 1]
+        const newPast = this.history.past.slice(0, this.history.past.length - 1)
+        this.history = {
           past: newPast,
           present: previous,
-          future: [state.history.present, ...state.history.future],
+          future: [this.history.present, ...this.history.future],
         }
       }
     },
 
-    [REDO](state) {
-      if (state.history.future.length > 0) {
-        const next = state.history.future[0]
-        const newFuture = state.history.future.slice(1)
-        state.history = {
-          past: [...state.history.past, state.history.present],
+    [REDO]() {
+      if (this.history.future.length > 0) {
+        const next = this.history.future[0]
+        const newFuture = this.history.future.slice(1)
+        this.history = {
+          past: [...this.history.past, this.history.present],
           present: next,
           future: newFuture,
         }
       }
     },
 
-    [SET_SIDER_STATUS](state, collapsed) {
-      if (collapsed !== state.isSiderCollapsed) {
-        state.isSiderCollapsed = collapsed
+    [SET_SIDER_STATUS](collapsed: boolean) {
+      if (collapsed !== this.isSiderCollapsed) {
+        this.isSiderCollapsed = collapsed
       }
     },
   },
 })
-
-export const storeKey: InjectionKey<Store<State>> = Symbol()
-
-export function useStore() {
-  return baseUseStore(storeKey)
-}
