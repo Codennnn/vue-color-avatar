@@ -86,6 +86,8 @@ export const SETTINGS: Readonly<AvatarSettings> = {
     '#FD6F5D',
   ],
 
+  skinColors: ['#F9C9B6', '#E0BB95', '#AC6651'],
+
   get backgroundColor() {
     return [
       ...this.commonColors,
@@ -97,7 +99,6 @@ export const SETTINGS: Readonly<AvatarSettings> = {
       'transparent',
     ]
   },
-  skinColor: ['#F9C9B6', '#AC6651'],
 }
 
 export const SCREEN = {
@@ -117,6 +118,7 @@ export const SPECIAL_AVATARS: Readonly<AvatarOption[]> = [
     widgets: {
       face: {
         shape: FaceShape.Base,
+        fillColor: '#F9C9B6',
       },
       tops: {
         shape: TopsShape.Pixie,
@@ -160,6 +162,7 @@ export const SPECIAL_AVATARS: Readonly<AvatarOption[]> = [
     widgets: {
       face: {
         shape: FaceShape.Base,
+        fillColor: '#F9C9B6',
       },
       tops: {
         shape: TopsShape.Clean,

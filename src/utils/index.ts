@@ -10,7 +10,7 @@ import type { AvatarOption, None } from '@/types'
 import { AVATAR_LAYER, NONE, SETTINGS, SPECIAL_AVATARS } from './constant'
 
 /**
- * get a random value from an array
+ * Get a random value from an array.
  */
 function getRandomValue<Item = unknown>(
   arr: Item[],
@@ -34,10 +34,8 @@ function getRandomValue<Item = unknown>(
   return randomValue
 }
 
-export function getRandomFillColor() {
-  return SETTINGS.commonColors[
-    Math.floor(Math.random() * SETTINGS.commonColors.length)
-  ]
+export function getRandomFillColor(colors = SETTINGS.commonColors) {
+  return colors[Math.floor(Math.random() * colors.length)]
 }
 
 export function getRandomAvatarOption(
@@ -82,6 +80,7 @@ export function getRandomAvatarOption(
     widgets: {
       face: {
         shape: getRandomValue(SETTINGS.faceShape),
+        fillColor: getRandomFillColor(SETTINGS.skinColors),
       },
       tops: {
         shape: hairShape,

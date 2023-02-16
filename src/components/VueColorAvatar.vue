@@ -23,7 +23,7 @@ export interface VueColorAvatarRef {
 <script lang="ts" setup>
 import { ref, toRefs, watchEffect } from 'vue'
 
-import { WrapperShape } from '@/enums'
+import { WidgetType, WrapperShape } from '@/enums'
 import type { AvatarOption } from '@/types'
 import { getRandomAvatarOption } from '@/utils'
 import { AVATAR_LAYER, NONE } from '@/utils/constant'
@@ -84,9 +84,19 @@ watchEffect(async () => {
     }
   )
 
+  let skinColor: string | undefined
+
   const svgRawList = await Promise.all(promises).then((raw) => {
     return raw.map((svgRaw, i) => {
-      const widgetFillColor = sortedList[i][1].fillColor
+      const [widgetType, widget] = sortedList[i]
+      let widgetFillColor = widget.fillColor
+
+      if (widgetType === WidgetType.Face) {
+        skinColor = widgetFillColor
+      }
+      if (skinColor && widgetType === WidgetType.Ear) {
+        widgetFillColor = skinColor
+      }
 
       const content = svgRaw
         .slice(svgRaw.indexOf('>', svgRaw.indexOf('<svg')) + 1)

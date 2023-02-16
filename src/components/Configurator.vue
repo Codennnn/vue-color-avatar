@@ -49,14 +49,18 @@
         <details
           v-if="
             s.widgetType === WidgetType.Tops ||
+            s.widgetType === WidgetType.Face ||
             s.widgetType === WidgetType.Clothes
           "
           class="color-picker"
+          :open="s.widgetType === WidgetType.Face"
         >
           <summary class="color">{{ t('label.colors') }}</summary>
           <ul class="color-list">
             <li
-              v-for="fillColor in SETTINGS.commonColors"
+              v-for="fillColor in SETTINGS[
+                s.widgetType === WidgetType.Face ? 'skinColors' : 'commonColors'
+              ]"
               :key="fillColor"
               class="color-list__item"
               @click="setWidgetColor(s.widgetType, fillColor)"
@@ -212,7 +216,11 @@ function setWidgetColor(widgetType: WidgetType, fillColor: string) {
 }
 
 function getWidgetColor(type: string) {
-  if (type === WidgetType.Tops || type === WidgetType.Clothes) {
+  if (
+    type === WidgetType.Face ||
+    type === WidgetType.Tops ||
+    type === WidgetType.Clothes
+  ) {
     return avatarOption.value.widgets[type]?.fillColor
   } else return ''
 }

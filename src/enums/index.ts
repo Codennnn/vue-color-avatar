@@ -10,7 +10,7 @@ export const enum ActionType {
   Code = 'code',
 }
 
-export enum Gender {
+export const enum Gender {
   Male = 'male',
   Female = 'female',
   NotSet = 'notSet',
