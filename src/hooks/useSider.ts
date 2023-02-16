@@ -6,14 +6,14 @@ import { SET_SIDER_STATUS } from '@/store/mutation-type'
 export default function useSider() {
   const store = useStore()
 
-  const isCollapsed = computed(() => store.state.isSiderCollapsed)
+  const isCollapsed = computed(() => store.isSiderCollapsed)
 
   const openSider = () => {
-    store.commit(SET_SIDER_STATUS, false)
+    store[SET_SIDER_STATUS](false)
   }
 
   const closeSider = () => {
-    store.commit(SET_SIDER_STATUS, true)
+    store[SET_SIDER_STATUS](true)
   }
 
   return { isCollapsed, openSider, closeSider }

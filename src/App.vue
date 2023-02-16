@@ -197,7 +197,7 @@ const codeVisible = ref(false)
 function handleAction(actionType: ActionType) {
   switch (actionType) {
     case ActionType.Undo:
-      store.commit(UNDO)
+      store[UNDO]()
       recordEvent('action_undo', {
         event_category: 'action',
         event_label: 'Undo',
@@ -205,7 +205,7 @@ function handleAction(actionType: ActionType) {
       break
 
     case ActionType.Redo:
-      store.commit(REDO)
+      store[REDO]()
       recordEvent('action_redo', {
         event_category: 'action',
         event_label: 'Redo',
