@@ -86,7 +86,7 @@ export const SETTINGS: Readonly<AvatarSettings> = {
     '#FD6F5D',
   ],
 
-  skinColors: ['#F9C9B6', '#E0BB95', '#AC6651'],
+  skinColors: ['#F8D9CE', '#F9C9B6', '#DEB3A3', '#C89583', '#9C6458'],
 
   get backgroundColor() {
     return [
