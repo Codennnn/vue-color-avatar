@@ -59,7 +59,7 @@ Or, you can manually compile it yourself if you prefer.
 
 ```sh
 #clone the code 
-git clone https://github.com/wenyang0/vue-color-avatar.git 
+git clone https://github.com/Codennnn/vue-color-avatar.git
 
 #docker build 
 cd vue-color-avatar/
