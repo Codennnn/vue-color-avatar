@@ -54,8 +54,7 @@ yarn dev
 
 你可以直接使用我已经构建好的镜像来运行
 ```sh
-#启动服务
-docker run -d -t -p 5173:5173 --restart=always docker.io/wenyang0/vue-color-avatar:latest
+docker run -d -t -p 5173:5173 --name vue-color-avatar --restart=always docker.io/wenyang0/vue-color-avatar:latest
 ```
 
 或者，如果您愿意，也可以自己手动编译。
@@ -69,6 +68,6 @@ cd vue-color-avatar/
 docker build -t vue-color-avatar:v1 .
 
 #启动服务
-docker run -d -t -p 5173:5173 --restart=always vue-color-avatar:v1
+docker run -d -t -p 5173:5173 --name vue-color-avatar --restart=always vue-color-avatar:v1
 ```
 最后,打开你的浏览器访问服务的地址 http://serverIP:5173 即可
