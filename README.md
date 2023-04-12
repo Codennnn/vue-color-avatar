@@ -52,7 +52,7 @@ yarn dev
 You can directly run using the image I have already built.
 ```sh
 #docker run
-docker run -d -t -p 5173:5173 --restart=always docker.io/wenyang0/vue-color-avatar:latest
+docker run -d -t -p 5173:5173 --name vue-color-avatar --restart=always docker.io/wenyang0/vue-color-avatar:latest
 ```
 
 Or, you can manually compile it yourself if you prefer.
@@ -66,6 +66,6 @@ cd vue-color-avatar/
 docker build -t vue-color-avatar:v1 .
 
 #docker run 
-docker run -d -t -p 5173:5173 --restart=always vue-color-avatar:v1
+docker run -d -t -p 5173:5173 --name vue-color-avatar --restart=always vue-color-avatar:v1
 ```
 Finally, open your browser and access the service's address at http://serverIP:5173
