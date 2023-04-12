@@ -62,7 +62,7 @@ docker run -d -t -p 5173:5173 --restart=always docker.io/wenyang0/vue-color-avat
 
 ```sh
 #下载代码
-git clone https://github.com/wenyang0/vue-color-avatar.git 
+git clone https://github.com/Codennnn/vue-color-avatar.git
 
 #docker 编译
 cd vue-color-avatar/
