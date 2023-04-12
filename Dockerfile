@@ -5,7 +5,7 @@ FROM docker.io/node:alpine3.17
 MAINTAINER tanwenyang@aliyun.com
 
 # Copy the vue-color-avatar file from the local directory to the /app directory inside the container
-COPY ./ /app
+COPY . /app
 
 # Expose port 5173 of the container and allow external access to this port
 EXPOSE 5173
