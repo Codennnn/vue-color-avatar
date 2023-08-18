@@ -51,7 +51,11 @@ yarn dev
 
 You can directly run using the image I have already built.
 ```sh
-docker run -d -t -p 5173:5173 --name vue-color-avatar --restart=always docker.io/wenyang0/vue-color-avatar:latest
+docker run -d -t -p 5173:5173 \
+--name=vue-color-avatar \
+--restart=always \
+docker.io/wenyang0/vue-color-avatar:latest
+
 ```
 
 Or, you can manually compile it yourself if you prefer.
