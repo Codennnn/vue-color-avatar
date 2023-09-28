@@ -5,12 +5,18 @@
     :style="{
       width: `${avatarSize}px`,
       height: `${avatarSize}px`,
+      ...getWrapperShapeStyle(),
     }"
     :class="getWrapperShapeClassName()"
   >
     <Background :color="avatarOption.background.color" />
 
     <div class="avatar-payload" v-html="svgContent" />
+
+    <Border
+      :color="avatarOption.background.borderColor"
+      :radius="getWrapperShapeStyle().borderRadius"
+    />
   </div>
 </template>
 
@@ -26,10 +32,11 @@ import { ref, toRefs, watchEffect } from 'vue'
 import { WidgetType, WrapperShape } from '@/enums'
 import type { AvatarOption } from '@/types'
 import { getRandomAvatarOption } from '@/utils'
-import { AVATAR_LAYER, NONE } from '@/utils/constant'
+import { AVATAR_LAYER, NONE, SHAPE_STYLE_SET } from '@/utils/constant'
 import { widgetData } from '@/utils/dynamic-data'
 
 import Background from './widgets/Background.vue'
+import Border from './widgets/Border.vue'
 
 interface VueColorAvatarProps {
   option: AvatarOption
@@ -56,6 +63,10 @@ function getWrapperShapeClassName() {
     [WrapperShape.Squircle]:
       avatarOption.value.wrapperShape === WrapperShape.Squircle,
   }
+}
+
+function getWrapperShapeStyle() {
+  return SHAPE_STYLE_SET[avatarOption.value.wrapperShape]
 }
 
 const svgContent = ref('')
@@ -132,15 +143,6 @@ watchEffect(async () => {
 .vue-color-avatar {
   position: relative;
   overflow: hidden;
-
-  &.circle {
-    border-radius: 50%;
-  }
-
-  &.squircle {
-    // TODO: Radius should adapt to the avatar size
-    border-radius: 25px;
-  }
 
   .avatar-payload {
     position: relative;

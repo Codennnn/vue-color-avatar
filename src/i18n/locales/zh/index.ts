@@ -16,6 +16,7 @@ export default {
   },
   label: {
     wrapperShape: '头像形状',
+    borderColor: '边框颜色',
     backgroundColor: '背景颜色',
     colors: '颜色',
   },
