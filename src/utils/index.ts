@@ -77,6 +77,7 @@ export function getRandomAvatarOption(
       }),
       borderColor: getRandomValue(SETTINGS.borderColor, {
         avoid: [useOption.background?.color],
+        usually: ['transparent'],
       }),
     },
 

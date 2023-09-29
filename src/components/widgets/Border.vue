@@ -2,7 +2,7 @@
   <div
     class="avatar-border"
     :style="{ borderColor: props.color, borderRadius: props.radius }"
-  ></div>
+  />
 </template>
 
 <script lang="ts" setup>
