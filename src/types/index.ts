@@ -46,6 +46,7 @@ export interface AvatarOption {
 
   background: {
     color: string
+    borderColor: string
   }
 
   widgets: Partial<AvatarWidgets>
@@ -70,4 +71,5 @@ export interface AvatarSettings {
   commonColors: string[]
   skinColors: string[]
   backgroundColor: string[]
+  borderColor: string[]
 }

@@ -21,6 +21,28 @@
         </ul>
       </SectionWrapper>
 
+      <SectionWrapper :title="t('label.borderColor')">
+        <ul class="color-list">
+          <li
+            v-for="borderColor in SETTINGS.borderColor"
+            :key="borderColor"
+            class="color-list__item"
+            @click="switchBorderColor(borderColor)"
+          >
+            <div
+              :style="{ background: borderColor }"
+              class="bg-color"
+              :class="[
+                {
+                  active: borderColor === avatarOption.background.borderColor,
+                  transparent: borderColor === 'transparent',
+                },
+              ]"
+            />
+          </li>
+        </ul>
+      </SectionWrapper>
+
       <SectionWrapper :title="t('label.backgroundColor')">
         <ul class="color-list">
           <li
@@ -170,6 +192,15 @@ async function getWidgets(widgetType: WidgetType) {
 function switchWrapperShape(wrapperShape: WrapperShape) {
   if (wrapperShape !== avatarOption.value.wrapperShape) {
     setAvatarOption({ ...avatarOption.value, wrapperShape })
+  }
+}
+
+function switchBorderColor(borderColor: string) {
+  if (borderColor !== avatarOption.value.background.borderColor) {
+    setAvatarOption({
+      ...avatarOption.value,
+      background: { ...avatarOption.value.background, borderColor },
+    })
   }
 }
 

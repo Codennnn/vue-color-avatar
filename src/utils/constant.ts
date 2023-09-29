@@ -99,6 +99,10 @@ export const SETTINGS: Readonly<AvatarSettings> = {
       'transparent',
     ]
   },
+
+  get borderColor() {
+    return [...this.commonColors, 'transparent']
+  },
 }
 
 export const SCREEN = {
@@ -114,6 +118,7 @@ export const SPECIAL_AVATARS: Readonly<AvatarOption[]> = [
     wrapperShape: 'squircle',
     background: {
       color: 'linear-gradient(62deg, #8EC5FC, #E0C3FC)',
+      borderColor: 'transparent',
     },
     widgets: {
       face: {
@@ -158,6 +163,7 @@ export const SPECIAL_AVATARS: Readonly<AvatarOption[]> = [
     wrapperShape: 'squircle',
     background: {
       color: '#fd6f5d',
+      borderColor: 'transparent',
     },
     widgets: {
       face: {
@@ -207,3 +213,16 @@ export const NOT_COMPATIBLE_AGENTS = [
 ] as const
 
 export const DOWNLOAD_DELAY = 800
+
+export const SHAPE_STYLE_SET = {
+  [WrapperShape.Circle]: {
+    borderRadius: '50%',
+  },
+  [WrapperShape.Square]: {
+    borderRadius: '0',
+  },
+  [WrapperShape.Squircle]: {
+    // TODO: Radius should adapt to the avatar size
+    borderRadius: '25px',
+  },
+}

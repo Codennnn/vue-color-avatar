@@ -16,6 +16,7 @@ export default {
   },
   label: {
     wrapperShape: 'Avatar Shape',
+    borderColor: 'Border Color',
     backgroundColor: 'Background Color',
     colors: 'colors',
   },

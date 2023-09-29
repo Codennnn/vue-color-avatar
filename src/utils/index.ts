@@ -75,6 +75,9 @@ export function getRandomAvatarOption(
             hairColor, // Handle special cases and prevent color conflicts.
         ],
       }),
+      borderColor: getRandomValue(SETTINGS.borderColor, {
+        avoid: [useOption.background?.color],
+      }),
     },
 
     widgets: {
