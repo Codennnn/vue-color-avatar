@@ -50,8 +50,9 @@ yarn dev
 ## Docker deploy
 
 You can directly run using the image I have already built.
+
 ```sh
-docker run -d -t -p 5173:5173 \
+docker run -d -t -p 5173:8080 \
 --name=vue-color-avatar \
 --restart=always \
 docker.io/wenyang0/vue-color-avatar:latest
@@ -61,14 +62,15 @@ docker.io/wenyang0/vue-color-avatar:latest
 Or, you can manually compile it yourself if you prefer.
 
 ```sh
-#clone the code 
+#clone the code
 git clone https://github.com/Codennnn/vue-color-avatar.git
 
-#docker build 
+#docker build
 cd vue-color-avatar/
 docker build -t vue-color-avatar:v1 .
 
-#start server 
-docker run -d -t -p 5173:5173 --name vue-color-avatar --restart=always vue-color-avatar:v1
+#start server
+docker run -d -t -p 5173:8080 --name vue-color-avatar --restart=always vue-color-avatar:v1
 ```
+
 Finally, open your browser and access the service's address at http://serverIP:5173
