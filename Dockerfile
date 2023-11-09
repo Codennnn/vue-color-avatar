@@ -1,9 +1,6 @@
 # Use node:alpine3.17 image as the base image
 FROM docker.io/node:alpine3.17 as builder
 
-# Maintainer information
-MAINTAINER tanwenyang@aliyun.com
-
 # Copy the vue-color-avatar file from the local directory to the /app directory inside the container
 COPY . /app
 
@@ -21,6 +18,9 @@ FROM docker.io/nginxinc/nginx-unprivileged:1.25.1-alpine
 
 # Showing that port 8080 can be published
 EXPOSE 8080
+
+# Maintainer information
+MAINTAINER tanwenyang@aliyun.com
 
 # Copy html from previous stage
 COPY --from=builder /app/dist /usr/share/nginx/html
