@@ -7,9 +7,6 @@ MAINTAINER tanwenyang@aliyun.com
 # Copy the vue-color-avatar file from the local directory to the /app directory inside the container
 COPY . /app
 
-# Expose port 5173 of the container and allow external access to this port
-EXPOSE 5173
-
 # Change the working directory to /app
 WORKDIR /app
 
@@ -21,6 +18,9 @@ RUN yarn build
 
 # Using nginx for production
 FROM docker.io/nginxinc/nginx-unprivileged:1.25.1-alpine
+
+# Showing that port 8080 can be published
+EXPOSE 8080
 
 # Copy html from previous stage
 COPY --from=builder /app/dist /usr/share/nginx/html
