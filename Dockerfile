@@ -1,4 +1,4 @@
-# Use node:alpine3.17 image as the base image
+# Use node as the builder image
 FROM docker.io/node:alpine3.17 as builder
 
 # Copy the vue-color-avatar file from the local directory to the /app directory inside the container
