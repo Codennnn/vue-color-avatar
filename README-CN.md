@@ -7,13 +7,13 @@
 
 </div>
 
-<a href="https://vue-color-avatar.vercel.app">
+<a href="https://vue-color-avatar.leoku.dev">
   <img src="./images/social-preview-1.png" alt="website-cover" />
 </a>
 
 ## 在线预览
 
-[`https://vue-color-avatar.vercel.app`](https://vue-color-avatar.vercel.app)
+[`https://vue-color-avatar.leoku.dev`](https://vue-color-avatar.leoku.dev)
 
 ## 介绍
 
