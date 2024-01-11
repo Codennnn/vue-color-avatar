@@ -50,7 +50,7 @@ yarn install
 yarn dev
 ```
 
-## Docker 快速部署
+### Docker 快速部署
 
 你可以直接使用我已经构建好的镜像来运行
 
@@ -77,3 +77,9 @@ docker run -d -t -p 5173:8080 --name vue-color-avatar --restart=always vue-color
 ```
 
 最后,打开你的浏览器访问服务的地址 http://serverIP:5173 即可
+
+### 在 Zeabur 中部署
+
+我们的项目由 [Zeabur](https://zeabur.com?referralCode=Codennnn&utm_source=Codennnn) 提供服务器支持，高质量的服务器服务保障了我们项目的稳定运行。需要优质的服务器服务？点击链接了解他们！
+
+[![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=Codennnn&utm_source=Codennnn)
