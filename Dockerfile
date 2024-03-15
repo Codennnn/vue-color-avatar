@@ -8,7 +8,7 @@ COPY . /app
 WORKDIR /app
 
 # Set the Yarn registry to Taobao mirror and install dependencies using yarn install
-RUN yarn config set registry 'https://registry.npm.taobao.org' && yarn install && yarn cache clean
+RUN yarn config set registry 'https://registry.npmmirror.com' && yarn install && yarn cache clean
 
 # Building the html code
 RUN yarn build
