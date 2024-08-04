@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "author": "LeoKu<czc12580520@gmail.com> (https://leoku.top)",
+  "author": "LeoKu<leokudev@gmail.com> (https://leoku.top)",
   "scripts": {
     "build": "npm run test && vite build",
     "build:prerelease": "vite build --mode prerelease",
