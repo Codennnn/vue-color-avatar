@@ -30,6 +30,8 @@ module.exports = {
   plugins: ['simple-import-sort'],
   rules: {
     'vue/no-v-html': 0,
+    'vue/multi-word-component-names': 0,
+
     'simple-import-sort/imports': 1,
     'simple-import-sort/exports': 1,
     'sort-imports': 0,
