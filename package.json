@@ -7,9 +7,9 @@
   "scripts": {
     "build": "npm run test && vite build",
     "build:prerelease": "vite build --mode prerelease",
-    "deps": "yarn upgrade-interactive --latest",
+    "deps": "pnpm upgrade-interactive --latest",
     "dev": "vite",
-    "lint": "yarn lint:es && yarn lint:style && yarn lint:ts",
+    "lint": "pnpm lint:es && pnpm lint:style && pnpm lint:ts",
     "lint:es": "eslint \"src/**/*.{js,jsx,ts,tsx,vue}\"",
     "lint:prettier": "prettier --write \"src/**/*.{md,json,html}\"",
     "lint:style": "stylelint \"src/**/*.{css,scss,vue}\"",

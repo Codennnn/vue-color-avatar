@@ -1,26 +1,34 @@
-# Use node as the builder image
-FROM docker.io/node:alpine3.17 as builder
+# Build stage
+FROM node:20-alpine AS builder
 
-# Copy the vue-color-avatar file from the local directory to the /app directory inside the container
-COPY . /app
-
-# Change the working directory to /app
+# Set working directory
 WORKDIR /app
 
-# Set the Yarn registry to Taobao mirror and install dependencies using yarn install
-RUN yarn config set registry 'https://registry.npmmirror.com' && yarn install && yarn cache clean
+# Install dependencies first (for better caching)
+COPY package.json pnpm-lock.yaml ./
+RUN corepack enable pnpm && pnpm install --frozen-lockfile
 
-# Building the html code
-RUN yarn build
+# Copy source code
+COPY . .
 
-# Using nginx for production
-FROM docker.io/nginxinc/nginx-unprivileged:1.25.1-alpine
+# Build the application
+RUN pnpm build
 
-# Showing that port 8080 can be published
-EXPOSE 8080
+# Production stage
+FROM nginx:alpine
 
-# Maintainer information
-MAINTAINER tanwenyang@aliyun.com
+# Copy custom nginx config if needed
+# COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Copy html from previous stage
+# Copy built assets from builder stage
 COPY --from=builder /app/dist /usr/share/nginx/html
+
+# Add healthcheck
+HEALTHCHECK --interval=30s --timeout=3s \
+  CMD wget --quiet --tries=1 --spider http://localhost:80/ || exit 1
+
+# Expose port
+EXPOSE 80
+
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]
