@@ -66,7 +66,7 @@ function getWrapperShapeClassName() {
 }
 
 function getWrapperShapeStyle() {
-  return SHAPE_STYLE_SET[avatarOption.value.wrapperShape]
+  return SHAPE_STYLE_SET[avatarOption.value.wrapperShape ?? WrapperShape.Circle]
 }
 
 const svgContent = ref('')
