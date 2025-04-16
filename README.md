@@ -65,9 +65,3 @@ Once the container is running, open your browser and visit:
 
 - http://localhost:3000 (if running locally)
 - http://your-server-ip:3000 (if running on a server)
-
-### Deployed on Zeabur
-
-Our project is powered by [Zeabur](https://zeabur.com?referralCode=Codennnn&utm_source=Codennnn). Their high-quality server services ensure the stable operation of our project. Need quality server services? Check them out via the link!
-
-[![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=Codennnn&utm_source=Codennnn)

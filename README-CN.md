@@ -65,9 +65,3 @@ docker run -d -p 3000:80 --name vue-color-avatar vue-color-avatar:latest
 ```
 
 最后，打开你的浏览器访问服务的地址 http://localhost:3000 即可。
-
-### 在 Zeabur 中部署
-
-我们的项目由 [Zeabur](https://zeabur.com?referralCode=Codennnn&utm_source=Codennnn) 提供服务器支持，高质量的服务器服务保障了我们项目的稳定运行。需要优质的服务器服务？点击链接了解他们！
-
-[![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=Codennnn&utm_source=Codennnn)
