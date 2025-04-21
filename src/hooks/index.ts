@@ -1,2 +1,2 @@
-export { default as useAvatarOption } from './useAvatarOption'
-export { default as useSider } from './useSider'
+export { useAvatarOption } from './useAvatarOption'
+export { useSider } from './useSider'

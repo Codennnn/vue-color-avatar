@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import { useStore } from '@/store'
 import { SET_SIDER_STATUS } from '@/store/mutation-type'
 
-export default function useSider() {
+export function useSider() {
   const store = useStore()
 
   const isCollapsed = computed(() => store.isSiderCollapsed)

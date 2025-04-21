@@ -1,6 +1,6 @@
 import { WidgetType } from '@/enums'
 
-export default {
+export const zh = {
   action: {
     undo: '撤销',
     redo: '还原',

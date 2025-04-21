@@ -1,6 +1,6 @@
 import { WidgetType } from '@/enums'
 
-export default {
+export const en = {
   action: {
     undo: 'undo',
     redo: 'redo',
