@@ -7,7 +7,7 @@
   "scripts": {
     "build": "npm run test && vite build",
     "build:prerelease": "vite build --mode prerelease",
-    "deps": "pnpm upgrade-interactive --latest",
+    "deps": "pnpm up --interactive --latest",
     "dev": "vite",
     "lint": "pnpm lint:es && pnpm lint:style && pnpm lint:ts",
     "lint:es": "eslint \"src/**/*.{js,jsx,ts,tsx,vue}\"",
