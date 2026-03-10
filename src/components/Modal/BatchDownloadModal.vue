@@ -57,6 +57,7 @@ import { useI18n } from 'vue-i18n'
 import PerfectScrollbar from '@/components/PerfectScrollbar.vue'
 import VueColorAvatar from '@/components/VueColorAvatar.vue'
 import type { AvatarOption } from '@/types'
+import { generateAvatarPngBase64 } from '@/utils'
 import { recordEvent } from '@/utils/ga'
 
 import { name as appName } from '../../../package.json'
@@ -75,19 +76,18 @@ const making = ref(false)
 const madeCount = ref(0)
 
 async function handleDownload(avatarIndex) {
-  const avatarEle = window.document.querySelector(`#avatar-${avatarIndex}`)
+  const option = props.avatarList?.[avatarIndex]
 
-  if (avatarEle instanceof HTMLElement) {
-    const html2canvas = (await import('html2canvas')).default
-    const canvas = await html2canvas(avatarEle, {
-      backgroundColor: null,
-    })
-    const dataURL = canvas.toDataURL()
-
-    const trigger = document.createElement('a')
-    trigger.href = dataURL
-    trigger.download = `${appName}.png`
-    trigger.click()
+  if (option) {
+    try {
+      const dataUrl = await generateAvatarPngBase64(option, 280)
+      const trigger = document.createElement('a')
+      trigger.href = 'data:image/png;base64,' + dataUrl
+      trigger.download = `${appName}.png`
+      trigger.click()
+    } catch (error) {
+      console.error('下载头像失败:', error)
+    }
   }
 
   recordEvent('click_download', {
@@ -98,31 +98,39 @@ async function handleDownload(avatarIndex) {
 async function make() {
   if (props.avatarList && !making.value) {
     making.value = true
-    madeCount.value = 1
-
-    const html2canvas = (await import('html2canvas')).default
+    madeCount.value = 0
+    const startTime = Date.now()
 
     const { default: JSZip } = await import('jszip')
     const jsZip = new JSZip()
 
-    for (let i = 0; i <= props.avatarList.length; i += 1) {
-      const dom = window.document.querySelector(`#avatar-${i}`)
-
-      if (dom instanceof HTMLElement) {
-        const canvas = await html2canvas(dom, {
-          backgroundColor: null,
-        })
-
-        const dataUrl = canvas.toDataURL().replace('data:image/png;base64,', '')
+    // 并行生成所有头像
+    const promises = props.avatarList.map(async (opt, i) => {
+      try {
+        const dataUrl = await generateAvatarPngBase64(opt, 280)
         jsZip.file(`${i + 1}.png`, dataUrl, { base64: true })
-        madeCount.value = madeCount.value += 1
+        madeCount.value += 1
+        return true
+      } catch (error) {
+        console.error(`生成第 ${i + 1} 个头像失败:`, error)
+        return false
       }
-    }
+    })
+
+    await Promise.all(promises)
 
     const base64 = await jsZip.generateAsync({ type: 'base64' })
 
     making.value = false
     madeCount.value = 0
+
+    const endTime = Date.now()
+    const duration = (endTime - startTime) / 1000
+    console.log(
+      `批量导出完成，共导出 ${
+        props.avatarList.length
+      } 个头像，耗时: ${duration.toFixed(2)} 秒`
+    )
 
     const a = window.document.createElement('a')
     a.href = 'data:application/zip;base64,' + base64
@@ -131,6 +139,8 @@ async function make() {
 
     recordEvent('click_download_multiple', {
       event_category: 'click',
+      duration: duration,
+      count: props.avatarList.length,
     })
   }
 }

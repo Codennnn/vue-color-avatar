@@ -4,10 +4,19 @@ import {
   BeardShape,
   Gender,
   TopsShape,
+  WidgetType,
+  WrapperShape,
 } from '@/enums'
 import type { AvatarOption, None } from '@/types'
 
-import { AVATAR_LAYER, NONE, SETTINGS, SPECIAL_AVATARS } from './constant'
+import {
+  AVATAR_LAYER,
+  NONE,
+  SETTINGS,
+  SHAPE_STYLE_SET,
+  SPECIAL_AVATARS,
+} from './constant'
+import { widgetData } from './dynamic-data'
 
 /**
  * Get a random value from an array.
@@ -222,4 +231,153 @@ export function highlightJSON(json: string): string {
       return `<span class="token ${cls}">${match}</span>`
     }
   )
+}
+
+/**
+ * 根据AvatarOption生成头像SVG字符串
+ * @param option 头像配置选项
+ * @param size 头像尺寸
+ */
+export async function generateAvatarSvg(
+  option: AvatarOption,
+  size = 280
+): Promise<string> {
+  const sortedList = Object.entries(option.widgets).sort(
+    ([prevShape, prev], [nextShape, next]) => {
+      const ix = prev.zIndex ?? AVATAR_LAYER[prevShape]?.zIndex ?? 0
+      const iix = next.zIndex ?? AVATAR_LAYER[nextShape]?.zIndex ?? 0
+      return ix - iix
+    }
+  )
+
+  const promises: Promise<string>[] = sortedList.map(
+    async ([widgetType, opt]) => {
+      if (opt.shape !== NONE && widgetData?.[widgetType]?.[opt.shape]) {
+        return (await widgetData[widgetType][opt.shape]()).default
+      }
+      return ''
+    }
+  )
+
+  let skinColor: string | undefined
+
+  const svgRawList = await Promise.all(promises).then((raw) => {
+    return raw.map((svgRaw, i) => {
+      const [widgetType, widget] = sortedList[i]
+      let widgetFillColor = widget.fillColor
+
+      if (widgetType === WidgetType.Face) {
+        skinColor = widgetFillColor
+      }
+      if (skinColor && widgetType === WidgetType.Ear) {
+        widgetFillColor = skinColor
+      }
+
+      const content = svgRaw
+        .slice(svgRaw.indexOf('>', svgRaw.indexOf('<svg')) + 1)
+        .replace('</svg>', '')
+        .replaceAll('$fillColor', widgetFillColor || 'transparent')
+
+      return `
+        <g id="vue-color-avatar-${sortedList[i][0]}">
+          ${content}
+        </g>
+      `
+    })
+  })
+
+  const svgContent = `
+    <svg
+      width="${size}"
+      height="${size}"
+      viewBox="0 0 ${size / 0.7} ${size / 0.7}"
+      preserveAspectRatio="xMidYMax meet"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g transform="translate(100, 65)">
+        ${svgRawList.join('')}
+      </g>
+    </svg>
+  `
+
+  return svgContent
+}
+
+/**
+ * 根据AvatarOption生成头像PNG的base64数据（不含前缀）
+ * @param option 头像配置选项
+ * @param size 头像尺寸
+ */
+export async function generateAvatarPngBase64(
+  option: AvatarOption,
+  size = 280
+): Promise<string> {
+  const svgString = await generateAvatarSvg(option, size)
+  const shapeStyle = SHAPE_STYLE_SET[option.wrapperShape ?? WrapperShape.Circle]
+  const hasBorder =
+    option.background.borderColor &&
+    option.background.borderColor !== 'transparent'
+
+  // 创建离屏canvas
+  const canvas = document.createElement('canvas')
+  canvas.width = size
+  canvas.height = size
+  const ctx = canvas.getContext('2d')!
+
+  // 1. 绘制背景
+  ctx.fillStyle = option.background.color
+  if (shapeStyle.borderRadius === '50%') {
+    // 圆形背景
+    ctx.beginPath()
+    ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2)
+    ctx.fill()
+    ctx.clip()
+  } else if (shapeStyle.borderRadius) {
+    // 圆角矩形背景
+    const radius = parseInt(shapeStyle.borderRadius) || 0
+    ctx.beginPath()
+    ctx.roundRect(0, 0, size, size, radius)
+    ctx.fill()
+    ctx.clip()
+  } else {
+    // 方形背景
+    ctx.fillRect(0, 0, size, size)
+  }
+
+  // 2. 绘制SVG头像
+  const svgBlob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' })
+  const url = URL.createObjectURL(svgBlob)
+
+  return new Promise((resolve, reject) => {
+    const img = new Image()
+    img.onload = () => {
+      ctx.drawImage(img, 0, 0, size, size)
+
+      // 3. 绘制边框
+      if (hasBorder) {
+        ctx.strokeStyle = option.background.borderColor
+        ctx.lineWidth = 10
+        if (shapeStyle.borderRadius === '50%') {
+          ctx.beginPath()
+          ctx.arc(size / 2, size / 2, size / 2 - 5, 0, Math.PI * 2)
+          ctx.stroke()
+        } else if (shapeStyle.borderRadius) {
+          const radius = parseInt(shapeStyle.borderRadius) || 0
+          ctx.beginPath()
+          ctx.roundRect(5, 5, size - 10, size - 10, radius - 5)
+          ctx.stroke()
+        } else {
+          ctx.strokeRect(5, 5, size - 10, size - 10)
+        }
+      }
+
+      // 转换为base64
+      const base64 = canvas.toDataURL().replace('data:image/png;base64,', '')
+      URL.revokeObjectURL(url)
+      resolve(base64)
+    }
+    img.onerror = reject
+    img.src = url
+  })
 }
