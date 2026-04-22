@@ -357,6 +357,7 @@ async function downloadAvatar(
 }
 
 let processingAbort = false
+let isProcessing = false
 
 function handleCancelDownload(id: string) {
   const item = downloadQueue.value.find((q) => q.id === id)
@@ -371,6 +372,10 @@ function handleRetryDownload(id: string) {
   if (item && ['cancelled', 'error'].includes(item.status)) {
     item.status = 'pending'
     item.progress = 0
+
+    if (!isProcessing) {
+      processDownloadQueue()
+    }
   }
 }
 
@@ -385,6 +390,9 @@ function handleCancelAll() {
 }
 
 async function processDownloadQueue() {
+  if (isProcessing) return
+
+  isProcessing = true
   processingAbort = false
 
   for (const item of downloadQueue.value) {
@@ -413,6 +421,8 @@ async function processDownloadQueue() {
       await new Promise((resolve) => setTimeout(resolve, 200))
     }
   }
+
+  isProcessing = false
 
   recordEvent('click_download_multiple', {
     event_category: 'click',

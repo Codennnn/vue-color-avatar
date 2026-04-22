@@ -21,9 +21,10 @@
               <div class="queue-item" :class="getItemStatusClass(item.status)">
                 <div class="item-thumbnail">
                   <img
-                    :src="item.thumbnail"
+                    :src="item.thumbnail || LogoPlaceholder"
                     :alt="item.fileName"
                     class="thumbnail-img"
+                    :class="{ 'placeholder-img': !item.thumbnail }"
                   />
                   <div class="status-indicator">
                     <template v-if="item.status === 'processing'">
@@ -132,6 +133,7 @@ import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 import IconClose from '@/assets/icons/icon-close.svg'
+import LogoPlaceholder from '@/assets/logo.svg'
 import PerfectScrollbar from '@/components/PerfectScrollbar.vue'
 import type { DownloadQueueItem, DownloadStatus } from '@/types'
 
@@ -307,6 +309,11 @@ function getStatusText(status: DownloadStatus): string {
             object-fit: contain;
             border-radius: 0.3rem;
             background-color: lighten(var.$color-dark, 8);
+
+            &.placeholder-img {
+              opacity: 0.5;
+              filter: grayscale(0.8);
+            }
           }
 
           .status-indicator {

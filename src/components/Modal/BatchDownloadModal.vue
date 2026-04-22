@@ -102,7 +102,13 @@ import { recordEvent } from '@/utils/ga'
 import { name as appName } from '../../../package.json'
 import ModalWrapper from './ModalWrapper.vue'
 
-const props = defineProps<{ visible?: boolean; avatarList?: AvatarOption[] }>()
+const props = withDefaults(
+  defineProps<{ visible?: boolean; avatarList?: AvatarOption[] }>(),
+  {
+    visible: false,
+    avatarList: () => [],
+  }
+)
 
 const emit = defineEmits<{
   (e: 'regenerate'): void
