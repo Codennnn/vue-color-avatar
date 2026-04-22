@@ -95,8 +95,8 @@
     <div v-if="hiddenAvatarsVisible" class="hidden-avatars-container">
       <VueColorAvatar
         v-for="item in downloadQueue"
-        :key="item.id"
         :id="`hidden-avatar-${item.id}`"
+        :key="item.id"
         :option="item.option"
         :size="280"
       />
@@ -105,7 +105,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, watchEffect, nextTick } from 'vue'
+import { nextTick, ref, watchEffect } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 import ActionBar from '@/components/ActionBar.vue'
@@ -125,7 +125,11 @@ import Header from '@/layouts/Header.vue'
 import Sider from '@/layouts/Sider.vue'
 import { useStore } from '@/store'
 import { REDO, UNDO } from '@/store/mutation-type'
-import type { AvatarOption, DownloadQueueItem } from '@/types'
+import type {
+  AvatarDownloadItem,
+  AvatarOption,
+  DownloadQueueItem,
+} from '@/types'
 import {
   getRandomAvatarOption,
   getSpecialAvatarOption,
@@ -302,17 +306,17 @@ function generateId(): string {
   return `${Date.now()}-${Math.random().toString(36).substring(2, 11)}`
 }
 
-async function handleDownloadSelected(selectedIndices: number[]) {
-  if (selectedIndices.length === 0) return
+async function handleDownloadSelected(items: AvatarDownloadItem[]) {
+  if (items.length === 0) return
 
-  const queueItems: DownloadQueueItem[] = selectedIndices.map((index) => ({
+  const queueItems: DownloadQueueItem[] = items.map((item) => ({
     id: generateId(),
-    index,
-    option: avatarList.value[index],
+    index: item.index,
+    option: avatarList.value[item.index],
     thumbnail: '',
     status: 'pending',
     progress: 0,
-    fileName: `${appName}-${index + 1}.png`,
+    fileName: `${appName}-${item.index + 1}.png`,
   }))
 
   downloadQueue.value = queueItems
@@ -326,20 +330,10 @@ async function handleDownloadSelected(selectedIndices: number[]) {
   await processDownloadQueue()
 }
 
-async function generateThumbnail(elementId: string): Promise<string> {
-  const element = window.document.querySelector(`#${elementId}`)
-  if (element instanceof HTMLElement) {
-    const html2canvas = (await import('html2canvas')).default
-    const canvas = await html2canvas(element, {
-      backgroundColor: null,
-      scale: 0.25,
-    })
-    return canvas.toDataURL()
-  }
-  return ''
-}
-
-async function downloadAvatar(elementId: string, fileName: string): Promise<boolean> {
+async function downloadAvatar(
+  elementId: string,
+  fileName: string
+): Promise<boolean> {
   try {
     const element = window.document.querySelector(`#${elementId}`)
     if (element instanceof HTMLElement) {
@@ -400,16 +394,15 @@ async function processDownloadQueue() {
 
     if (item.status === 'pending') {
       item.status = 'processing'
-      item.progress = 10
+      item.progress = 30
 
       try {
-        const thumbnail = await generateThumbnail(`hidden-avatar-${item.id}`)
-        item.thumbnail = thumbnail
-        item.progress = 30
-
         await nextTick()
 
-        const success = await downloadAvatar(`hidden-avatar-${item.id}`, item.fileName)
+        const success = await downloadAvatar(
+          `hidden-avatar-${item.id}`,
+          item.fileName
+        )
         item.progress = 100
         item.status = success ? 'completed' : 'error'
       } catch {

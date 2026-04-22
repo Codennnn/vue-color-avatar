@@ -4,9 +4,7 @@
       <div class="queue-header">
         <div class="header-title">
           <span class="title">{{ t('text.downloadQueue') }}</span>
-          <span class="count"
-            >({{ queue.length }} {{ t('text.items') }})</span
-          >
+          <span class="count">({{ queue.length }} {{ t('text.items') }})</span>
         </div>
         <button type="button" class="close-btn" @click="emit('close')">
           <img :src="IconClose" alt="close" />
@@ -22,7 +20,11 @@
             <template v-for="item in queue" :key="item.id">
               <div class="queue-item" :class="getItemStatusClass(item.status)">
                 <div class="item-thumbnail">
-                  <img :src="item.thumbnail" :alt="item.fileName" class="thumbnail-img" />
+                  <img
+                    :src="item.thumbnail"
+                    :alt="item.fileName"
+                    class="thumbnail-img"
+                  />
                   <div class="status-indicator">
                     <template v-if="item.status === 'processing'">
                       <div class="spinner"></div>
@@ -41,35 +43,50 @@
 
                 <div class="item-info">
                   <div class="item-name">{{ item.fileName }}</div>
-                  <div class="item-status">{{ getStatusText(item.status) }}</div>
+                  <div class="item-status">
+                    {{ getStatusText(item.status) }}
+                  </div>
                   <div v-if="item.status === 'processing'" class="progress-bar">
-                    <div class="progress-fill" :style="{ width: `${item.progress}%` }"></div>
+                    <div
+                      class="progress-fill"
+                      :style="{ width: `${item.progress}%` }"
+                    ></div>
                   </div>
                 </div>
 
                 <div class="item-actions">
-                  <template v-if="item.status === 'pending' || item.status === 'processing'">
+                  <template
+                    v-if="
+                      item.status === 'pending' || item.status === 'processing'
+                    "
+                  >
                     <button
                       type="button"
                       class="action-btn cancel-btn"
-                      @click="emit('cancel', item.id)"
                       :title="t('action.cancel')"
+                      @click="emit('cancel', item.id)"
                     >
                       {{ t('action.cancel') }}
                     </button>
                   </template>
-                  <template v-else-if="item.status === 'cancelled' || item.status === 'error'">
+                  <template
+                    v-else-if="
+                      item.status === 'cancelled' || item.status === 'error'
+                    "
+                  >
                     <button
                       type="button"
                       class="action-btn retry-btn"
-                      @click="emit('retry', item.id)"
                       :title="t('action.retry')"
+                      @click="emit('retry', item.id)"
                     >
                       {{ t('action.retry') }}
                     </button>
                   </template>
                   <template v-else-if="item.status === 'completed'">
-                    <span class="completed-badge">{{ t('text.completed') }}</span>
+                    <span class="completed-badge">{{
+                      t('text.completed')
+                    }}</span>
                   </template>
                 </div>
               </div>
@@ -137,11 +154,15 @@ const completedCount = computed(() => {
 })
 
 const remainingCount = computed(() => {
-  return props.queue.filter((item) => ['pending', 'processing'].includes(item.status)).length
+  return props.queue.filter((item) =>
+    ['pending', 'processing'].includes(item.status)
+  ).length
 })
 
 const hasPendingOrProcessing = computed(() => {
-  return props.queue.some((item) => ['pending', 'processing'].includes(item.status))
+  return props.queue.some((item) =>
+    ['pending', 'processing'].includes(item.status)
+  )
 })
 
 const hasCompleted = computed(() => {

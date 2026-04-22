@@ -74,7 +74,12 @@ export interface AvatarSettings {
   borderColor: string[]
 }
 
-export type DownloadStatus = 'pending' | 'processing' | 'completed' | 'cancelled' | 'error'
+export type DownloadStatus =
+  | 'pending'
+  | 'processing'
+  | 'completed'
+  | 'cancelled'
+  | 'error'
 
 export interface DownloadQueueItem {
   id: string
@@ -84,4 +89,8 @@ export interface DownloadQueueItem {
   status: DownloadStatus
   progress: number
   fileName: string
+}
+
+export interface AvatarDownloadItem {
+  index: number
 }

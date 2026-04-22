@@ -13,7 +13,11 @@
             />
             <span>{{ t('text.selectAll') }}</span>
           </label>
-          <span class="selected-count">({{ t('text.selectedCount', { count: selectedAvatarList.length }) }})</span>
+          <span class="selected-count"
+            >({{
+              t('text.selectedCount', { count: selectedAvatarList.length })
+            }})</span
+          >
         </div>
         <div class="right">
           <button
@@ -33,8 +37,12 @@
           >
             {{
               making
-                ? `${t('text.downloadingMultiple')}(${madeCount}/${selectedAvatarList.length})`
-                : t('text.downloadSelected', { count: selectedAvatarList.length })
+                ? `${t('text.downloadingMultiple')}(${madeCount}/${
+                    selectedAvatarList.length
+                  })`
+                : t('text.downloadSelected', {
+                    count: selectedAvatarList.length,
+                  })
             }}
           </button>
         </div>
@@ -88,7 +96,7 @@ import { useI18n } from 'vue-i18n'
 
 import PerfectScrollbar from '@/components/PerfectScrollbar.vue'
 import VueColorAvatar from '@/components/VueColorAvatar.vue'
-import type { AvatarOption } from '@/types'
+import type { AvatarDownloadItem, AvatarOption } from '@/types'
 import { recordEvent } from '@/utils/ga'
 
 import { name as appName } from '../../../package.json'
@@ -99,7 +107,7 @@ const props = defineProps<{ visible?: boolean; avatarList?: AvatarOption[] }>()
 const emit = defineEmits<{
   (e: 'regenerate'): void
   (e: 'close'): void
-  (e: 'downloadSelected', selectedIndices: number[]): void
+  (e: 'downloadSelected', items: AvatarDownloadItem[]): void
 }>()
 
 const { t } = useI18n()
@@ -180,9 +188,16 @@ async function handleDownload(avatarIndex: number) {
   })
 }
 
-async function make() {
+function make() {
   if (selectedAvatarList.value.length > 0 && !making.value) {
-    emit('downloadSelected', selectedIndices.value)
+    making.value = true
+
+    const items: AvatarDownloadItem[] = selectedIndices.value.map((index) => ({
+      index,
+    }))
+
+    making.value = false
+    emit('downloadSelected', items)
   }
 }
 </script>
