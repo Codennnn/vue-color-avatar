@@ -75,17 +75,37 @@
       :visible="avatarListVisible"
       :avatar-list="avatarList"
       @regenerate="generateMultiple"
-      @close=";(avatarListVisible = false), (avatarList = [])"
+      @close="handleCloseBatchModal"
+      @download-selected="handleDownloadSelected"
+    />
+
+    <DownloadQueue
+      :visible="downloadQueueVisible"
+      :queue="downloadQueue"
+      @close="downloadQueueVisible = false"
+      @cancel="handleCancelDownload"
+      @retry="handleRetryDownload"
+      @cancel-all="handleCancelAll"
     />
 
     <Sider>
       <Configurator />
     </Sider>
+
+    <div v-if="hiddenAvatarsVisible" class="hidden-avatars-container">
+      <VueColorAvatar
+        v-for="item in downloadQueue"
+        :key="item.id"
+        :id="`hidden-avatar-${item.id}`"
+        :option="item.option"
+        :size="280"
+      />
+    </div>
   </main>
 </template>
 
 <script lang="ts" setup>
-import { ref, watchEffect } from 'vue'
+import { ref, watchEffect, nextTick } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 import ActionBar from '@/components/ActionBar.vue'
@@ -93,6 +113,7 @@ import Configurator from '@/components/Configurator.vue'
 import BatchDownloadModal from '@/components/Modal/BatchDownloadModal.vue'
 import CodeModal from '@/components/Modal/CodeModal.vue'
 import DownloadModal from '@/components/Modal/DownloadModal.vue'
+import DownloadQueue from '@/components/Modal/DownloadQueue.vue'
 import VueColorAvatar, {
   type VueColorAvatarRef,
 } from '@/components/VueColorAvatar.vue'
@@ -104,6 +125,7 @@ import Header from '@/layouts/Header.vue'
 import Sider from '@/layouts/Sider.vue'
 import { useStore } from '@/store'
 import { REDO, UNDO } from '@/store/mutation-type'
+import type { AvatarOption, DownloadQueueItem } from '@/types'
 import {
   getRandomAvatarOption,
   getSpecialAvatarOption,
@@ -118,7 +140,6 @@ import { recordEvent } from '@/utils/ga'
 
 import { name as appName } from '../package.json'
 import ConfettiCanvas from './components/ConfettiCanvas.vue'
-import type { AvatarOption } from './types'
 
 const store = useStore()
 
@@ -238,6 +259,11 @@ watchEffect(() => {
     Array.isArray(avatarList.value) && avatarList.value.length > 0
 })
 
+function handleCloseBatchModal() {
+  avatarListVisible.value = false
+  avatarList.value = []
+}
+
 async function generateMultiple(count = 5 * 6) {
   const { default: hash } = await import('object-hash')
 
@@ -267,6 +293,138 @@ async function generateMultiple(count = 5 * 6) {
     event_category: 'click',
   })
 }
+
+const downloadQueueVisible = ref(false)
+const downloadQueue = ref<DownloadQueueItem[]>([])
+const hiddenAvatarsVisible = ref(false)
+
+function generateId(): string {
+  return `${Date.now()}-${Math.random().toString(36).substring(2, 11)}`
+}
+
+async function handleDownloadSelected(selectedIndices: number[]) {
+  if (selectedIndices.length === 0) return
+
+  const queueItems: DownloadQueueItem[] = selectedIndices.map((index) => ({
+    id: generateId(),
+    index,
+    option: avatarList.value[index],
+    thumbnail: '',
+    status: 'pending',
+    progress: 0,
+    fileName: `${appName}-${index + 1}.png`,
+  }))
+
+  downloadQueue.value = queueItems
+  downloadQueueVisible.value = true
+  hiddenAvatarsVisible.value = true
+
+  handleCloseBatchModal()
+
+  await nextTick()
+
+  await processDownloadQueue()
+}
+
+async function generateThumbnail(elementId: string): Promise<string> {
+  const element = window.document.querySelector(`#${elementId}`)
+  if (element instanceof HTMLElement) {
+    const html2canvas = (await import('html2canvas')).default
+    const canvas = await html2canvas(element, {
+      backgroundColor: null,
+      scale: 0.25,
+    })
+    return canvas.toDataURL()
+  }
+  return ''
+}
+
+async function downloadAvatar(elementId: string, fileName: string): Promise<boolean> {
+  try {
+    const element = window.document.querySelector(`#${elementId}`)
+    if (element instanceof HTMLElement) {
+      const html2canvas = (await import('html2canvas')).default
+      const canvas = await html2canvas(element, {
+        backgroundColor: null,
+      })
+      const dataURL = canvas.toDataURL()
+
+      const trigger = document.createElement('a')
+      trigger.href = dataURL
+      trigger.download = fileName
+      trigger.click()
+
+      return true
+    }
+    return false
+  } catch {
+    return false
+  }
+}
+
+let processingAbort = false
+
+function handleCancelDownload(id: string) {
+  const item = downloadQueue.value.find((q) => q.id === id)
+  if (item && ['pending', 'processing'].includes(item.status)) {
+    item.status = 'cancelled'
+    item.progress = 0
+  }
+}
+
+function handleRetryDownload(id: string) {
+  const item = downloadQueue.value.find((q) => q.id === id)
+  if (item && ['cancelled', 'error'].includes(item.status)) {
+    item.status = 'pending'
+    item.progress = 0
+  }
+}
+
+function handleCancelAll() {
+  processingAbort = true
+  downloadQueue.value.forEach((item) => {
+    if (['pending', 'processing'].includes(item.status)) {
+      item.status = 'cancelled'
+      item.progress = 0
+    }
+  })
+}
+
+async function processDownloadQueue() {
+  processingAbort = false
+
+  for (const item of downloadQueue.value) {
+    if (processingAbort) break
+
+    if (item.status === 'cancelled') continue
+
+    if (item.status === 'pending') {
+      item.status = 'processing'
+      item.progress = 10
+
+      try {
+        const thumbnail = await generateThumbnail(`hidden-avatar-${item.id}`)
+        item.thumbnail = thumbnail
+        item.progress = 30
+
+        await nextTick()
+
+        const success = await downloadAvatar(`hidden-avatar-${item.id}`, item.fileName)
+        item.progress = 100
+        item.status = success ? 'completed' : 'error'
+      } catch {
+        item.status = 'error'
+        item.progress = 0
+      }
+
+      await new Promise((resolve) => setTimeout(resolve, 200))
+    }
+  }
+
+  recordEvent('click_download_multiple', {
+    event_category: 'click',
+  })
+}
 </script>
 
 <style lang="scss" scoped>
@@ -291,6 +449,14 @@ async function generateMultiple(count = 5 * 6) {
       height: 100%;
       overflow-y: auto;
     }
+  }
+
+  .hidden-avatars-container {
+    position: fixed;
+    left: -9999px;
+    top: -9999px;
+    visibility: hidden;
+    pointer-events: none;
   }
 }
 
@@ -336,6 +502,7 @@ async function generateMultiple(count = 5 * 6) {
       cursor: pointer;
       transition: color 0.2s;
       user-select: none;
+      border: none;
 
       &:hover {
         color: lighten(var.$color-text, 10);
