@@ -333,7 +333,7 @@ async function handleDownloadSelected(items: AvatarDownloadItem[]) {
 async function downloadAvatar(
   elementId: string,
   fileName: string
-): Promise<boolean> {
+): Promise<string | false> {
   try {
     const element = window.document.querySelector(`#${elementId}`)
     if (element instanceof HTMLElement) {
@@ -348,7 +348,7 @@ async function downloadAvatar(
       trigger.download = fileName
       trigger.click()
 
-      return true
+      return dataURL
     }
     return false
   } catch {
@@ -407,12 +407,18 @@ async function processDownloadQueue() {
       try {
         await nextTick()
 
-        const success = await downloadAvatar(
+        const dataURL = await downloadAvatar(
           `hidden-avatar-${item.id}`,
           item.fileName
         )
-        item.progress = 100
-        item.status = success ? 'completed' : 'error'
+        if (dataURL) {
+          item.thumbnail = dataURL
+          item.progress = 100
+          item.status = 'completed'
+        } else {
+          item.progress = 100
+          item.status = 'error'
+        }
       } catch {
         item.status = 'error'
         item.progress = 0
