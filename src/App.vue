@@ -326,6 +326,8 @@ async function handleDownloadSelected(items: AvatarDownloadItem[]) {
   handleCloseBatchModal()
 
   await nextTick()
+  await nextTick()
+  await new Promise((resolve) => setTimeout(resolve, 300))
 
   await processDownloadQueue()
 }
@@ -406,6 +408,8 @@ async function processDownloadQueue() {
 
       try {
         await nextTick()
+        await nextTick()
+        await new Promise((resolve) => setTimeout(resolve, 100))
 
         const dataURL = await downloadAvatar(
           `hidden-avatar-${item.id}`,
@@ -463,8 +467,9 @@ async function processDownloadQueue() {
   .hidden-avatars-container {
     position: fixed;
     left: -9999px;
-    top: -9999px;
-    visibility: hidden;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
     pointer-events: none;
   }
 }
